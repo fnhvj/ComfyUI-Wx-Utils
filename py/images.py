@@ -36,7 +36,7 @@ class WxSaveImageExtended:
                 'counter_digits': ([2, 3, 4, 5, 6], {'default': 3}),
                 'counter_position': (['first', 'last'], {'default': 'last'}),
                 'one_counter_per_folder': (['disabled', 'enabled'], {'default': 'enabled'}),
-                'image_preview': (['disabled', 'enabled'], {'default': 'disabled'}),
+                'image_preview': (['disabled', 'enabled'], {'default': 'enabled'}),
             },
             "optional": {
                     'images': ('IMAGE', ),
