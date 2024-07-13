@@ -1,7 +1,9 @@
 import os
 import sys
-from zhipuai import ZhipuAI
-
+try:
+    from zhipuai import ZhipuAI
+except:
+    print("ERROR:please run cmd :pip install zhipuai")
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath(__file__)), 'comfy'))
 
 class ZhiPuChat:
@@ -32,7 +34,7 @@ class ZhiPuChat:
 
     OUTPUT_NODE = True
 
-    CATEGORY = "Utils|WX"
+    CATEGORY = "WX"
 
     def zhipuchat(self, question,api_key,model):
         if question=="" or api_key=="":

@@ -1,0 +1,64 @@
+"aix-职业装（全网首发）_v1.0":
+  trigger_word: "aix"
+tifa_re_sdxl_V1_01-000006:
+  trigger_word: "tifa, Final Fantasy VII"
+tifa-000014:
+  trigger_word: "tifa"
+"Tifa_Lockhart":
+  trigger_word: "tifa lockhart"
+"Y shtola Rhul_20230626015810":
+  trigger_word: "miqo'te,Y shtola Rhul"
+  prompt: ""
+YunaV3:
+  trigger_word: "{YunaX | YunaX2}, heterochromia, detached sleeves, {|Japanese clothes, sash, obi, hakama skirt, purple hakama | cleavage, black shorts, skirt, large breasts}"
+  prompt: ""
+jmai_20240305130350-000007-07:
+  trigger_word: "shidie"
+  prompt: ""
+YY_V7:
+  trigger_word: "yuanyao"
+  prompt: ""
+Kikyo-10:
+  trigger_word: "Kikyo"
+  prompt: ""
+"Kizuki - Inuyasha - Higurashi Kagome":
+  trigger_word: "higurashi kagome"
+  prompt: "black hair, brown eyes, long hair, medium breasts, {|serafuku, sailor collar, green pleated skirt}"
+"Kizuki - Inuyasha - Sango":
+  trigger_word: "sango"
+  prompt: "brown hair, brown eyes, high ponytail, medium breasts, {|bodysuit | pauldrons | armor}"
+"lum v1.2":
+  trigger_word: "lum"
+  prompt: ""
+lum4:
+  trigger_word: "lum,lumlum,horns"
+  prompt: ""
+RanmaChanV2:
+  trigger_word: "RanmaChan"
+  prompt: "ovadress,RanmaRedShirt,RanmaUnderwear,RanmaLeotard,RanmaJungleDress,single_braid"
+ShanpuuRanmaV2:
+  trigger_word: "shanpuuranma"
+  prompt: "china_dress_red_SMP,China_Dress_Golden_SMPOVA,Chinese_Clothes_Waitress_SMP,Chinese_Clothes_Waitress_SMP, Apron_Frilled_SMP,Short_Dress_Pink_SMP, China_Dress,Chinese_Clothes_Floral_Print_SMP,Chinese_amazon_warrior_Outfit_SMP,Bikini_Apron_SMP, Apron_Frilled_SMP,Apron_Frilled_SMP"
+"Takahashi Rumiko":
+  trigger_word: "{Inuyasha|Higurashi Kagome|Kikyo|ranma-chan|shampoo (ranma 1/2)|lum}"
+  prompt: ""
+default:
+  trigger_word: ""
+  prompt: ""
+default:
+  trigger_word: ""
+  prompt: ""
+default:
+  trigger_word: ""
+  prompt: ""
+default:
+  trigger_word: ""
+  prompt: ""
+default:
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  denoise: 0.7
+  min_denoise: 0.75
+  max_denoise: 0.9
+ 

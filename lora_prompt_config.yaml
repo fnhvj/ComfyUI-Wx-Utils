@@ -1,0 +1,14 @@
+"aix-职业装（全网首发）_v1.0":
+  trigger_word: "aix"
+  prompt: "detailed character portrait, fantasy style, highly detailed"
+  negative_prompt: "low quality, blurry, distorted"
+  denoise: 0.5
+  min_denoise: 0.3
+  max_denoise: 0.7
+tifa_re_sdxl_V1_01-000006:
+  trigger_word: "tifa, Final Fantasy VII"
+  prompt: "detailed character portrait, fantasy style, highly detailed"
+  negative_prompt: "low quality, blurry, distorted"
+  denoise: 0.5
+  min_denoise: 0.3
+  max_denoise: 0.7
