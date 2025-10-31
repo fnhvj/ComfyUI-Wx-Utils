@@ -42,18 +42,2519 @@ ShanpuuRanmaV2:
 "Takahashi Rumiko":
   trigger_word: "{Inuyasha|Higurashi Kagome|Kikyo|ranma-chan|shampoo (ranma 1/2)|lum}"
   prompt: ""
-default:
-  trigger_word: ""
-  prompt: ""
-default:
-  trigger_word: ""
-  prompt: ""
-default:
-  trigger_word: ""
-  prompt: ""
-default:
-  trigger_word: ""
-  prompt: ""
+"360Diffusion_v1":
+  trigger_word: "qxj"
+
+"Cloudwhale  雲鯨 Concept":
+  trigger_word: "humpback"
+
+"breakwasteland_v1":
+  trigger_word: "{break wasteland | brown ground | white ground}"
+
+"dungeon_v2.0":
+  trigger_word: "dungeon"
+
+"E235_SD15_V6_DIM4":
+  trigger_word: "e235, {|train interior, scenery, seat, reflection, window, reflective floor, poster (object)}"
+
+"FFIX-10":
+  trigger_word: "FFIXBG"
+
+"Gakkou_test4_Resize_DIM4":
+  trigger_word: "{kyoushitsu | kaidan | rouka}"
+
+"gym_storeroom_v0.1":
+  trigger_word: "gym storeroom"
+
+"infirmary_v0.1":
+  trigger_word: "infirmary"
+
+"JAPAN_Scenery_OFURO_SD15_V3":
+  trigger_word: "JMF"
+
+"karaokeroom_SDXL_V1":
+  trigger_word: "karaokeroom, {1-5:: joypad, denmoku, AT-CLM7000TX, microphone, WM-610, microphone}"
+
+"libbg_v16":
+  trigger_word: "lib_bg"
+
+"locker_room_v0.1":
+  trigger_word: "locker room"
+
+"messyroom":
+  trigger_word: "messy room"
+
+"namek_v1_1_dadap":
+  trigger_word: "namek, {1-9:: green sky, blue grass, green water, tree, hill, plateau, mountain, building, village}"
+
+"otherworld_v1":
+  trigger_word: "snakeway, pink sky, yellow cloud, {1-5:: road, kai planet, grass, tree, flowers}"
+
+"partially_underwater_shot_v0.2":
+  trigger_word: "partially submerged"
+
+"PAseerCloudV1":
+  trigger_word: "clouds"
+
+"reinopoolV8":
+  trigger_word: "reinopool"
+
+"restroom_v0.2a":
+  trigger_word: "restroom"
+
+"school_rooftop_v0.1":
+  trigger_word: "school rooftop"
+
+"slg_v30":
+  trigger_word: "slg, {1-5:: grass, path, river, waterfall, forest}"
+
+"taiikukan_SD15_V4":
+  trigger_word: "taiikukan"
+
+"丧尸群":
+  trigger_word: "zombie group"
+
+"洛阳牡丹":
+  trigger_word: "md"
+
+"br38st-m8ss8g3-v2.0":
+  trigger_word: "br38st-m8ss8g3"
+
+"rairu":
+  trigger_word: "rairu"
+
+"doa_ayane-v2":
+  trigger_word: "ayane"
+
+"doa_christie-v2":
+  trigger_word: "christie"
+
+"doa_helena-v2":
+  trigger_word: "helena"
+
+"doa_hitomi-v2":
+  trigger_word: "hitomi"
+
+"doa_honoka-v2":
+  trigger_word: "honoka"
+
+"doa_kasumi-v2":
+  trigger_word: "kasumi"
+
+"doa_kokoro-v2":
+  trigger_word: "kokoro"
+
+"doa_leifang-v2":
+  trigger_word: "leifang"
+
+"doa_lisa":
+  trigger_word: "lisa"
+
+"doa_marie_rose":
+  trigger_word: "marie rose"
+
+"doa_misaki-v2":
+  trigger_word: "misaki"
+
+"doa_momiji-v2":
+  trigger_word: "momiji"
+
+"doa_monica-v2":
+  trigger_word: "monica"
+
+"doa_nagisa-v2":
+  trigger_word: "nagisa"
+
+"doa_nico-v2":
+  trigger_word: "nico"
+
+"doa_nyotengu-v2":
+  trigger_word: "nyotengu"
+
+"doa_rachel-v2":
+  trigger_word: "rachel"
+
+"doa_sayuri-v2":
+  trigger_word: "sayuri"
+
+"doa_tina-v2":
+  trigger_word: "tina"
+
+"Asuka Langley Soryu - [Neon Genesis Evangelion] - Version 1":
+  trigger_word: "asuka"
+
+"asuka langley soryu rebuild-lora-nochekaiser":
+  trigger_word: "{asuka langley soryu | (souryuu asuka langley:1.2)}, long hair, bangs, blue eyes, brown hair, hair ornament, {bodysuit, pilot suit, plugsuit, (red bodysuit:1.5), interface headset, | (eyepatch:1.5), | bodysuit, pilot suit, plugsuit, (white bodysuit:1.5), interface headset, | skirt, shirt, ribbon, school uniform, white shirt, short sleeves, blue skirt, suspenders, watch, suspender skirt, wristwatch, tokyo-3 middle school uniform}"
+
+"AsukaLangleySouryuuV2-000015":
+  trigger_word: "souryuu asuka langley, {interface headset, blue choker, yellow dress, red footwear, red jacket, bodysuit under clothes, cat hat, red bodysuit, eyepatch | interface headset, red bodysuit, test plugsuit, headgear | interface headset, striped bikini | interface headset, red bodysuit, tape, eyepatch, interface headset, multicolored bodysuit, eyepatch | interface headset, suspender skirt, red ribbon, white shirt, school uniform, socks, shoes | interface headset, white bodysuit, eyepatch | interface headset, heterochromia, rainbow order, white bodysuit}"
+
+"eva001v2":
+  trigger_word: "mecha,"
+
+"evangelion_ritsuko_akagi_v2_2":
+  trigger_word: "ritsuko akagi"
+
+"HikariHoraki":
+  trigger_word: "hikarihoraki, {| brown hair, twintails, freckles, hair bobbles, long hair, black eyes}"
+
+"mari makinami rebuild-lora-nochekaiser":
+  trigger_word: "mari makinami, {long hair, brown hair, twintails, (low twintails:1.5), hairband, blue hairband, blue eyes, (parted bangs:1.5), skirt, thighhighs, school uniform, pantyhose, necktie, plaid, plaid skirt, shirt, white shirt, collared shirt, short sleeves, glasses, opaque glasses | bodysuit, mecha, science fiction, red-framed eyewear, pilot suit, plugsuit, pink bodysuit}"
+
+"rei ayanami rebuild-lora-nochekaiser":
+  trigger_word: "rei ayanami, (ayanami rei:1.2), blue hair, short hair, (red eyes:1.3), skirt, shirt, ribbon, (school uniform:1.5), white shirt, short sleeves, red ribbon, neck ribbon, (tokyo-3 middle school uniform:1.5), bodysuit, headgear, plugsuit, black bodysuit,"
+
+"RITSUKO-15":
+  trigger_word: "ritsuko, evangelion"
+
+"绪儿-绫波丽_v1.0":
+  trigger_word: "AYANAMI REI"
+
+"quistis-nvwls-v1-final":
+  trigger_word: "quistis, {orange jacket, detached sleeves, orange skirt, belt, leggings, boots, glasses}"
+
+"tifa-000014":
+  trigger_word: "tifa"
+
+"Tifa_Lockhart":
+  trigger_word: "tifa lockhart"
+
+"Y shtola Rhul_20230626015810":
+  trigger_word: "miqo'te, Y shtola Rhul"
+
+"YunaV3":
+  trigger_word: "YunaX, heterochromia, detached sleeves, japanese clothes, sash, obi, hakama skirt, purple hakama, YunaX2, heterochromia, cleavage, black shorts, skirt, large breasts"
+
+"jmai_20240305130350-000007-07":
+  trigger_word: "shidie"
+
+"YY_V7":
+  trigger_word: "yuanyao"
+
+"《凡人修仙传》元瑶_v1.0":
+  trigger_word: "yuanyao"
+
+"《凡人修仙传》南宫婉":
+  trigger_word: "nangongwan"
+
+"《凡人修仙传》周媛_v1.0":
+  trigger_word: "zhouyuan"
+
+"《凡人修仙传》妍丽_v1.0":
+  trigger_word: "yanli"
+
+"《凡人修仙传》文思月_v2.0":
+  trigger_word: "wensiyue"
+
+"《凡人修仙传》紫灵_v1.0":
+  trigger_word: "ziling"
+
+"《凡人修仙传》韩立":
+  trigger_word: "hanli"
+
+"凡人-南宫婉_v1.0":
+  trigger_word: "nangongwan"
+
+"凡人修仙传紫灵_v2":
+  trigger_word: "ziling"
+
+"曾右使 妙音门《凡人修仙传》_曾右使1.0":
+  trigger_word: "zengyoushi"
+
+"Kikyo-10":
+  trigger_word: "Kikyo"
+
+"Kizuki - Inuyasha - Higurashi Kagome":
+  trigger_word: "higurashi kagome, black hair, brown eyes, long hair, medium breasts, serafuku, sailor collar, green pleated skirt"
+
+"Kizuki - Inuyasha - Sango":
+  trigger_word: "sango, brown hair, brown eyes, high ponytail, long hair, medium breasts, bodysuit, pauldrons, armor"
+
+"lum v1.2":
+  trigger_word: "lum"
+
+"lum4":
+  trigger_word: "lum, lumlum, horns"
+
+"RanmaChanV2":
+  trigger_word: "RanmaChan, ovadress, RanmaRedShirt, RanmaUnderwear, RanmaLeotard, RanmaJungleDress, single_braid"
+
+"ShanpuuRanmaV2":
+  trigger_word: "shanpuuranma, china_dress_red_SMP, China_Dress_Golden_SMPOVA, Chinese_Clothes_Waitress_SMP, Chinese_Clothes_Waitress_SMP, Apron_Frilled_SMP, Short_Dress_Pink_SMP, China_Dress, Chinese_Clothes_Floral_Print_SMP, Chinese_amazon_warrior_Outfit_SMP, Bikini_Apron_SMP, Apron_Frilled_SMP, Apron_Frilled_SMP"
+
+"Takahashi Rumiko":
+  trigger_word: "Inuyasha, Higurashi Kagome, Kikyo, ranma-chan, shampoo (ranma 1/2), lum"
+
+"Tendou_KasumiV3":
+  trigger_word: "tendou_kasumi, Apron_White_Ruffle, Apron_Pinkish_White_Ribbon, Green_Turtleneck_Shirt_Blue_Skirt, Light_Blue_Dress_KSM, Yellow_Sweater_Red_Skirt, Swimsuit_HighLeg_Strapless_Green, Yellow_Shirt_blue_high-waist_skirt, Bikini_Green_Strapless_HighLeg, ovadress, nightgown_KSM"
+
+"TendouAkaneV2":
+  trigger_word: "TendouAkane, furinkanuniform, AkaneYellowMicrodress, ovadress, AkaneYellowSwimsuit"
+
+"Katsura Masakazu_v3":
+  trigger_word: "Ai Amano, Yoshizuki iori"
+
+"ayumi-v2":
+  trigger_word: "ayumiyoshida"
+
+"haibaratv":
+  trigger_word: "haibaratv, anime screencap"
+
+"kaitou_kid":
+  trigger_word: "1boy, solo, meitantei_conan, kaitou_kid, blue_shirt, white_jacket, magic_kaito, dress_shirt, necktie, monocle_chain, top_hat, monocle, red_necktie, white_suit, white_cape, formal, cape"
+"android_18_v110":
+  trigger_word: "and18, 1girl, android 18, solo, blonde hair, blue eyes, belt, jeans, pearl_necklace, bracelet, black gloves, white shirt, short hair, short sleeves, earrings, blue pants, open vest, black vest, large breasts"
+
+"bulma_v1":
+  trigger_word: "dragon ball, blmpony, aqua hair, hair ribbon, braided ponytail, pink shirt, belt, scarf, pink skirt, clothes writing, brown gloves, medium breasts, dragon ball, blmsdup, bulma, aqua hair, one side up, pink dress, long sleeves, collarbone, medium breasts, dragon ball, blmlong, aqua hair, blunt bangs, long hair, playboy bunny, rabbit ears, black pantyhose, red bowtie, wrist cuffs, black leotard, large breasts, dragon ball, blmmid, aqua hair, medium hair, blunt bangs, red hairband, medium breasts, shirt, skirt, dragon ball, blmshort, aqua hair, very short hair, earrings, jewelry, red dress, medium breasts, yellow scarf, short dress, sleeveless"
+
+"Caulifla_DB_v3_Anime":
+  trigger_word: "Caulifla_DB, bare shoulders, midriff, purple baggy pants, strapless, pink tube top, black eyes,"
+
+"chi-chi_v1":
+  trigger_word: "dragon ball, {aachichi, long hair, helmet, pink headwear, black eyes, large breasts, shoulder armor, bikini armor, green cape, pink gloves, navel, groin, dragon ball | bbchichi, (low ponytail:1.1), black eyes, chinese clothes, blue dress, sleeveless, wristband, sash, dragon ball, bbchichi, single hair bun, hair bun, blunt bangs, sidelocks, black eyes, earrings, orange neckerchief, orange scarf, purple dress, sleeveless, bracelet}"
+
+"DBExtraGirl04Ranfan":
+  trigger_word: "DBExtraGirl04Ranfan, purple hair, curly hair, blue eyes, lipstick, mole under mouth, large breasts, eyelashes, blue shirt, red footwear, green pants, red footwear, white socks, underwear, pink bra, pink panties,"
+
+"OGT_Android_18-v1":
+  trigger_word: "Android 18, 1girl, android 18, solo, blonde hair, pantyhose, skirt, blue eyes, full body, boots, short hair, white background, crossed arms, black pantyhose, simple background, earrings, denim jacket, jewelry, denim skirt, denim, brown footwear, breasts, standing, jacket"
+
+"raditsxl5-000003":
+  trigger_word: "raditzxl"
+
+"videl_v10":
+  trigger_word: "videl2, solo, blue eyes, black hair, twintails, black gloves, bike_shorts, bangs, white shirt, badge, medium breasts"
+
+"AvatarNeytiri":
+  trigger_word: "AvatarNeytiri, 1girl, solo, black hair, yellow eyes, blue skin"
+
+"BelldandyV3":
+  trigger_word: "Belldandy, Belldandy_Blue_Dress"
+
+"ChunliMS":
+  trigger_word: "chunlims, hair bun, double bun, eyeshadow, makeup, chinese clothes, pelvic curtain, solo, dress, bracelet, ribbon, pants, blue pants, makeup, short sleeves, wide hips, thick thighs"
+
+"dsann-v2":
+  trigger_word: "dsann, dspanther"
+
+"elsa5-real":
+  trigger_word: "felsa,"
+
+"fengbaobao_冯宝宝":
+  trigger_word: "fengbaobao"
+
+"IngridV2":
+  trigger_word: "Ingrid, Read description!"
+
+"IngridV3":
+  trigger_word: "Ingrid, read description!"
+
+"kanzaki":
+  trigger_word: "sumire kanzaki"
+
+"kolin-nvwls-v1":
+  trigger_word: "sfKolin, fur hat, black coat, elbow gloves, thighhighs, boots"
+
+"Kosuke Fujishima":
+  trigger_word: "Belldandy, Urd, Skuld"
+
+"madokaayukawa001":
+  trigger_word: "madokaayukawa, 1girl, long hair, blue hair, aqua eyes, madokaayukawa, 1girl, long hair, blue hair, aqua eyes, serafuku, black neckerchief, pleated skirt, shoes, madokaayukawa, 1girl, long hair, blue hair, aqua eyes, red zhong broad hat, floral jacket, open jacket, white pants, shoes, madokaayukawa, 1girl, high ponytail, blue hair, aqua eyes, madokaayukawa, 1girl, high ponytail, blue hair, aqua eyes, yukata, Japanese geta"
+
+"MiKmv1-1500bND16":
+  trigger_word: "mikm"
+
+"PrinzEugenV4-15":
+  trigger_word: "prinzv4"
+
+"sailor_jupiter_v1":
+  trigger_word: "hmjupiter, green eyes, ponytail, tiara, jewelry, sailor senshi uniform, green sailor collar, choker, elbow gloves, white gloves, pink bow, brooch, white leotard, green skirt, pleated skirt"
+
+"sailor_mars_v1":
+  trigger_word: "sama1, tiara, sailor senshi uniform, white gloves, red sailor collar, red skirt"
+
+"samus-nvwls-v1-final":
+  trigger_word: "samus aran, ponytail, hair tie, blue gloves, blue bodysuit, high heels, ponytail, blue crop top, sleeveless, midriff, wristband, blue shorts, high heels"
+
+"samus":
+  trigger_word: "samus, mole, zero suit, blue eyes, ponytail, gun"
+
+"yaoyorozu_momo":
+  trigger_word: "momo mha, yaoyorozu momo"
+
+"yaoyorozu_momo_v1":
+  trigger_word: "1girl, yaoyorozu momo, black hair, ponytail, hair pulled back, black eyes, large breasts, red leotard, navel cutout, bare arms, bare legs, belt, 1girl, yaoyorozu momo, black hair, ponytail, hair pulled back, black eyes, large breasts, school uniform, white shirt, collared shirt, short sleeves, red necktie, green skirt"
+
+"yorha_noDOT_2_type_b":
+  trigger_word: "yorha no. 2 type b"
+
+"yorha_type_a_noDOT_2":
+  trigger_word: "yorha type a no. 2"
+
+"《元龙》宋嫣_v1.0":
+  trigger_word: "Yuan Long Song Yan"
+
+"《永生》方清雪_v1.0":
+  trigger_word: "fangqingxue"
+
+"《龙背上的骑兵3》Zero_v1.0":
+  trigger_word: "zero"
+
+"《龙蛇演义》唐紫尘_v1.0":
+  trigger_word: "tangzichen"
+
+"斗破苍穹萧薰儿-第四版建模_v1.0":
+  trigger_word: "xiaoxuner"
+
+"《完美世界》云曦_v1.0":
+  trigger_word: "Perfect World Yun Xi"
+
+"《完美世界》月婵（婚衣）_v1.0":
+  trigger_word: "yuechan"
+
+"《完美世界》柳神_v1.0":
+  trigger_word: "Liu Shen"
+
+"Ada_Wong-06":
+  trigger_word: "Ada Wong"
+
+"ashley.mk01":
+  trigger_word: "ashley"
+
+"AshleyGrahamRE4Dogu_agrh woman":
+  trigger_word: "agrh woman"
+
+"GAME_ResidentEvil2_AdaWong_ownwaifu":
+  trigger_word: "GAME_ResidentEvil2_Ada_Wong_ownwaifu, AdaWong_Cowgirl_ownwaifu"
+
+"JillRE3":
+  trigger_word: "jillre3, jre3 outfit, jre3 equipment, jre3 strap"
+
+"《生化危机8》萝丝_v1.0":
+  trigger_word: "rose"
+
+"《少年歌行》叶若依_v1.0":
+  trigger_word: "yeruoyi"
+
+"《少年歌行》司空千落_v1.0":
+  trigger_word: "sikongqianluo"
+
+"《少年歌行》李寒衣_v1.0":
+  trigger_word: "lihanyi"
+
+"《少年歌行》落霞仙子_v1.0":
+  trigger_word: "luoxiaxianzi"
+
+"belldandy s2-lora-nochekaiser":
+  trigger_word: "belldandy, long hair, blue eyes, brown hair, facial mark, forehead mark, mature female, smile, gloves, wings, choker, fingerless gloves, bracelet, ring, feathers, angel wings, shirt, orange shirt, short sleeves, belth, skirt, yellow skirt, bracelet,"
+
+"helenV4":
+  trigger_word: "helen"
+
+"luxueqi-6":
+  trigger_word: "luxueqi"
+
+"MultipleGirlsGroup":
+  trigger_word: "multiple girls, group picture, lineup, harem, {3girls | 4girls | 5girls | 6+girls}, standing, sitting, kneeling, lying"
+
+"tifa_re_sdxl_V1_01-000006":
+  trigger_word: "tifa7re, tifa_outfit"
+
+"wlop_offset":
+  trigger_word: "wlop"
+
+"yuanyao-06":
+  trigger_word: "yuanyao"
+
+"少年歌行-萧瑟":
+  trigger_word: "xiaose"
+
+"少年歌行-赵玉真":
+  trigger_word: "zhaoyuzhen"
+
+"永生-红怡君主-v50":
+  trigger_word: "hongyijunzhu"
+
+"绪儿-CAMMY":
+  trigger_word: "CAMMY"
+
+"绪儿-Saber":
+  trigger_word: "Saber"
+
+"绪儿-Yumeko Jabami":
+  trigger_word: "Yumeko Jabami"
+
+"绪儿-丝路 xuer riding camel":
+  trigger_word: "xuer riding camel"
+
+"绪儿-中国剑V2 xuer Ancient Chinese sword":
+  trigger_word: "xuer Ancient Chinese sword"
+
+"绪儿-中国女神 xuer Chinese goddess":
+  trigger_word: "xuer Chinese goddess"
+
+"绪儿-中国铠甲 xuer Ancient Chinese armor":
+  trigger_word: "xuer Ancient Chinese armor"
+
+"绪儿-孔雀V2 xuer peacock feather":
+  trigger_word: "xuer peacock feather"
+
+"绪儿-小奶猫 kitten":
+  trigger_word: "kitten"
+
+"绪儿-小提琴 violin":
+  trigger_word: "violin"
+
+"绪儿-巨剑大天使V2 angel":
+  trigger_word: "Angel"
+
+"绪儿-巨树沼泽 swamp":
+  trigger_word: "swamp"
+
+"绪儿-带妆脸 girl":
+  trigger_word: "girl"
+
+"绪儿-异世界酒馆 tavern scenes8":
+  trigger_word: "tavern scenes"
+
+"绪儿-彩虹天使 angel":
+  trigger_word: "Angel"
+
+"绪儿-扇子fan":
+  trigger_word: "fan"
+
+"绪儿-手枪 xuer pistol":
+  trigger_word: "xuer pistol"
+
+"绪儿-摩托车 xuer future motorcycle":
+  trigger_word: "xuer future motorcycle"
+
+"绪儿-斗笠 bamboo hat":
+  trigger_word: "bamboo hat"
+
+"绪儿-日式建筑背景V2 xuer house":
+  trigger_word: "xuer house"
+
+"绪儿-明日香Asuka Langley Soryu":
+  trigger_word: "Asuka Langley Soryu"
+
+"绪儿-月亮女巫Moon Witch":
+  trigger_word: "Moon Witch"
+
+"绪儿-机甲 Mecha":
+  trigger_word: "Mecha"
+
+"绪儿-柴油朋克 xuer dieselpunk":
+  trigger_word: "xuer dieselpunk"
+
+"绪儿-梦幻场景 dream like":
+  trigger_word: "dream like"
+
+"绪儿-武侠_v2.0":
+  trigger_word: "Qing Kung"
+
+"绪儿-武侠V4 xuer martial arts":
+  trigger_word: "xuer martial arts"
+
+"绪儿-武士少女V2 xuer ai yazawa style girl":
+  trigger_word: "xuer ai yazawa style girl"
+
+"绪儿-民族服饰 National costume":
+  trigger_word: "National costume"
+
+"绪儿-水乡背景 traditional chinese landscape":
+  trigger_word: "traditional chinese landscape"
+
+"绪儿-水墨鱼 kio":
+  trigger_word: "koi"
+
+"绪儿-水墨龙 Ink Painting":
+  trigger_word: "Chinese dragon"
+
+"绪儿-洛可可油画风 Rococo style":
+  trigger_word: "Rococo style"
+
+"绪儿-流光 glowwave":
+  trigger_word: "glowwave"
+
+"绪儿-游戏少女 xuer Game girl":
+  trigger_word: "xuer Game girl, Game machine"
+
+"绪儿-火锅 Hot pot":
+  trigger_word: "Hot pot"
+
+"绪儿-烟斗 xuer tobacco pipe":
+  trigger_word: "xuer tobacco pipe"
+
+"绪儿-琉璃之路 coloured glaze":
+  trigger_word: "coloured glaze"
+
+"绪儿-琵琶 lute V2":
+  trigger_word: "lute"
+
+"绪儿-皇宫 palace background":
+  trigger_word: "palace background"
+
+"绪儿-皮草车内场景 xuer white fur coat":
+  trigger_word: "xuer white fur coat"
+
+"绪儿-禅 Zen":
+  trigger_word: "Zen"
+
+"绪儿-竹筏 long raft with":
+  trigger_word: "long raft with"
+
+"绪儿-舞_v1.0":
+  trigger_word: "dance"
+
+"绪儿-舞蹈Dance":
+  trigger_word: "Dance"
+
+"绪儿-舞龙Dragon dance":
+  trigger_word: "Dragon dance"
+
+"绪儿-花车 flowers":
+  trigger_word: "flowers"
+
+"绪儿-荧光机娘Fluorescent green":
+  trigger_word: "Fluorescent green"
+
+"绪儿-荷叶 xuer Lotus leaf":
+  trigger_word: "xuer Lotus leaf"
+
+"绪儿-蜘蛛侠 black Spider Man costume":
+  trigger_word: "black Spider Man costume"
+
+"绪儿-设计感时装 fashion":
+  trigger_word: "fashion"
+
+"绪儿-赛博城市场景 science cyber":
+  trigger_word: "science cyber"
+
+"绪儿-赛博武士 xuer cyberwarrior":
+  trigger_word: "xuer cyberwarrior"
+
+"绪儿-远坂凛 Rin Tohsaka":
+  trigger_word: "Rin Tohsaka"
+
+"绪儿-锦鲤 koi":
+  trigger_word: "Koi"
+
+"绪儿-阿丽塔 Alita":
+  trigger_word: "Alita"
+
+"绪儿-音浪 DJ":
+  trigger_word: "DJ"
+
+"绪儿-飞跃未来 xuer flies over":
+  trigger_word: "xuer flies over"
+
+"绪儿-飞鲸鱼 xuer Big whale":
+  trigger_word: "xuer Big whale"
+
+"绪儿-骑马horse":
+  trigger_word: "horse"
+
+"绪儿-高定礼服 xuer extravagant gown":
+  trigger_word: "xuer extravagant gown"
+
+"绪儿-鹤 Red crowned crane":
+  trigger_word: "Red crowned crane"
+
+"绪儿-龙蛇演义 Dragon and Snake":
+  trigger_word: "Dragon and Snake, Chinese dragon, Snake, Dragon"
+
+"绪儿XL 武侠":
+  trigger_word: "XUER martial arts style"
+
+"botan":
+  trigger_word: "botan"
+
+"genkai":
+  trigger_word: "1girl"
+
+"juri":
+  trigger_word: "1girl, ponytail, bodysuit, clothing cutout, bike shorts, sarong, navel cutout, tail, fins tail"
+
+"koto":
+  trigger_word: "1girl"
+
+"OGT_Yukina-v1":
+  trigger_word: "Yukina, 1girl, solo, red eyes, japanese clothes, sidelocks, kimono, ponytail, long hair, bangs, aqua hair, white kimono,"
+
+"0000_aiMeishi_xianxia_lora":
+  trigger_word: "cnxianxia"
+
+"Ink scenery":
+  trigger_word: "white background, scenery, ink, mountains, water, trees"
+
+"NOTN005":
+  trigger_word: "NOTN, Score_9 1girl, solo, long hair, breasts, looking at viewer, bangs, blue eyes, brown hair, shirt, black hair, medium breasts, collarbone, upper body, short sleeves, eyelashes, mask, mouth mask, surgical mask"
+
+"skills_v1":
+  trigger_word: "skills_pose, skills_xuanwozhan, meditation pose, draw a knife, holding knife"
+
+"修仙_武侠-在云端飞行_轻功_v1.0":
+  trigger_word: "qinggong"
+
+"国风-美女剑客_v2.0":
+  trigger_word: "meinvjianke"
+
+"0325 printed transparent cheongsam_v1":
+  trigger_word: "ruanyi0325, see-through dress, nipples, pelvic curtain, side slit, bottomless, short sleeves, china dress, star print,"
+
+"96秀":
+  trigger_word: "panties, underwear, see-through, sitting, skirt, pink panties, covered nipples, meadow"
+
+"AncientEgyptianClothes-2R3B":
+  trigger_word: "ancient egyptian clothes"
+
+"Chinese cheongsam with a high slit":
+  trigger_word: "chinese clothes, china dress, dress，White dress, white underwear, white panties, chinese clothes, china dress, Black dress, black underwear, black panties, chinese clothes, china dress, Red dress"
+
+"Chinese dress Coco":
+  trigger_word: "chinese dress"
+
+"chunli3":
+  trigger_word: "chunli, double bun, panties, breasts,"
+
+"EgyptianClothes-10":
+  trigger_word: "egyptian clothes"
+
+"eva_school_uniform":
+  trigger_word: "eva school uniform"
+
+"HalterTopLoRA":
+  trigger_word: "sequin halter top"
+
+"hanfu_v30":
+  trigger_word: "hanfu, ming style, tang style, song style, jin style, han style"
+
+"jyojipan v2":
+  trigger_word: "jyojipan, panties, training bra"
+
+"Lab coat":
+  trigger_word: "lab coat, no bra,"
+
+"Lace Leotard by Stable Yogi":
+  trigger_word: "lace leotard"
+
+"MicroDress_FefaAIart":
+  trigger_word: "microdress, panties, <dress type + dress>"
+
+"naked_towel":
+  trigger_word: "naked towel, towel"
+
+"NakedTowel":
+  trigger_word: "nakedtowel, towel"
+
+"negligee_v0.1":
+  trigger_word: "negligee"
+
+"RVTransparent5":
+  trigger_word: "Transparent Dress"
+
+"Sexy low cut short skirt1":
+  trigger_word: "short sleeves, off shoulder, dress"
+
+"Sleeping_shirt":
+  trigger_word: "sleeping shirt"
+
+"tutuqpqp":
+  trigger_word: "tutututu, see-through, cheongsam"
+
+"Underboob Cutout Dress By Stable Yogi":
+  trigger_word: "underboob cutout dress"
+
+"wetshirt15_v2.0":
+  trigger_word: "wetshirt"
+
+"wraphipdress_v1":
+  trigger_word: "wraphip dress, sleeveless, short dress, dress"
+
+"国风露肩汉服_v1.0":
+  trigger_word: "gufeng, bare shoulders"
+
+"布材质铅笔裙_v1.0":
+  trigger_word: "ss pencil skirt"
+
+"职业装":
+  trigger_word: "zhiyezhuang"
+
+"职业装_v1.0":
+  trigger_word: "zhiyezhuang"
+
+"透明火焰泛光裙子_v1.0":
+  trigger_word: "transparent glowing dress"
+
+"ArtDecoAI":
+  trigger_word: "artdecoai"
+
+"MahabharataPunkAI":
+  trigger_word: "MahabharataPunkAI"
+
+"Neonpunkai-8":
+  trigger_word: "Neonpunkai"
+
+"waterVFX":
+  trigger_word: "waterVFX"
+
+"WizardCoreAISD15p":
+  trigger_word: "wizardcoreai"
+
+"Xenomechanical World":
+  trigger_word: "Xenomechanical World"
+
+"bralessv2":
+  trigger_word: "braless, covered nipples"
+
+"Concept_CoveredNipples":
+  trigger_word: "covered nipples"
+
+"LEOSAM's Clothing +_- Adjuster 服装增减 LoRA_3.0":
+  trigger_word: "clothing adjust"
+
+"polyhedron_new_skin_v1.1":
+  trigger_word: "detailed skin, skin blemish"
+
+"RealDownblouse4":
+  trigger_word: "downblouse, nipslip"
+
+"very_thin_pussy.v1.0":
+  trigger_word: "naked woman very thin pussy"
+
+"【麻瓜lora】身材调节器S-shape body(1.5-2.5)_v1.0":
+  trigger_word: "S-shape body"
+
+"A Better Cry":
+  trigger_word: "cry, tear"
+
+"edgOrgasm_v2":
+  trigger_word: "edgOrgasm, face focus, woman with edgOrgasm_face"
+
+"orgasm_face_v10":
+  trigger_word: "orgasm_face"
+
+"pro-angry":
+  trigger_word: "angry, shooting, open mouth"
+
+"PuffyCheeks":
+  trigger_word: "puffupcheeks, crossedeyes"
+
+"shine eyes01(眼睛细节增强，超级光效，眼部优化）_v1.0":
+  trigger_word: "eye enhancement"
+
+"hand 4":
+  trigger_word: "Hand, detailed, perfect, perfection, hands"
+
+"perfect hands 2":
+  trigger_word: "Perfect Hands"
+
+"Perfect Hands v2":
+  trigger_word: "Perfect Hands"
+
+"Xian-T手部修复lora（不用controlnet也不坏手了）_v3.0":
+  trigger_word: "hand fix"
+
+"手部优化_V0.9_v0.9":
+  trigger_word: "hand optimization"
+
+"绪儿-【解决手崩难题】整合包_v1.0":
+  trigger_word: "hand fix pack"
+
+"add_brightness":
+  trigger_word: "add brightness"
+
+"add_detail":
+  trigger_word: "add detail"
+
+"more_details":
+  trigger_word: "more details"
+
+"theovercomer8sContrastFix_sd15":
+  trigger_word: "to8contrast style"
+
+"YFilter_PortraitEnhance_V1":
+  trigger_word: "portrait enhance"
+
+"背景细节增强_简化  Background Detail Enhanced_Si_v3.0":
+  trigger_word: "background detail"
+
+"fashigirl-v7-lokr-7ep":
+  trigger_word: "realistic"
+
+"FF_Rikku_PonyV1":
+  trigger_word: "Rikku"
+
+"jyojishitagi v4.0":
+  trigger_word: "jyojipan, underwear, panties, print panties, striped, polka dot"
+
+"0348 plastic wrap 2_v1":
+  trigger_word: "ruanyi0348, see-through, bottomless,"
+
+"afb v1.5":
+  trigger_word: "afb, 1girl, from behind"
+
+"AfterSexMS":
+  trigger_word: "after sex, cum, lying, cumdrip, ass, on stomach, on back, fucked silly, sweat, cum pool, bukkake, trembling"
+
+"against_glass_v0.2":
+  trigger_word: "hands on glass, breasts on glass, ass on glass, window fog, water drop"
+
+"ahegao,rolling_eyes-000014":
+  trigger_word: "ahegao, rolling_eyes"
+
+"all_tits_fuck.v1.0-000085":
+  trigger_word: "pov tits fuck"
+
+"ass-from-behind":
+  trigger_word: "afb-lora, ass, on stomach, lying, from behind, thick thighs, 1girl, solo, looking at viewer, looking back"
+
+"BetterCocks2":
+  trigger_word: "penis, flaccid penis, erect penis, large penis, large erect penis, penis bulge, penis outline"
+
+"Concept_Showering":
+  trigger_word: "1girl, standing, arms up, showering, wet hair, full body, large breasts, nipples, ass, nude"
+
+"Concept_Towel":
+  trigger_word: "towel around neck, naked towel, towel;, covering, towel, holding towel, towel censored, hands on own chest, bare shoulders, collarbone;"
+
+"cum_b1":
+  trigger_word: "cum, facial, mouth full of cum, amateur, flash photo, dark background, cum on face, cum on body, cum on clothes, cum swapping, man, gay, excessive cum, covered in cum, ejaculation, projectile cum, cum on breasts, cum on back, cum on ass, cum on pussy, cum on shoes, cupping hands, cum on hands, cumdrip, after sex, after vaginal"
+
+"CumOnTongueMS":
+  trigger_word: "cum in mouth, cum on tongue, tongue, open mouth, tongue out, cum on hands, cupping hands, own hands together"
+
+"downblouse_v0.2":
+  trigger_word: "downblouse"
+
+"Dragon_girl":
+  trigger_word: "Chinese dress, Chinese dragon"
+
+"female_masturbation_v0.5":
+  trigger_word: "female masturbation"
+
+"finger in thong":
+  trigger_word: "finger in thong"
+
+"Glorywall-v1":
+  trigger_word: "glorywall, ass, stuck, ass focus"
+
+"GynecologyBound0_0":
+  trigger_word: "gyno, legs spread, cunt"
+
+"HandInPants1":
+  trigger_word: "hand in pants, female masturbation, grabbing own breast"
+
+"HandsHold4-000011":
+  trigger_word: "holding hands, 1girl, 1boy, cowgirl position, sex, vaginal, girl on top, pov, straddling, penis, pussy"
+
+"harem-dress-v1.1":
+  trigger_word: "harem-clothes, harem, jewelry, veil, see-through, mouth veil, navel piercing"
+
+"innievag":
+  trigger_word: "innievag"
+
+"inthetub":
+  trigger_word: "inthetub"
+
+"JS_MiniSkirt":
+  trigger_word: "JS_ShortSkirt"
+
+"kneelingarmbehindback-01":
+  trigger_word: "kneelingarmsbehindback, cr0ssedarms, str4ightarms"
+
+"kneelingarmsup-01":
+  trigger_word: "kneelingarmsup"
+
+"kneelinghandsonthighs-01":
+  trigger_word: "kneelinghandsonthighs"
+
+"kneelinghandsonthighs2-03":
+  trigger_word: "kneelinghandsonthighs"
+
+"LegUpPresenting":
+  trigger_word: "solo, pussy, anus, feet, ass, barefoot, toes, soles, legs up, lying, on back, spread legs, presenting, spread pussy, spread ass, folded"
+
+"milf_downblouse.v10.1-e100":
+  trigger_word: "downblouse"
+
+"missionary_raised_legs":
+  trigger_word: "missionary, vaginal, sex"
+
+"MS_Real_FlashBoobs_Lite":
+  trigger_word: "1girl, nipples, breasts, shirt lift, flashing, lifted by self"
+
+"nakedcardboard_lokr6":
+  trigger_word: "naked cardboard"
+
+"NaturalLargeBreasts":
+  trigger_word: "NaturalLargeBreasts"
+
+"peeing_self":
+  trigger_word: "peeing_self"
+
+"poking, breast poke, 1girl":
+  trigger_word: "poking, breast poke, 1girl"
+
+"pose squating-000006":
+  trigger_word: "sitting, squating, looking down, look at the viewer, from below"
+
+"POVBGV2":
+  trigger_word: "povbreastgrab, pov hands, breast grab"
+
+"PSCowgirl":
+  trigger_word: "squatting cowgirl position, vaginal, pov,"
+
+"Pussy_Lily_v5":
+  trigger_word: "pussy_lily_front, pussy_lily_rear, pussy_lily_toys"
+
+"SidewayAssMS":
+  trigger_word: "sidewayassms, spread pussy, spread ass, hand on own ass"
+
+"SpreadAssMS":
+  trigger_word: "spreadassms"
+
+"StandingSplit_27867":
+  trigger_word: "standing split, standing on one leg, sex, 1boy, 1girl, penis,"
+
+"SuspendedCongressMS":
+  trigger_word: "suspended congress, vaginal, anal, ass, ass focus, ass grab, standing, hug, leg lock, breast press, straddling, arms around neck, lifting person"
+
+"timestopface_v1":
+  trigger_word: "tsface，timestop face"
+
+"tt_smartphone":
+  trigger_word: "ttsmartphone, nude, taking picture, clothing cutout, pov,"
+
+"ttbehind_glass":
+  trigger_word: "ttbehind_glass"
+
+"wildcardxREALNSFWSFW_nsfwSFW":
+  trigger_word: "wildcardxREALNSFWSFW_nsfwSFW"
+
+"X-ray Fellatio 1.5_1-000042":
+  trigger_word: "fellatio, x-ray, penis, 1girl, 1boy,"
+
+"x-ray_glasses":
+  trigger_word: "x-ray vision"
+
+"XRay":
+  trigger_word: "XRay, skeleton, x-ray, ribs"
+
+"xray2.5":
+  trigger_word: "xray2.5"
+
+"xrayeffect":
+  trigger_word: "xraye1, xrayeffect"
+
+"xrayglasses-style-000009":
+  trigger_word: "xrayglasses"
+
+"XrayV":
+  trigger_word: "XrayV"
+
+"xryhd":
+  trigger_word: "xryhd"
+
+"20240205_spring_dragon_checkpoint-4000":
+  trigger_word: "CN_SP style, chinese dragon"
+
+"404FFusionV2":
+  trigger_word: "404, text 404, logo 404, Civitai404"
+
+"blindbox_v1_mix":
+  trigger_word: "full body, chibi,"
+
+"EPBlackLagoonStyle-08":
+  trigger_word: "EPBlackLagoonStyle"
+
+"icon1":
+  trigger_word: "icon"
+
+"LEOSAM's EVA 新世纪福音战士 『新世紀エヴァンゲリオン』 LoRA_3.0":
+  trigger_word: "eva"
+
+"Smooth belly_v1.3.2":
+  trigger_word: "Smooth belly"
+
+"字体龙_v1.0":
+  trigger_word: "font dragon"
+
+"新中式 _ 滤镜滑块Lora_v1.0":
+  trigger_word: "new chinese style"
+
+"Codriver05":
+  trigger_word: "codriver"
+
+"hugging_own_legs_v0.3":
+  trigger_word: "hugging own legs"
+
+"knee-HXZ":
+  trigger_word: "knee up"
+
+"pulld_3":
+  trigger_word: "pulld"
+
+"sidewayass":
+  trigger_word: "sidewayass"
+
+"skirt_lift_pov":
+  trigger_word: "skirt lift pov, from below, lifted by self"
+
+"Sleep-15":
+  trigger_word: "Sleep"
+
+"umbrellaLORA":
+  trigger_word: "umbrellaLORA"
+
+"undressing_bra.v10.1-e100":
+  trigger_word: "undressing bra"
+
+"undressing_panties_v0.1":
+  trigger_word: "undressing, panty pull"
+
+"undressing_top.v1.0":
+  trigger_word: "undressing top"
+
+"unpants.v1.0":
+  trigger_word: "unpants"
+
+"upshorts_v0.4":
+  trigger_word: "upshorts"
+
+"wind_lift":
+  trigger_word: "wind lift"
+
+"撩起齐逼短裙看蕾丝内裤":
+  trigger_word: "(skirt lift:1.2)"
+
+"Asian girls faceV2":
+  trigger_word: "Asian girls face"
+
+"asianGirlsFace_v1":
+  trigger_word: "FACE"
+
+"Athena Chu":
+  trigger_word: "Athena Chu"
+
+"chilloutmixss30_v30":
+  trigger_word: "girl"
+
+"chinesedolllikeness":
+  trigger_word: "chinese doll"
+
+"ChineseDollLikeness2.0":
+  trigger_word: "chinese doll"
+
+"Chingmy YauV2":
+  trigger_word: "Chingmy YauV2"
+
+"coco-majicmixRealistic":
+  trigger_word: "coco-majicmixRealistic"
+
+"cuteGirlMix4_v10":
+  trigger_word: "mix4"
+
+"dollyMixGirl_V2":
+  trigger_word: "dollyMixGirl_V2"
+
+"epiCRealismHelper":
+  trigger_word: "epiCRealismHelper"
+
+"fashionGirl_v50":
+  trigger_word: "fashi-girl, red lips, makeup, realistic"
+
+"FilmVelvia3":
+  trigger_word: "FilmVelvia3"
+
+"guanxiaotong_20230608022137-000009":
+  trigger_word: "guanxiaotong"
+
+"henmixReal_v5c":
+  trigger_word: "henmixReal_v5c"
+
+"japaneseDollLikeness_v10":
+  trigger_word: "japaneseDollLikeness_v10"
+
+"JapaneseDollLikeness_v15":
+  trigger_word: "JapaneseDollLikeness_v15"
+
+"Joey Wong":
+  trigger_word: "Joey Wong"
+
+"koreanDollLikeness_v10":
+  trigger_word: "koreanDollLikeness_v10"
+
+"LEOSAM's FilmGirl  胶片风 LoRA--全新VELVIA版本_3.0":
+  trigger_word: "FilmGirl"
+
+"LEOSAM's Instant photo 拍立得_Polaroid LoRA_InspX Borderless Version":
+  trigger_word: "Polaroid"
+
+"level4_v50BakedVAE":
+  trigger_word: "level4_v50BakedVAE"
+
+"Li Yunsi":
+  trigger_word: "Li Yunsi"
+
+"lin_faceV4":
+  trigger_word: "lin_faceV4"
+
+"liuyifei":
+  trigger_word: "liuyifei"
+
+"LiXiaoran":
+  trigger_word: "LiXiaoran"
+
+"llfAngie Chiu":
+  trigger_word: "llfAngie Chiu"
+
+"llfchenshu":
+  trigger_word: "llfchenshu"
+
+"llfjiangshuying":
+  trigger_word: "llfjiangshuying"
+
+"llfKelly Chen":
+  trigger_word: "llfKelly Chen"
+
+"llfliqin":
+  trigger_word: "llfliqin"
+
+"llfliushishi":
+  trigger_word: "llfliushishi"
+
+"llflixiaolu":
+  trigger_word: "llflixiaolu"
+
+"llflouyixiao":
+  trigger_word: "llflouyixiao"
+
+"llfmaoxiaotong":
+  trigger_word: "llfmaoxiaotong"
+
+"llfNing Chang":
+  trigger_word: "llfNing Chang"
+
+"llfnini":
+  trigger_word: "llfnini"
+
+"llfqinlan":
+  trigger_word: "llfqinlan"
+
+"llfreyizha":
+  trigger_word: "llfreyizha"
+
+"llfRosamund Kwan":
+  trigger_word: "llfRosamund Kwan"
+
+"llfshuchang":
+  trigger_word: "llfshuchang"
+
+"llftangyan":
+  trigger_word: "llftangyan"
+
+"llftongliya":
+  trigger_word: "llftongliya"
+
+"llfwangluodan":
+  trigger_word: "llfwangluodan"
+
+"llfwangou":
+  trigger_word: "llfwangou"
+
+"llfyangzi":
+  trigger_word: "llfyangzi"
+
+"llfyintao":
+  trigger_word: "llfyintao"
+
+"llfyuwenwen":
+  trigger_word: "llfyuwenwen"
+
+"llfzhangjingchu":
+  trigger_word: "llfzhangjingchu"
+
+"llfzhangxinyu":
+  trigger_word: "llfzhangxinyu"
+
+"llfzhangyuqi":
+  trigger_word: "llfzhangyuqi"
+
+"llfzhaojinmai":
+  trigger_word: "llfzhaojinmai"
+
+"llfzhaoliyingV4":
+  trigger_word: "llfzhaoliyingV4"
+
+"makina69_izumisakai_v1.0":
+  trigger_word: "makina69_izumisakai_v1.0"
+
+"Shen Huixing":
+  trigger_word: "Shen Huixing"
+
+"Sinjia-000003":
+  trigger_word: "Sinjia-000003"
+
+"sweet_li_v2":
+  trigger_word: "sweet_li_v2"
+
+"taiwanDollLikeness_v10":
+  trigger_word: "taiwanDollLikeness_v10"
+
+"taiwanDollLikeness_v20":
+  trigger_word: "taiwanDollLikeness_v20"
+
+"tongliya":
+  trigger_word: "tongliya"
+
+"wangou_20230613221134-000009":
+  trigger_word: "wangou_20230613221134-000009"
+
+"xiahe夏禾":
+  trigger_word: "xiahe"
+
+"Xiao Lu":
+  trigger_word: "Xiao Lu"
+
+"XiaTian":
+  trigger_word: "XiaTian"
+
+"xscarlet":
+  trigger_word: "xscarlet"
+
+"XXMix9_v20LoRa":
+  trigger_word: "XXMix9_v20LoRa"
+
+"yaya_sd15_0":
+  trigger_word: "yaya"
+
+"yueqing_2.0":
+  trigger_word: "yueqing"
+
+"Zheng Ziyan":
+  trigger_word: "Zheng Ziyan"
+
+"亚洲美女脸模 9_1":
+  trigger_word: "亚洲美女脸模 9_1"
+
+"娜乌斯嘉nwsj_realistic_HD_nwsj_majicV3.0":
+  trigger_word: "娜乌斯嘉nwsj_realistic_HD_nwsj_majicV3.0"
+
+"玖芊柒":
+  trigger_word: "玖芊柒"
+
+"真人-汤唯":
+  trigger_word: "真人-汤唯"
+
+"v3_sd15_adapter.ckpt":
+  trigger_word: "v3_sd15_adapter.ckpt"
+
+"sd_xl_offset_example-lora_1.0":
+  trigger_word: "sd_xl_offset_example-lora_1.0"
+
+"sdxl_lightning_2step_lora":
+  trigger_word: "sdxl_lightning_2step_lora"
+
+"pytorch_lora_weights":
+  trigger_word: "pytorch_lora_weights"
+
+"blackgold-000008":
+  trigger_word: "blackgold-000008"
+
+"云中仙V2 Fairy in Clouds":
+  trigger_word: "Fairy in Clouds"
+
+"天使堕入人间V2 angel":
+  trigger_word: "Angel, bandages"
+
+"绪儿-云中仙V3 xuer Fairy in Clouds":
+  trigger_word: "Fairy in Clouds"
+
+"绪儿-儒家学院_v1.0":
+  trigger_word: "Confucian academy"
+
+"绪儿-囚鸟与自由热气球_v1.0":
+  trigger_word: "balloon"
+
+"绪儿-天使坠入人间_v1.0":
+  trigger_word: "angel"
+
+"绪儿-异域风天使 xuer Angel of the exotic wind":
+  trigger_word: "xuer Angel of the exotic wind"
+
+"绪儿-摄影用布景_v1.0":
+  trigger_word: "photography backdrop"
+
+"绪儿-水下摄影_v1.0":
+  trigger_word: "underwater photography"
+
+"绪儿-水墨龙 Ink Painting":
+  trigger_word: "Chinese dragon"
+
+"绪儿-海底世界 Underwater world":
+  trigger_word: "Underwater world"
+
+"1990_V1.0":
+  trigger_word: "1990_V1.0"
+
+"3DMM_V12":
+  trigger_word: "3DMM"
+
+"Colorwater_v4":
+  trigger_word: "Colorwater_v4"
+
+"FilmVelvia3":
+  trigger_word: "FilmVelvia3"
+
+"ghibli_style_offset":
+  trigger_word: "ghibli style"
+
+"Ghibli_v6":
+  trigger_word: "Ghibli_v6"
+
+"huyefo-v1.0":
+  trigger_word: "huyefo"
+
+"huyefo2-000008":
+  trigger_word: "huyefo2-000008"
+
+"MoXinV1":
+  trigger_word: "shuimobysim, wuchangshuo, bonian, zhenbanqiao, badashanren"
+
+"Urushihara Satoshi_v3":
+  trigger_word: "Urushihara Satoshi_v3"
+
+"Urushihara_satoshi_style_v01":
+  trigger_word: "Urushihara_satoshi_style_v01"
+
+"Uruv1":
+  trigger_word: "urushihara satoshi"
+
+"shinkiro":
+  trigger_word: "shinkiro"
+
+"theovercomer8sContrastFix_sd15":
+  trigger_word: "to8contrast style"
+
+"theovercomer8sContrastFix_sd21768":
+  trigger_word: "theovercomer8sContrastFix_sd21768"
+
+"to8contrast":
+  trigger_word: "to8contrast"
+
+"Tsukasa Hojo":
+  trigger_word: "Tsukasa Hojo"
+
+"Xiaorenshu_v15":
+  trigger_word: "sgyy, shz"
+
+"xrs2.0":
+  trigger_word: "xrs2.0"
+
+"国风水墨插画_v1.0":
+  trigger_word: "国风水墨插画_v1.0"
+
+"立体插画·风格_v1.0":
+  trigger_word: "立体插画·风格_v1.0"
+
+"美树本晴彦V3":
+  trigger_word: "美树本晴彦V3"
+
+"theovercomer8sContrastFix_sd15":
+  trigger_word: "to8contrast style"
+
+"to8contrast":
+  trigger_word: "to8contrast"
+
+"DB_Android_18_V1":
+  trigger_word: "DB_Android_18_V1"
+
+"MGS_Quiet_S1-2-3-4":
+  trigger_word: "MGS_Quiet_S1-2-3-4"
+
+"Tekken_lily_xl":
+  trigger_word: "tekken 8_lily"
+
+"tifa_re_sdxl_V1_01-000006":
+  trigger_word: "tifa7re, tifa_outfit"
+
+"20240205_spring_dragon_checkpoint-4000":
+  trigger_word: "CN_SP style, chinese dragon"
+
+"Conan_Edogawa_江戸川コナン_-_Detective_Conan_名探偵コナン_-_Pony_Comission":
+  trigger_word: "conan edogawa, brown hair, blue eyes, glasses,"
+
+"Gakkou_SDXL_V1":
+  trigger_word: "Gakkou_SDXL_V1"
+
+"Goku_Pony_XL (1)":
+  trigger_word: "Goku_Pony_XL (1)"
+
+"HikariHorakiXL":
+  trigger_word: "HikariHorakiXL"
+
+"Himura_Kenshin_-_Rurouni_Kenshin_2023_Pony":
+  trigger_word: "Himura_Kenshin_-_Rurouni_Kenshin_2023_Pony"
+
+"hitomi_ponybase_1-1-000008":
+  trigger_word: "hitomi_ponybase_1-1-000008"
+
+"IngridXL_3224":
+  trigger_word: "IngridXL_3224"
+
+"Katsura Masakazu_XL":
+  trigger_word: "Katsura Masakazu_XL"
+
+"Katsura Masakazu_XL_PONY(1)":
+  trigger_word: "Ai Amano, Yoshizuki iori, Karin Aoi, Itsuki Akiba, Shadow Lady"
+
+"Katsura Masakazu_XL_PONY":
+  trigger_word: "Ai Amano, Yoshizuki iori, Karin Aoi, Itsuki Akiba, Shadow Lady"
+
+"Kosuke Fujishima × Matsubara Hidenori_XL":
+  trigger_word: "Kosuke Fujishima × Matsubara Hidenori_XL"
+
+"Kosuke Fujishima_XL":
+  trigger_word: "Kosuke Fujishima_XL"
+
+"kudou_yukiko_XL-bf16-pony-v1":
+  trigger_word: "kudou_yukiko_XL-bf16-pony-v1"
+
+"launch_pony_v1.0":
+  trigger_word: "launch_pony_v1.0"
+
+"m1sat0mbm1XL_Pony_v1":
+  trigger_word: "m1sat0mbm1XL_Pony_v1"
+
+"Sadamoto Yoshiyuki_XL_PONY":
+  trigger_word: "Sadamoto Yoshiyuki_XL_PONY"
+
+"Sadamoto Yoshiyuki_XL_V3":
+  trigger_word: "Sadamoto Yoshiyuki_XL_V3"
+
+"Shinichi_Kudo_工藤_新一_-_Detective_Conan_名探偵コナン_-_Pony":
+  trigger_word: "Shinichi_Kudo_工藤_新一_-_Detective_Conan_名探偵コナン_-_Pony"
+
+"stasis_tank_v0.3-pony":
+  trigger_word: "stasis_tank_v0.3-pony"
+
+"Super_Saiyan_4_Caulifla_SDXL-000006":
+  trigger_word: "Super_Saiyan_4_Caulifla_SDXL-000006"
+
+"Takahashi Rumiko_XL":
+  trigger_word: "Takahashi Rumiko_XL"
+
+"TgirlsXL":
+  trigger_word: "TgirlsXL"
+
+"Tsukasa Hojo_XL":
+  trigger_word: "Tsukasa Hojo_XL"
+
+"Tsukasa Hojo_XL_PONY":
+  trigger_word: "Tsukasa Hojo_XL_PONY"
+
+"Urushihara Satoshi_XL_PONY_V2":
+  trigger_word: "Urushihara Satoshi_XL_PONY_V2"
+
+"Urushihara Satoshi_XL_V2":
+  trigger_word: "Urushihara Satoshi_XL_V2"
+
+"xrayglasses-style-XL":
+  trigger_word: "xrayglasses-style-XL"
+
+"Alita1024-2024":
+  trigger_word: "Alita1024-2024"
+
+"Cine Princesses":
+  trigger_word: "Cine Princesses"
+
+"derv-r4punzel-SDXL-(0.4)Civit":
+  trigger_word: "derv-r4punzel-SDXL-(0.4)Civit"
+
+"tifa_re_sdxl_V1_01-000006":
+  trigger_word: "tifa7re, tifa_outfit"
+
+"3D模型丨可爱化SDXL版_v2.0":
+  trigger_word: "MG_ip"
+
+"add-detail-xl":
+  trigger_word: "add-detail-xl"
+
+"Dragon_Ball_Background_Pony_XL":
+  trigger_word: "{Kayoshin | Kami | Karin | Kaito}, {|Land, Desert, Snow, Mountains, Forest, City}, {|Planet Namek | Kame House | Goku House | Gohan House | Tournament | Cell Game}, {|Capsule | Ship | Caramel}, {|Time | Snake | Caos}"
+
+"Dragon_Ball_Backgrounds_XL":
+  trigger_word: "{Kayoshin | Kami | Karin | Kaito}, {Land | Desert | Snow | Mountains | Forest | City}, {Namek | Kamehouse | Gokuhouse | Gohanhouse | Tournament | Cellgame}, {|Ship | Capsule | Caramel}, {|Caos | Time | Snake}"
+
+"Gakkou_SDXL_V1":
+  trigger_word: "kyoshitsu, kaidan, rouka"
+
+"XL绪儿-panda":
+  trigger_word: "panda"
+
+"Dragon Ball_XL":
+  trigger_word: "son goku, piccolo, vegeta, Frieza, Cell, krillin, Majin Buu, Raditz, android 17, android 18, bulma, chi-chi _(dragon ball_), trunks _(dragon ball_)"
+
+"FF_Lulu_S1-2-3-4":
+  trigger_word: "FF_Lulu_S1-2-3-4"
+
+"FF_Rikku_S1-2-3-4":
+  trigger_word: "FF_Rikku_S1-2-3-4"
+
+"FilmVelvia2":
+  trigger_word: "FilmVelvia2"
+
+"Goku_Pony_XL":
+  trigger_word: "Goku, Serious, Sayan1, Sayan2, Namek, 0%, 25%, 50%, 75%, 100%, Aura, Pissedoff, Screaming, Bolts, Smile, Atack, Posture, Attaking, Ki, Preparing, Kame, Tired, Dbsuper, Heat, Crossed, Sayantrunks, Bye"
+
+"hyvideo_FastVideo_LoRA-fp8":
+  trigger_word: "hyvideo_FastVideo_LoRA-fp8"
+
+"IngridXL_3224":
+  trigger_word: "Ingrid, 1girl, mature female, dark skinned female, pink hair, long hair, hair intakes, lipstick, purple lips, makeup, yellow eyes, mole under mouth, helloutfit, high collar, underboob, elbow gloves, highleg panties, thigh boots, midriff, cape, bare shoulders, black blazer, no bra, pencil skirt, black miniskirt, high heels, short hair, single hair bun, glasses, striped jacked, striped skirt, fishnet pantyhose, high heels, underwear, lace bra, wedding dress, bridal veil, bridal gauntlets, high heels"
+
+"Inoue Takehiko_XL":
+  trigger_word: "Sakuragi Hanamichi, Rukawa Kaede, Akagi Takenori, Mitsui Hisashi, Miyagi Ryota, Haruko Akagi, Inoue Ayako"
+
+"Katsura Masakazu_XL":
+  trigger_word: "Ai Amano, Yoshizuki iori, Karin Aoi"
+
+"Kosuke Fujishima × Matsubara Hidenori_XL":
+  trigger_word: "Belldandy, Skuld, Urd"
+
+"Kosuke Fujishima_XL":
+  trigger_word: "Belldandy, Skuld, Urd"
+
+"MGS_QuietV2_S1-2-3-4":
+  trigger_word: "MGS_QuietV2_S1-2-3-4"
+
+"MS_Real_XL_Tentacles":
+  trigger_word: "tentacles"
+
+"JillNSFW":
+  trigger_word: "JillNSFW"
+
+"Kosuke Fujishima_XL":
+  trigger_word: "Belldandy, Skuld, Urd"
+
+"NsfwPovAllInOneLoraSdxl-000009":
+  trigger_word: "blowjob, butterfly sex, cumshot, doggy style, fivesome, foodtease, foursome, handjob, licking cock, orgasming, reverse gang bang, reversecowgirl, riding cowgirl, self stroking, sidefuck, teasing, threesome, titty fucking, undressing"
+
+"nswf_last":
+  trigger_word: "completely nude, NSFW, nude"
+
+"UpskirtNakedXL":
+  trigger_word: "upskirt naked, no_panties"
+
+"xrayglassesXL":
+  trigger_word: "xrayglasses"
+
+"nudify_xl_lite":
+  trigger_word: "large breasts, nude"
+
+"re ada wong":
+  trigger_word: "re ada wong, re2 style dress, re4 style dress, incognito coat, ada holding gun"
+
+"Rachel":
+  trigger_word: "Rachel"
+
+"SH_ModelV2":
+  trigger_word: "SH_ModelV2"
+
+"yaya_XL_1_-000005":
+  trigger_word: "yaya"
+
+"Sadamoto Yoshiyuki_XL_PONY":
+  trigger_word: "{souryuu asuka langley | ayanami rei | nadia la arwall | katsuragi misato | ikari shinji, 1boy | nagisa kaworu, 1boy}"
+
+"Sadamoto Yoshiyuki_XL_V2":
+  trigger_word: "{souryuu asuka langley | ayanami rei | katsuragi misato | ikari shinji | nagisa kaworu | nadia la arwall}"
+
+"Sadamoto Yoshiyuki_XL_V3":
+  trigger_word: "{souryuu asuka langley | ayanami rei | makinami mari illustrious | katsuragi misato | ikari shinji | nagisa kaworu | nadia la arwall}"
+
+"sd_xl_offset_example-lora_1.0":
+  trigger_word: "sd_xl_offset_example-lora_1.0"
+
+"Son_Goku_Sayan_XL":
+  trigger_word: "{Sayan Namek | SayanI | SayanII}, {Clothes 0% Broken | Clothes 25% Broken | Clothes 50% Broken | Clothes 75% Broken | Clothes 100% Broken}, {Sayan Super | Screaming | Serious | smile | pissed off | tired}, {Back | Kame, Ki | hand attack | Lightning bolts | Preparing | attacking | Posture | Heart}"
+
+"Super_Saiyan_4_Caulifla_SDXL-000006":
+  trigger_word: "Super_Saiyan_4_Caulifla, 1girl, (crop top:1), long black hair, body fur, red fur"
+
+"Takahashi Rumiko_XL":
+  trigger_word: "{Inuyasha | Higurashi Kagome | Sesshoumaru | Kikyo | ranma-chan | shampoo (ranma 1/2) | lum}"
+
+"Tekken_lily_xl":
+  trigger_word: "tekken 8_lily"
+
+"TgirlsXL":
+  trigger_word: "penis, {erect penis | flaccid penis | small penis | large penis}"
+
+"Tsukasa Hojo_XL":
+  trigger_word: "{Saeba Ryo | Makimura Kaori}"
+
+"Urushihara Satoshi_XL":
+  trigger_word: "Urushihara Satoshi_XL"
+
+"Urushihara Satoshi_XL_PONY_V2":
+  trigger_word: "Urushihara Satoshi_XL_PONY_V2"
+
+"Urushihara Satoshi_XL_V2":
+  trigger_word: "Urushihara Satoshi_XL_V2"
+
+"xl_invisible person(a3)":
+  trigger_word: "transparent, invisible person, no body"
+
+"xl_x-ray_glasses(a3.1)-000009":
+  trigger_word: "x-ray glasses, 1girl, solo, eyewear view, breasts,"
+
+"xrayglasses-style-XL":
+  trigger_word: "xrayglasses"
+
+"yuanyao_V1":
+  trigger_word: "yuanyao"
+
+"ziling_V1":
+  trigger_word: "ziling"
+
+"万享场景_LORA_v30":
+  trigger_word: "万享场景_LORA_v30"
+
+"公孙杏7步":
+  trigger_word: "GSX"
+
+"单个自定义图标-ArienSoloIconXL_矩阵压缩v1":
+  trigger_word: "单个自定义图标-ArienSoloIconXL_矩阵压缩v1"
+
+"国画 _ 水墨 _ 山水画 SDXL_青绿山水 XL":
+  trigger_word: "国画 _ 水墨 _ 山水画 SDXL_青绿山水 XL"
+
+"0156 bubble bath_v1":
+  trigger_word: "ruanyi0156, soap bubbles, nude, bathing, barefoot, nipples"
+
+"0156 bubble bath_xl_v1":
+  trigger_word: "ruanyi0156, soap bubbles, nude, bathing, barefoot, nipples,"
+
+"060-Cats Eye-Kisugi Hitomi-IL V2":
+  trigger_word: "kisugi hitomi, retro artstyle, 1980s (style), film grain, black hair, long hair, brown eyes, bodysuit, blue bodysuit, high heels, sash, bare shoulders, yellow sash, cleavage, breasts, collarbone,"
+
+"060-Cats Eye-Kisugi Hitomi":
+  trigger_word: "kisugi hitomi, retro artstyle, 1980s (style), film grain, black hair, long hair, brown eyes, bodysuit, blue bodysuit, high heels, sash, bare shoulders, yellow sash, cleavage, breasts, collarbone,"
+
+"061-Cats Eye-Kisugi Rui-IL V4":
+  trigger_word: "Kisugi Rui, 1980s (style), film grain, retro artstyle, mature female, black hair, long hair, lipstick, (mole under mouth:0.8), blue eyes, purple bodysuit, bare shoulders, bodysuit, cleavage, breasts, cyan sash, sash,"
+
+"061-Cats Eye-Kisugi Rui":
+  trigger_word: "Kisugi Rui, 1980s (style), film grain, retro artstyle, mature female, black hair, long hair, lipstick, (mole under mouth:0.8), blue eyes, purple bodysuit, bare shoulders, bodysuit, cleavage, breasts, high heels, cyan sash, sash,"
+
+"062-Cats Eye-Kisugi Ai-IL V3":
+  trigger_word: "Kisugi Ai, 1980s (style), film grain, retro artstyle, black hair, short hair, brown eyes, bodysuit, orange bodysuit, (red sash:1.1), sash,"
+
+"062-Cats Eye-Kisugi Ai":
+  trigger_word: "Kisugi Ai, 1980s (style), film grain, retro artstyle, black hair, short hair, bodysuit, orange bodysuit, red sash, sash,"
+
+"80sv1":
+  trigger_word: "1980s (style)"
+
+"90s_pony":
+  trigger_word: "90s_pony"
+
+"a7-000012":
+  trigger_word: "a7"
+
+"accidental_exposure":
+  trigger_word: "accidental exposure, panties, skirt lift, bag"
+
+"adjusting_clothes_ass_v0.1-pony":
+  trigger_word: "adjusting clothes"
+
+"AIイラストおじさん (2)":
+  trigger_word: "AIイラストおじさん (2)"
+
+"ai宋玉songyu-F.1-lora-000006":
+  trigger_word: "Xsong1yu2K"
+
+"ai宋玉songyu优化-凡人修仙传-F.1-v0.8":
+  trigger_word: "XsongyuYK2"
+
+"ai慕沛灵mupeiling-凡人修仙传-F.1-v0.9":
+  trigger_word: "Xmupeiling2"
+
+"akane tendo_xl_v2":
+  trigger_word: "akane tendo_xl_v2"
+
+"AMLC_XL":
+  trigger_word: "AMLC"
+
+"amzn-000019":
+  trigger_word: "amzn-000019"
+
+"anime_minimalist_v1-000020":
+  trigger_word: "anime minimalist"
+
+"animefeetv4":
+  trigger_word: "animefeetv4"
+
+"animemix_v3_offset":
+  trigger_word: "animemix_v3_offset"
+
+"ArielXL_character-12":
+  trigger_word: "ArielXL, shell bikini, bare shoulders, monster girl, mermaid, tail, long sleeves, blue skirt, hair bow, black corset, Pink, hair ornament, jewelry, puffy sleeves, pink dress, off-shoulder dress, lipstick, Anime screencap,"
+
+"ArmorSuit_v1":
+  trigger_word: "armorsuit"
+
+"ass_support_object_v0.1-pony":
+  trigger_word: "ass support"
+
+"ass_up_wait_feet.v2":
+  trigger_word: "ass up wait feet"
+
+"attire_nakedbandage-12":
+  trigger_word: "naked bandage, claw pose"
+
+"badbroirezumi3":
+  trigger_word: "tattoo, irezumi,"
+
+"baobao_pony_0_-000006":
+  trigger_word: "baobao, china_skirt"
+
+"Barely_Hidden_Sex":
+  trigger_word: "peeksex, behind door"
+
+"BArtstyleREv3-CF3-Lion":
+  trigger_word: "blue sky, blue theme, pink theme, purple theme, red theme, yellow theme, grey theme"
+
+"BetterStandingPussy 0.1":
+  trigger_word: "BSP"
+
+"bluethebone1.9":
+  trigger_word: "1980s (style), bluethebone"
+
+"bodychainV2":
+  trigger_word: "photorealistic, uncensored, nipples, breasts"
+
+"BondageOutfitV2":
+  trigger_word: "bondage outfit, harness, o-ring"
+
+"breasts afterimage32-000012":
+  trigger_word: "breasts afterimage"
+
+"breasts_on_glass":
+  trigger_word: "breasts_on_glass, nipples, breast press, against glass, navel, completely nude, large breasts,"
+
+"Broken-15":
+  trigger_word: "Broken-15"
+
+"caught_cheating_v0.3d":
+  trigger_word: "caught"
+
+"character_sheet":
+  trigger_word: "character_sheet"
+
+"chikan_v3.1":
+  trigger_word: "chikan_v3.1"
+
+"chp1920s_v1.0":
+  trigger_word: "chp1920s"
+
+"CityH_Shindo-000008":
+  trigger_word: "Shindo, 1girl, solo, long wavy brown hair, black corset-style top with ruffled straps and a central ring at the front, high-waisted red pencil skirt, gold earrings, bare shoulders, cleavage, collarbone, green eyes, medium breasts, sleevesless"
+
+"clearswimsuit":
+  trigger_word: "nsfw, see-through, swimsuit, clearswimsuit"
+
+"clothing_explosion_lora01":
+  trigger_word: "torn clothes"
+
+"Concept-dogezaV5-000007":
+  trigger_word: "dogeza"
+
+"Concept-pilloryV2":
+  trigger_word: "pillory"
+
+"Concept_Large_insertion_ILv3":
+  trigger_word: "CSLI"
+
+"cowgirl_with_hands_on_knees_v1.0":
+  trigger_word: "pov, astride, thrusting"
+
+"Creampie_v11":
+  trigger_word: "Creampie_v11"
+
+"crop_shirt_underboob":
+  trigger_word: "crop shirt underboob, crop top, underboob"
+
+"cum on any v3":
+  trigger_word: "cum on"
+
+"cumshot_49":
+  trigger_word: "cum string, ejaculation, cum on face, taking a cumshot on her face, cumshot"
+
+"cumwaka":
+  trigger_word: "cumwaka"
+
+"daili_v20":
+  trigger_word: "1girl, solo, lips, looking at viewer, realistic, breasts, underwear, long hair, brown eyes, panties, black hair, sitting, bra, brown hair, medium breasts, cleavage, jewelry, bare shoulders, hair ornament, twintails, short hair, earrings, school uniform, serafuku, foot focus, twin braids, china dress, chinese clothes"
+
+"danglinglegs":
+  trigger_word: "dangling legs, full body, barefoot, size difference"
+
+"dao_kindergarten":
+  trigger_word: "a kindergarten"
+
+"ddmt_v3":
+  trigger_word: "mascaraTears"
+
+"dizhonghai":
+  trigger_word: "dizhonghai"
+
+"Doggyv0.2":
+  trigger_word: "Doggyv0.2"
+
+"doraemon-7":
+  trigger_word: "1boy, doraemon"
+
+"downblouse-v1":
+  trigger_word: "downblouse, loose t-shirt, leaning forward"
+
+"dunhuang_v20":
+  trigger_word: "dunhuang_cloths, dunhuang_style, dunhuang_background, dunhuang_dress, dunhuang_fan"
+
+"EkunePOVFellatioV2":
+  trigger_word: "povfellatio, 1boy, penis"
+
+"EkuneSideDoggy":
+  trigger_word: "sidedoggystyle, 1boy, ass, doggystyle, sex"
+
+"electric-fan":
+  trigger_word: "electric fan"
+
+"exmicronew":
+  trigger_word: "micro bikini"
+
+"explodingclothes_il":
+  trigger_word: "exploding clothes, torn clothes, convenient censoring, surprised, blush, looking down, wide-eyed, constricted pupils, open mouth, emphasis lines, wind"
+
+"exposepanty-strong":
+  trigger_word: "accidental exposure panties"
+
+"Expressive_H-000001":
+  trigger_word: "Expressiveh"
+
+"extreme_bukkake_v0.1-pony":
+  trigger_word: "excessive cum"
+
+"Fan Jingmei Pony":
+  trigger_word: "fan jingmei, brown hair, blue eyes, hair ornament, forehead ornament, jewelry, earrings, bare shoulders, detached sleeves, dress"
+
+"Feng BaoBao S4＆S5-IL V1":
+  trigger_word: "Feng BaoBao, long hair, solo, black hair, 1girl, long hair, black eyes, FengBaoBao Text Clothes, White T-shirt, clothing writing, green pants, Black and white sports shoes, FengBaoBao dress Outfit, Indigo flower decorative headband, Light colored long sleeved shirt, Light blue long skirt, black and white sports shoes, brown baseball cap, dirty, dirty face, Q-version emoticon，O_O，"
+
+"Feng BaoBao 冯宝宝":
+  trigger_word: "Feng Bao Bao, long hair, black hair, grey eyes, White T-shirt, Blue denim overalls, Blue and white sneakers,"
+
+"Fluent_Emoji-hard":
+  trigger_word: "Fluent_Emoji-hard"
+
+"Folded":
+  trigger_word: "folded, <lora:foldedpose_v1:0.7>"
+
+"FRONT1-000025":
+  trigger_word: "FRONT1-000025"
+
+"fucsil1-000011":
+  trigger_word: "fucsil1-000011"
+
+"gangbang_v3.0":
+  trigger_word: "gangbang, group sex, orgy, multiple boys, penis"
+
+"genshinfull1-000006":
+  trigger_word: "kukishinobudef, luminedef, doridef, fischldef, keqingdef, lisadef, raidenshogundef, yaemikodef, kujousaradef, beidoudef, dionadef, ganyudef, kamisatoayakadef, shenhedef, euladef, rosariadef, qiqidef, layladef, niloudef, kokomidef, yelandef, monadef, barbaradef, candacedef, colleidef, yaoyaodef, nahidadef, faruzandef, jeanfavonian, sucrosedef, sayudef, xianglingdef, dehyadef, yoimiyadef, kleedef, hutaodef, xinyandef, amber5star, yanfeidef, noelledef, yunjindef, ningguangdef"
+
+"Girls in Glass Jars v3":
+  trigger_word: "in glass jar, shrunken"
+
+"GrabOwnAss-DIM1":
+  trigger_word: "(hands on own ass), (grabbing own ass), ass stretch, ass spread"
+
+"guided_grab_twohands_xl":
+  trigger_word: "guided breast grab, guiding hand, grabbing"
+
+"guochaochahua":
+  trigger_word: "guochaochahua"
+
+"hand_in_panties_v0.82":
+  trigger_word: "hand in panties"
+
+"handpull-12":
+  trigger_word: "handpull"
+
+"HaremDancer_v1":
+  trigger_word: "harem outfit, dancer, mouth veil, face veil, dancing, see-through"
+
+"Haruhiko Mikimoto_XL_PONY":
+  trigger_word: "Haruhiko Mikimoto_XL_PONY"
+
+"Hayase Misa":
+  trigger_word: "Hayase Misa, retro artstyle, 1980s (style), 1girl, brown hair, solo, long hair, green eyes, uniform, military uniform, military, official style, Skirt,"
+
+"hipoly_3dcg_v7-epoch-000012":
+  trigger_word: "hipoly_3dcg_v7-epoch-000012"
+
+"HugeASS":
+  trigger_word: "HugeASS"
+
+"iLLMythM4gicalL1nes":
+  trigger_word: "M4gicalL1nes"
+
+"illustrious_XL_minmei":
+  trigger_word: "minmei"
+
+"illustriousXLv01_stabilizer_v1.164":
+  trigger_word: "illustriousXLv01_stabilizer_v1.164"
+
+"Inoue Ayako":
+  trigger_word: "Inoue Ayako, hat, shirt, pink shirt, smile, baseball cap, upper body, ponytail, retro artstyle, 1990s (style), brown hair, backwards hat,"
+
+"Inoue Takehiko_illustriousXL":
+  trigger_word: "Sakuragi Hanamichi, Rukawa Kaede, Akagi Takenori, Mitsui Hisashi, Miyagi Ryota, Haruko Akagi, Inoue Ayako"
+
+"Inoue Takehiko_XL_PONY":
+  trigger_word: "Sakuragi Hanamichi, Rukawa Kaede, Akagi Takenori, Mitsui Hisashi, Miyagi Ryota"
+
+"inside_creature_v0.4-pony":
+  trigger_word: "vore"
+
+"IPV1":
+  trigger_word: "1boy, penis, imminent penetration, lying, on back, spread legs."
+
+"iyanakao":
+  trigger_word: "iyanakao"
+
+"Japanese fantasy style":
+  trigger_word: "Japanese fantasy style"
+
+"jianzhihuav10":
+  trigger_word: "jianzhihuav10"
+
+"jim_lee_offset_right_filesize":
+  trigger_word: "jim lee"
+
+"KK_paperCut_v1":
+  trigger_word: "paper_cut"
+
+"lactationIllustrious":
+  trigger_word: "lactation, stain lactation, lactation through clothes"
+
+"lbc_pony_wedding dress_126-000006":
+  trigger_word: "lbc_gd_wedding dress"
+
+"LCM_LoRA_Weights_SDXL":
+  trigger_word: "LCM_LoRA_Weights_SDXL"
+
+"Liana_Langrisser1-KK77-V1":
+  trigger_word: "Liana_Langrisser1-KK77-V1"
+
+"lihanyi-000019":
+  trigger_word: "1girl, chinese clothes, cloak, chinese wedding dress, brown eyes, black hair"
+
+"LiquidClothesV2":
+  trigger_word: "liquid clothes, water"
+
+"lksecaiV2":
+  trigger_word: "lksecai"
+
+"logo_v1-000012":
+  trigger_word: "logo"
+
+"LogoRedmondV2-Logo-LogoRedmAF":
+  trigger_word: "logo, logoredmaf"
+
+"loong2-000015":
+  trigger_word: "loong"
+
+"Lulu3216NoobAI-VpredMinSNR":
+  trigger_word: "Lulu (ff10), 1girl, mature female, red eye, hair over one eye, one eye covered, hair ornament, hair stick, black hair, single hair bun, multiple braids, jewelry, purple bead necklace, pearl necklace, mole under mouth, eyeshadow, purple lips, curvy, huge breasts, cleavage, bare shoulders, off shoulder dress, black dress, fur trim, multiple belts, black thighhighs, lace thighhighs, knee boots, high heels, lace-up boots"
+
+"m99_labiaplasty_pussy_2":
+  trigger_word: "m99_labiaplasty_pussy_2"
+
+"masturbation-v1":
+  trigger_word: "masturbation, fingering, female_masturbation, grabbing_own_breast"
+
+"masturbation-v1":
+  trigger_word: "masturbation, fingering, female_masturbation, grabbing_own_breast"
+
+"masusu_breast":
+  trigger_word: "masusu_breast"
+
+"mating_press_v0.2-pony":
+  trigger_word: "mating press"
+
+"mercury_v2":
+  trigger_word: "mer1, tiara, sailor senshi uniform, blue sailor collar, bow, knee boots, choker, white gloves, blue choker, elbow gloves, jewelry, earrings, blue skirt"
+
+"MeshSGILL":
+  trigger_word: "see-through, serafuku, crop top"
+
+"miaoLan_165":
+  trigger_word: "miaoLan_165"
+
+"miaozu_flux_lora":
+  trigger_word: "miaozu"
+
+"mignon":
+  trigger_word: "shiny skin, see-through, sweat, wet, stomach"
+
+"miniature_V1":
+  trigger_word: "mini(ttp), miniature, isometric, landscape"
+
+"Misa_Hayase_pony_v1":
+  trigger_word: "Misa_Hayase_pony_v1"
+
+"misery_illustrious_ver2":
+  trigger_word: "misery, pointy ears, green eyes, two-tone hair, green hair, purple hair, long hair, hair over one eye, wavy hair,"
+
+"misery_pony_ver2":
+  trigger_word: "misery, pointy ears, green eyes, two-tone hair, green hair, purple hair, long hair, hair over one eye, wavy hair,"
+
+"modern_anime_screencap_v1_0":
+  trigger_word: "anime screencap"
+
+"MS_Real_LegsUpPresenting":
+  trigger_word: "1girl, pussy, solo, anus, lying, ass, spread legs, on back, legs up"
+
+"MS_Real_PantsDown":
+  trigger_word: "ass, from behind, clothes pull, pants, underwear, looking back, pants pull, anus, pussy, undressing"
+
+"MS_Real_POV_Blowjob":
+  trigger_word: "1girl, penis, hetero, 1boy, fellatio, oral, solo focus, pov"
+
+"msw_locon-t2":
+  trigger_word: "msw_locon-t2"
+
+"mtu_virusIllustrious":
+  trigger_word: "mtu virus, multiple views"
+
+"Myojin_Yahiko_-_Rurouni_Kenshin2023_Pony":
+  trigger_word: "Myojin_Yahiko, black hair, brown eyes, spiked hair, japanese clothes, dougi, white kimono, armor, shinai on back, shinai, weapon, sword, weapon on back, holding weapon, shinai, weapon, holding weapon, weapon, wooden sword, holding wooden sword,"
+
+"NEW ERA_v2.1":
+  trigger_word: "retro artstyle, 1990s (style), 1980s (style), 2000s (style)"
+
+"newb_0.1":
+  trigger_word: "newb_0.1"
+
+"newERANewEstheticRetro_newErav50NAIEpsilon":
+  trigger_word: "1990s (style), 1980s (style), 2000s (style), retro artstyle"
+
+"Newspaper":
+  trigger_word: "newspaper background"
+
+"NijiExpressV2":
+  trigger_word: "NijiExpressV2"
+
+"nipple tweak【nipple tweak】":
+  trigger_word: "nipple tweak"
+
+"no_bra_v20-10":
+  trigger_word: "no_bra, covered_nipples"
+
+"Nobuko Izumi (泉 信子)":
+  trigger_word: "izuminobuko, brown hair, brown eyes, medium-length hair, mature woman, big breasts, white shirt, pink sweater, hip skirt"
+
+"nursing_handjob_v0.1-pony":
+  trigger_word: "nursing handjob"
+
+"nursing_handjob_v0.3":
+  trigger_word: "nursing handjob, breast sucking"
+
+"odanon-v1.5newcraft-lora-naivae-128dim-block":
+  trigger_word: "oda non"
+
+"oneFingerSelfieChallange":
+  trigger_word: "holding phone, covering nipples, covering crotch, mirror, reflection"
+
+"OPP":
+  trigger_word: "OPP"
+
+"Osamu Tezuka":
+  trigger_word: "Mighty Atom, Black Jack"
+
+"pantpulldown":
+  trigger_word: "pantpulldown,"
+
+"Parasyte-shinichi 寄生獸 - 新一":
+  trigger_word: "shinichi, 1boy"
+
+"Parasyte_ILLUS_c":
+  trigger_word: "c-parasyte, blade"
+
+"partially_underwater_shot_v0.1-pony-dim8fp16":
+  trigger_word: "partially underwater shot"
+
+"PartyAnimals_1.1":
+  trigger_word: "In Party Animals Style"
+
+"pixel sprites":
+  trigger_word: "pixel, pixel art, pixelart, xiangsu, xiang su"
+
+"pixel-art-xl-v1.1":
+  trigger_word: "pixel-art-xl-v1.1"
+
+"pixel-Illustrius":
+  trigger_word: "pixel"
+
+"pixel_f2":
+  trigger_word: "pixel"
+
+"pk_trainer_xl_v1":
+  trigger_word: "pk_trainer_xl_v1"
+
+"PMS_v001_4":
+  trigger_word: "p_m_s"
+
+"pony blender style_blenderNSFW-000009":
+  trigger_word: "blender style, tifa, tracer, loba"
+
+"Pony_Ghibli_style":
+  trigger_word: "Pony_Ghibli_style"
+
+"povcun-000015":
+  trigger_word: "povcun"
+
+"POVDoggy":
+  trigger_word: "POVDoggy"
+
+"povFacesitting":
+  trigger_word: "from below"
+
+"PovFromBelowV1":
+  trigger_word: "pov, from below"
+
+"POVPaizuri":
+  trigger_word: "1boy, breasts, paizuri, penis"
+
+"presenting_panties_v0.3":
+  trigger_word: "holding panties, presenting panties"
+
+"presentingpanties-10":
+  trigger_word: "presentingpanties, panties, holding, holding panties"
+
+"Qing_Style-000015":
+  trigger_word: "Qing style"
+
+"qqq-grabbing_from_behind-v2-000006":
+  trigger_word: "grabbing from behind, breast grab"
+
+"Ranma_Boy_-Gal_remake-000023":
+  trigger_word: "ranma_girlV2, breast, pink hair, braided ponytail, ranma_boyV2, male focus, black hair, braided ponytail, tangzhuangV2, GreenUni, Ranmahat, Ranmma_leotard"
+
+"reika_33":
+  trigger_word: "reika(gantz), reika(bodysuit), reika(shortsuit), reika(coat)"
+
+"RetroAnimeFluxV1":
+  trigger_word: "RetroAnimeFluxV1"
+
+"reverse_upright_straddle_v0.2-pony":
+  trigger_word: "reverse upright straddle, legs together, spread legs"
+
+"RG Veda_XL":
+  trigger_word: "Asura, Yaksha, Garuda, Nagas, Peacock, Gandharva"
+
+"ridingsexscene_Flux_SMF_V01":
+  trigger_word: "A photo of a woman, ridingsexscene, ridingsexscene, nude"
+
+"Round_Breasts_Noob_Vpred_1_5LR_v2":
+  trigger_word: "round breasts, small breasts, medium breasts, large breasts, huge breasts, breasts apart, breasts together"
+
+"rukawa_sd_v1":
+  trigger_word: "rukawa_sd_v1"
+
+"Sagara_Sanosuke_-_Rurouni_Kenshin2023_Pony":
+  trigger_word: "Sagara Sanosuke, brown hair, brown eyes, headband, spiked hair, dougi, sarashi, weapon, huge weapon, sword,"
+
+"see-through leotard-000004":
+  trigger_word: "see-through leotard"
+
+"SelfBreastGrab":
+  trigger_word: "sbg, breast grab, breast lift, nipples"
+
+"SheerSkirtV2":
+  trigger_word: "sheer skirt, sheer dress, sheer jacket, bikini"
+
+"shinkai_makoto_offset":
+  trigger_word: "shinkai makoto, kimi no na wa., tenki no ko, kotonoha no niwa"
+
+"shirt_tug":
+  trigger_word: "shirt, naked shirt, shirt tug"
+
+"SideFellatio":
+  trigger_word: "sidefellatio, fellatio, from side, 1boy, penis"
+
+"sikongqianluo-000017":
+  trigger_word: "1girl, heterochromia"
+
+"sitting_handjob_v0.3":
+  trigger_word: "1girl, 1boy, sitting, handjob, couple"
+
+"sketch_sumiao":
+  trigger_word: "sketch, sumiao"
+
+"smbody_20230910012123-000018":
+  trigger_word: "smbody_20230910012123-000018"
+
+"songyan":
+  trigger_word: "1girl, black hair, chinese clothes, china dress, brown eyes, breasts"
+
+"songyan_v1":
+  trigger_word: "songyan"
+
+"Spooning Posititon":
+  trigger_word: "spooning, sex, on side, spread legs, leg lift"
+
+"StS_age_slider_v1_initial_release":
+  trigger_word: "StS_age_slider_v1_initial_release"
+
+"suspensionIllustrious":
+  trigger_word: "suspension"
+
+"table_humping_v0.2-pony":
+  trigger_word: "table humping"
+
+"takada_akemi_offset":
+  trigger_word: "takada akemi, painting (medium), retro artstyle, traditional media, watercolor (medium), 1980s (style)"
+
+"Takahashi Rumiko character style_bx-v1.05":
+  trigger_word: "Takahashi Rumiko character style_bx-v1.05"
+
+"tamiyaryoko -Parasyte":
+  trigger_word: "tamiyaryoko, purple hair, grey eyes, medium hair, swept bangs, mature female, collarbone, jacket, formal, suit, white suit, pencil skirt,"
+
+"tangzhonghan_living room":
+  trigger_word: "tangzhonghan_living room"
+
+"TheMating":
+  trigger_word: "matingpress, 1boy, penis, sex, lying, on back, spread legs, vaginal, mating press"
+
+"tied_wrist":
+  trigger_word: "tied_wrist"
+
+"tifav2":
+  trigger_word: "tifa lockhart, red_eyes, black hair, long hair"
+
+"toriyama_akira_3":
+  trigger_word: "toriyama akira"
+
+"towelPony":
+  trigger_word: "naked towel, bath towel"
+
+"Tsukasa Hojo_FLUX":
+  trigger_word: "Tsukasa Hojo_FLUX"
+
+"Tsukasa Hojo_illustriousXL":
+  trigger_word: "{Saeba Ryo | Makimura Kaori | Hitomi Kisugi}"
+
+"Upright_front_pony-000010":
+  trigger_word: "1boy, upright straddle, straddling, girl on top, sitting, both hands on both another’s shoulders"
+
+"upright_leg_lock_2":
+  trigger_word: "1boy, hetero, sex, upright straddle, leg lock, girl on top"
+
+"Urushihara Satoshi_FLUX":
+  trigger_word: "Urushihara Satoshi_FLUX"
+
+"Urushihara Satoshi_illustriousXL":
+  trigger_word: "Urushihara Satoshi_illustriousXL"
+
+"urushihara3_resize":
+  trigger_word: "urushihara3_resize"
+
+"urushihara_satoshi-10":
+  trigger_word: "urushihara_satoshi-10"
+
+"Vector_illustration_XL":
+  trigger_word: "color icon"
+
+"Vore_Internals_Illustrious-XL":
+  trigger_word: "inside a stomach, stomach interior"
+
+"Walk-in_caught_by_Fire_Keeper-000004":
+  trigger_word: "Walk-in_caught_by_Fire_Keeper-000004"
+
+"whale_tail_clothing_pdxl_goofy":
+  trigger_word: "whaletail, highleg panties, pants"
+
+"wlop52xllora-016":
+  trigger_word: "realistic, blurry"
+
+"wuxia":
+  trigger_word: "wuxia"
+
+"x-ray_glassesPony":
+  trigger_word: "x-ray vision"
+
+"X南宫婉Xnangongwan-flux-lora-000005":
+  trigger_word: "Xnangongwan"
+
+"X元瑶Xyuanyao-flux-lora-000005":
+  trigger_word: "Xyuanyao"
+
+"X宋玉songyu-F.1-lora-000007":
+  trigger_word: "Xsong1yu2K"
+
+"X宋玉songyu优化-凡人修仙传-F.1-v0.9":
+  trigger_word: "XsongyuYK"
+
+"X慕沛灵mupeiling-凡人修仙传-F.1-v0.9":
+  trigger_word: "Xmupeiling"
+
+"X紫灵新服XzilingX-flux-lora-000005":
+  trigger_word: "XzilingX"
+
+"y2b_v2-1":
+  trigger_word: "hm2b, black blindfold, covered eyes, mole under mouth, clothing cutout, long sleeves, puffy sleeves, juliet sleeves, feather trim, black thighhighs, black gloves, black dress, black skirt, hm2b, black blindfold, covered eyes, mole under mouth, clothing cutout, long sleeves, puffy sleeves, juliet sleeves, feather trim, black thighhighs, black gloves, covered navel, (white leotard:1.2)"
+
+"yuanyao_sd35_epoch07":
+  trigger_word: "yuanyao"
+
+"Yukishiro_Tomoe_雪代巴_-_Rurouni_Kenshin_Tsuioku-Hen_浪客剑心_追忆篇-000009":
+  trigger_word: "yukishiro tomoe, 1990s (style), black eyes, long hair, black hair, japanese clothes, purple kimono, japanese clothes, white kimono, low onytail, hair ribbon,"
+
+"YuzoTakada_illustriousXL":
+  trigger_word: "Yakumo Fujii, Parvati Ⅳ, retro artstyle"
+
+"Zi Ling Pony V9":
+  trigger_word: "zi ling, long hair, black hair, blue eyes, hair ornament, veil, mouth veil, jewelry, necklace, purple dress"
+
+"zyd232_ChineseInkStyle_SDXL_v1_0":
+  trigger_word: "zydink, ink sketch"
+
+"zyd232_Ink_Style_Flux1D_v1_1":
+  trigger_word: "zydInk"
+
+"zyd232_InkStyle_v1_0":
+  trigger_word: "zydink, monochrome, ink sketch"
+
+"八大山人画风-000009":
+  trigger_word: "chineseLandscapepainting"
+
+"室内浅蓝欧式风格专用（老陈）_v2.0":
+  trigger_word: "Lao Chen, indoor"
+
+"室内设计意大利风格（老陈）_V2.0":
+  trigger_word: "Lao Chen, indoor"
+
+"室内设计法式风格（老陈）_V2.0":
+  trigger_word: "Lao Chen, indoor"
+
+"室内设计轻奢风格LORA（精）_V2.0":
+  trigger_word: "Lao Chen, indoor"
+
+"轻奢风格沙发背景（老陈）_V.20":
+  trigger_word: "Lao Chen, indoor"
+
+"黄色搭配现代风格专用（老陈）_v2.0":
+  trigger_word: "Lao Chen, indoor"
+
+"现代轻奢风格客厅专用（精2）_v3.0":
+  trigger_word: "Lao Chen, indoor"
+
+"少年歌行-叶若依":
+  trigger_word: "yeruoyi"
+
+"少年歌行-唐莲":
+  trigger_word: "tanglian"
+
+"少年歌行-天女蕊2":
+  trigger_word: "tiannv"
+
+"少年歌行-无心":
+  trigger_word: "wuxin"
+
+"少年歌行-李寒衣":
+  trigger_word: "lihanyi"
+
+"扎哈风格zaha":
+  trigger_word: "zaha"
+
+"文思月优化8步":
+  trigger_word: "WENSIYUE"
+
+"永生-方清雪-v50":
+  trigger_word: "fangqingxue"
+
+"画风 2023大雄与天空的乌托邦（doraemon）":
+  trigger_word: "doraemon"
+
+"空灵幻想-幻想风格Ethereal_fantasy-fantasy_fresh_style":
+  trigger_word: "illustration"
+
+"绪儿 电影剧照-xuer film still":
+  trigger_word: "xuer film still"
+
+"范静梅优化8步":
+  trigger_word: "FJM"
+
+"野比大雄 -多啦A梦- Nobi Nobita":
+  trigger_word: "Nobi Nobita"
+
+"韩立":
+  trigger_word: "Hanli, realistic, long hair, brown eyes, facial hair, black hair, 1 boy,"
+
+"高瑶":
+  trigger_word: "gaoyao"
+
+"黑格美式风格":
+  trigger_word: "American style"
+
+"nsfw\0348 plastic wrap 2_v1":
+  trigger_word: "ruanyi0348, see-through, bottomless,"
+
+"nsfw\afb v1.5":
+  trigger_word: "afb, from behind"
+
+"nsfw\AfterSexMS":
+  trigger_word: "after sex, cum, lying, cumdrip, ass, on stomach, on back, fucked silly, sweat, cum pool, bukkake, trembling"
+
+"4k4n3_rnm":
+  trigger_word: "tendou akane, retro artstyle, 1990s (style)"
+
+"akane tendo_xl_v2":
+  trigger_word: "akane tendo_xl_v2"
+
+"k4sum1_rnm-10":
+  trigger_word: "tendou kasumi, 1990s (style)"
+
+"kasumi-10":
+  trigger_word: "kasumi"
+
+"kodachi_rnm-08":
+  trigger_word: "kunou kodachi, 1990s (style)"
+
+"kunou__kodachi":
+  trigger_word: "rose, 1990s style, ponytail, {school uniform | green leotard, ribbon gymnastic}"
+
+"nabiki_rnm-08":
+  trigger_word: "tendou nabiki, 1990s (style)"
+
+"r4nm4_c_rnm-08":
+  trigger_word: "ranma-chan, retro artstyle, 1990s (style)"
+
+"ranma_shampoo_1_2":
+  trigger_word: "rm_shampu"
+
+"Ryouga_Hibiki":
+  trigger_word: "Ryouga Hibiki, black hair, bangs, yellow bandana, brown eyes"
+
+"sh4mp00_rnm":
+  trigger_word: "shampoo (ranma 1/2), retro artstyle, 1990s (style)"
+  
 default:
   trigger_word: ""
   prompt: ""

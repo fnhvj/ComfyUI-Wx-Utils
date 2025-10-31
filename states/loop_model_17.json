@@ -1,0 +1,12 @@
+{
+  "inputs": {
+    "model_path": "D:\\Ai\\Graphics\\ComfyUI-aki-v1.7\\ComfyUI\\models\\loras\\pony\\characters\\柯南",
+    "start_index": 1,
+    "next_index": 1,
+    "end_index": 999999,
+    "mode": "正向",
+    "refresh": false
+  },
+  "last_processed_index": 2,
+  "expected_next_index": 3
+}

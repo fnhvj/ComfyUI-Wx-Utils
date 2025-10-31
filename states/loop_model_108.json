@@ -1,0 +1,10 @@
+{
+  "current_position": 2,
+  "inputs": {
+    "model_path": "loras",
+    "start_index": 2,
+    "end_index": 5,
+    "mode": "随机",
+    "refresh": false
+  }
+}

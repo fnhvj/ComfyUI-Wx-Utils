@@ -1,0 +1,9 @@
+{
+  "current_index": 0,
+  "inputs": {
+    "search_path": "models/checkpoints",
+    "start_index": 1,
+    "end_index": 10,
+    "mode": "forward"
+  }
+}

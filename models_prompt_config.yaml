@@ -1,52 +1,3019 @@
-4Guofeng4XL_v12.safetensors:
-  sd_version: ""
+juggernautXL_juggernautX:
+  sd_version: "SDXL Turbo"
   trigger_word: ""
-  prompt: "((extremely detailed CG)),((8k_wallpaper)),(masterpiece),best quality,high resolution illustration,hyperdetailed,highres,((Overexposure)),bare shoulders,(Upper body),head tilt,seiza,seductive smile,1girl,long hair,beautiful_face,Highly detailed and beautiful eyes,(an extremely delicate and beautiful),(Beautiful and detailed facial depiction),Mature women Chinese antique clothing,White and blue Taoist robe,earrings,necklace,Winter snow,"
+  prompt: ""
+  negative_prompt: ""
+  cfg: 2.0
+  steps: 8
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+juggernautXL_ragnarokBy:
+  sd_version: "SDXL Turbo"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 2.0
+  steps: 8
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+juggernautXL_v8Rundiffusion:
+  sd_version: "SDXL Turbo"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 2.0
+  steps: 8
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+juggernautXL_juggXIByRundiffusion:
+  sd_version: "SDXL Turbo"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 2.0
+  steps: 8
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+4Guofeng4XL_v12:
+  sd_version: "SDXL 1.0"
+  trigger_word: "((extremely detailed CG)), ((8k_wallpaper)), (masterpiece), best quality, high resolution illustration, hyperdetailed, highres, ((Overexposure))"
+  prompt: "bare shoulders, Upper body, head tilt, seiza, seductive smile, 1girl, long hair, beautiful_face, Highly detailed and beautiful eyes, (an extremely delicate and beautiful), (Beautiful and detailed facial depiction), Mature women, Chinese antique clothing, White and blue Taoist robe, earrings, necklace, Winter snow,"
   negative_prompt: "(((simple background))),monochrome,lowres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry,lowres,bad anatomy,bad hands,text,error,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry,ugly,pregnant,vore,duplicate,morbid,mut ilated,tran nsexual,hermaphrodite,long neck,mutated hands,poorly drawn hands,poorly drawn face,mutation,deformed,blurry,bad anatomy,bad proportions,malformed limbs,extra limbs,cloned face,disfigured,gross proportions,(((missing arms))),(((missing legs))),(((extra arms))),(((extra legs))),pubic hair,plump,bad legs,error legs,username,blurry,bad feet,"
-  cfg: 8.5
-  steps: 60
+  cfg: 9
+  steps: 30
   sampler_name: euler_ancestral
   scheduler: Karras
-  clip_skip: 2
+  clip_skip: -2
   vae_name: ""
-  seed: 1312342312
-  denoise: ""
+  seed: 1615590053
+  denoise: 1.0
 abyssorangemix3AOM3_aom3a1b:
-  sd_version: ""
-  trigger_word: ""
-  prompt: "((extremely detailed CG)),((8k_wallpaper)),(masterpiece),best quality,high resolution illustration,hyperdetailed,highres,((Overexposure)),bare shoulders,(Upper body),head tilt,seiza,seductive smile,1girl,long hair,beautiful_face,Highly detailed and beautiful eyes,(an extremely delicate and beautiful),(Beautiful and detailed facial depiction),Mature women Chinese antique clothing,White and blue Taoist robe,earrings,necklace,Winter snow,"
-  negative_prompt: "(((simple background))),monochrome,lowres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry,lowres,bad anatomy,bad hands,text,error,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry,ugly,pregnant,vore,duplicate,morbid,mut ilated,tran nsexual,hermaphrodite,long neck,mutated hands,poorly drawn hands,poorly drawn face,mutation,deformed,blurry,bad anatomy,bad proportions,malformed limbs,extra limbs,cloned face,disfigured,gross proportions,(((missing arms))),(((missing legs))),(((extra arms))),(((extra legs))),pubic hair,plump,bad legs,error legs,username,blurry,bad feet,"
+  sd_version: "SD 1.5"
+  trigger_word: "masterpiece, best quality, ultra-detailed, illustration, contrast."
+  prompt: "1girl, solo, outdoors, camping, night, mountains, nature, stars, moon, tent, twin ponytails, green eyes, cheerful, happy, backpack, sleeping bag, camping stove, water bottle, mountain boots, gloves, sweater, hat, flashlight, forest, rocks, river, wood, smoke, shadows, clear sky, constellations, Milky Way, peaceful, quiet, tranquil, remote, secluded, adventurous, exploration, escape, independence, survival, resourcefulness, challenge, perseverance, stamina, endurance, observation, intuition, adaptability, creativity, imagination, artistry, inspiration, beauty, awe, wonder, gratitude, appreciation, relaxation, enjoyment, rejuvenation, mindfulness, awareness, connection, harmony, balance, texture, detail, realism, depth, perspective, composition, color, light, shadow, reflection, refraction, tone, foreground, middle ground, background, naturalistic, figurative, representational, impressionistic, expressionistic, abstract, innovative, experimental, unique."
+  negative_prompt: "(worst quality, low quality:1.4), (realistic, lip, nose, tooth, rouge, lipstick, eyeshadow:1.0), (dusty sunbeams:1.0),, (abs, muscular, rib:1.0), (depth of field, bokeh, blurry:1.4), (greyscale, monochrome:1.0), text, title, logo, signature,watermark,"
+  cfg: 7
+  steps: 20
+  sampler_name: dpmpp_sde
+  scheduler: Karras
+  clip_skip: -2
+  vae_name: "orangemix.vae"
+  seed: 3379703337
+  denoise: 1.0
+《唯》· 超高清写实重制典藏版 _ OnlyRealistic _v30 典藏版:
+  sd_version: "SD 1.5"
+  trigger_word: "solo, standing, full body, colorful, aesthetics, atmosphere, (chinese_style_loft:1.4)"
+  prompt: "1girl, goddess, sexy, big chest, women, long wavy hair, (slender face:1.2), (beautiful:1.2), (thigh:1.1), (smile:0.8), (floral print dress:1.2)"
+  negative_prompt: "(deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime, mutated hands and fingers:1.4), (deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, disconnected limbs, mutation, mutated, ugly, disgusting, amputation, BadDream, UnrealisticDream, cropped,"
   cfg: 8.5
   steps: 60
   sampler_name: euler_ancestral
   scheduler: Karras
-  clip_skip: 2
+  clip_skip: -2
   vae_name: ""
   seed: 1312342312
-  denoise: ""
-"《唯》· 超高清写实重制典藏版 _ OnlyRealistic _v30 典藏版":
+  denoise: 1.0
+onlyrealistic_v30BakedVAE:
   sd_version: ""
   trigger_word: ""
-  prompt: "((extremely detailed CG)),((8k_wallpaper)),(masterpiece),best quality,high resolution illustration,hyperdetailed,highres,((Overexposure)),bare shoulders,(Upper body),head tilt,seiza,seductive smile,1girl,long hair,beautiful_face,Highly detailed and beautiful eyes,(an extremely delicate and beautiful),(Beautiful and detailed facial depiction),Mature women Chinese antique clothing,White and blue Taoist robe,earrings,necklace,Winter snow,"
-  negative_prompt: "(((simple background))),monochrome,lowres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry,lowres,bad anatomy,bad hands,text,error,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry,ugly,pregnant,vore,duplicate,morbid,mut ilated,tran nsexual,hermaphrodite,long neck,mutated hands,poorly drawn hands,poorly drawn face,mutation,deformed,blurry,bad anatomy,bad proportions,malformed limbs,extra limbs,cloned face,disfigured,gross proportions,(((missing arms))),(((missing legs))),(((extra arms))),(((extra legs))),pubic hair,plump,bad legs,error legs,username,blurry,bad feet,"
-  cfg: 8.5
-  steps: 60
+  prompt: "aesthetics, atmosphere, goddess women, Art by Herv  Guibert, (art by Salvador Dal :1), Octane render, Cycles render, Water color painting, Warlord, Acclaimed hair styled as Mermaid waves, Foggy, dripping Navy Blue, romanticism,"
+  negative_prompt: "(deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.4), text, cropped, out of frame, (worst quality, low quality:2), jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck,"
+  cfg: 7
+  steps: 40
+  sampler_name: dpmpp_2m_sde
+  scheduler: ""
+  clip_skip: -2
+  vae_name: ""
+  seed: 2679039633
+  denoise: 1.0
+pornmasterPro_noobV3VAE:
+  sd_version: "SDXL 1.0"
+  trigger_word: ""
+  prompt: "realistic,photorealistic,masterpiece,best quality,newest,highres,absurdres,photo, cosplay photo,photo (medium), dslr, real life, real life insert, real world location, photo background"
+  negative_prompt: "lowres, worst aesthetic, bad quality, worst quality, bad anatomy, jpeg artifacts, scan artifacts, lossy-lossless, unfinished, ugly, poorly drawn, greyscale, (illustration, 2d, 2.5D, 3d, painting (medium), toon (style), sketch, comic, anime,flat color,outline,smooth skin:1.2) watermark, text, extra digits"
+  cfg: 7.0
+  steps: 25
+  sampler_name: dpmpp_2m
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 816562717
+  denoise: 1
+pornmasterPro_noobV5:
+  sd_version: "SDXL 1.0"
+  trigger_word: ""
+  prompt: "perfect mix between Carnage from Marvel and Godzilla, with Carnage's red tentacles protruding from his entire body, destroying city, blood, epic, (cataclysmic, white eyes like venom, gargantuan, taller than buildings, oversized, gigantic:1.9), absurdres, best quality, fantasy style,(intricate details), (hyperdetailed), 8k hdr, high detailed, lot of details, high quality, soft cinematic light, dramatic atmosphere, atmospheric perspective"
+  negative_prompt: "3d, low quality, worst quality, mutation, deformed hands, ( three arms or more, three hands or more, three legs or more, three feet or more, comics style:1.6)"
+  cfg: 7.0
+  steps: 20
+  sampler_name: dpmpp_2m
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 816562717
+  denoise: 1
+rundiffusionXL_beta:
+  sd_version: "SDXL 1.0"
+  trigger_word: "hdr, national geographic photography, 4k, Ultra-HD"
+  prompt: "beautiful photograph of a Siberian tiger, detailed fur, detailed eyes, eastern Russia background"
+  negative_prompt: "drawing, painting, crayon, sketch, graphite, impressionist, cartoon, noisy, blurry, soft, deformed, ugly"
+  cfg: 5.0
+  steps: 25
   sampler_name: euler_ancestral
-  scheduler: Karras
-  clip_skip: 2
-  vae_name: ""
-  seed: 1312342312
-  denoise: ""
-another_model.safetensors:
-  sd_version: ""
-  trigger_word: ""
-  prompt: "some prompt here"
-  negative_prompt: "some negative prompt here"
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+AnythingXL_xl:
+  sd_version: "SDXL 1.0"
+  trigger_word: "{newest,2021 to 2024| recent,2018 to 2020|mid,	2015 to 2017|early, 2011 to 2014| old,2005 to 2010 },Best quality、((fuzichoco, butterchalk, yoshinari you, mika pikazo))、one-hour drawing challenge、masterpiece、newest、absurdres、safe、crossover"
+  prompt: "1girl、genshin、Touhou Project、Honkai StarRail、mamimi(mamamimi)、blade(galaxist)、school uniform、blunt bangs、holding pokemon、open mouth、on head、blue background、looking at viewer、straight-on、one eye closed、white shirt、pokemon(creature)、index finger raised、collared shirt、smile、animal、shirt、brown eyes、wing collar、blunt ends、teeth、long sleeves、hime cut、black hair、long hair、necktie、purple eyes、tongue、portrait、purple necktie、;3、blue necktie、animal on head、grin、holding、cat"
+  negative_prompt: "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, artist name"
   cfg: 7.0
   steps: 30
   sampler_name: dpmpp_2m
   scheduler: karras
-  clip_skip: 1
-  vae_name: ""
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2159421391
+  denoise: 1.0
+LahHongchenSDXLSD15_sdxlV10:
+  sd_version: "SDXL 1.0"
+  trigger_word: "masterpiece, best quality, illustration, simple background"
+  prompt: "1girl, solo, jewelry, long hair, brown eyes, earrings, looking at viewer, brown hair, upper body, lips, shirt, blush, eyelashes, closed mouth"
+  negative_prompt: "(worst quality:1.5), (low quality:1.5), (normal quality:1.5), lowres, bad anatomy, bad hands, multiple eyebrow, (cropped), extra limb, missing limbs, deformed hands, long neck, long body, (bad hands), signature, username, artist name, conjoined fingers, deformed fingers, ugly eyes, imperfect eyes, skewed eyes, unnatural face, unnatural body, error, painting by bad-artist layman work, worst quality, ugly, (deformed|distorted|disfigured:1.21), poorly drawn, bad anatomy, wrong anatomy, mutation, mutated, (mutated hands AND fingers:1.21), bad hands, bad fingers, loss of a limb, extra limb, missing limb, floating limbs, amputation, Yaeba, photo, deformed, black and white, realism, disfigured, low contrast,"
+  cfg: 7.0
+  steps: 40
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2159421391
+  denoise: 1.0
+aamXLAnimeMix_v10:
+  sd_version: "SDXL 1.0"
+  trigger_word: "8K, RAW, best quality, masterpiece, ultra high res, colorful, (medium wide shot), (dynamic perspective), sharp focus, (depth of field, bokeh:1.3), ((masterpiece, best quality))"
+  prompt: "1girl, mecha suit, samurai face mask, menpo, upper body, underboob, portrait, white orange armor, blonde shimmering hair, extremely detailed eyes and face, beautiful detailed eyes, large breasts, black gold, trimmed gear, In a futuristic weapons factory, niji, from side, hips"
+  negative_prompt: "(low quality, worst quality:1.4), negativeXL_D, cgi,  text, signature, watermark, extra limbs"
+  cfg: 7.0
+  steps: 28
+  sampler_name: "euler_ancestral"
+  scheduler: "karras"
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2540058664
+  denoise: 1.0
+animagineXLV31_v31:
+  sd_version: "SDXL 1.0"
+  trigger_word: "masterpiece, high score, great score, absurdres"
+  prompt: "1girl, hatsune miku, vocaloid, sensitive, blue eyes, blue hair, bowl, can, chopsticks, collared shirt, detached sleeves, eating, elbow rest, fish (food), food, holding, holding chopsticks, katsudon (food), long hair, long sleeves, looking at viewer, meal, nail polish, necktie, noodles, onigiri, plate, ramen, sashimi, shirt, shrimp, shrimp tempura, sleeveless shirt, spring onion, tempura, twintails"
+  negative_prompt: "lowres, bad anatomy, bad hands, text, error, missing finger, extra digits, fewer digits, cropped, worst quality, low quality, low score, bad score, average score, signature, watermark, username, blurry"
+  cfg: 5.0
+  steps: 28
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
   seed: 0
-  denoise: ""
+  denoise: 1.0
+animagineXL40_v4Opt:
+  sd_version: "SDXL 1.0"
+  trigger_word: "masterpiece，high score，great score，absurdres"
+  prompt: "1girl，hatsune miku，vocaloid，sensitive，blue eyes，blue hair，bowl，can，chopsticks，collared shirt，detached sleeves，eating，elbow rest，fish (food)，food，holding，holding chopsticks，katsudon (food)，long hair，long sleeves，looking at viewer，meal，nail polish，necktie，noodles，onigiri，solo，plate，ramen，sashimi，shirt，shrimp，shrimp tempura，sleeveless shirt，spring onion，tempura，twintails"
+  negative_prompt: "lowres, bad anatomy, bad hands, text, error, missing finger, extra digits, fewer digits, cropped, worst quality, low quality, low score, bad score, average score, signature, watermark, username, blurry"
+  cfg: 5.0
+  steps: 28
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+autismmixSDXL_autismmixConfetti:
+  sd_version: "SDXL 1.0"
+  trigger_word: "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, BREAK source_anime, rating_explicit, comic, bottomless, open mouth, 2koma, navel, sex from behind, alcohol, beer, ^ ^, torogao"
+  prompt: "drunk, girl on top, pussy, 1boy, 1girl, beer can, blush, breasts, breasts apart, camisole, camisole lift, can, cleavage, collarbone, drink can, hetero, holding, holding can, instant loss, medium breasts, nipples, penis, reverse cowgirl position, sex, smile, stomach, straddling, sweat, tears, testicles, thighhighs, torso grab, vaginal, artoria pendragon, drunk, holding, straddling, spread legs, clothes lift, shirt lift, open clothes, bangs, pubic hair, teeth, braid, ribbon"
+  negative_prompt: "3d"
+  cfg: 7.0
+  steps: 28
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1219640910
+  denoise: 1.0
+bluePencilXL_v600:
+  sd_version: "SDXL 1.0"
+  trigger_word: "anime, dappled sunlight, field, food print, from below, glowing, glowing petals, outdoors, petals, sunlight, sunset, masterpiece, best quality"
+  prompt: "1other, solo, ahoge, brown eyes, brown hair, dress, green dress, long hair, long sleeves, looking down, off shoulder, off-shoulder dress, parted lips, print dress, floating hair"
+  negative_prompt: ""
+  cfg: 5.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1718535198
+  denoise: 1.0
+boleromixSDXL_v20Animagine4:
+  sd_version: "SDXL 1.0"
+  trigger_word: "masterpiece, high score, great score, absurdres, vivid, ultra-detailed line, ultra-detailed background, clear skin, shiny hair, real skin"
+  prompt: "cute girl, cute face, kawaii, beautiful eyes, petite girl, small breasts, 1girl, solo, (oni girl, long bangs, white hair, Round eyebrows:1), (short hair, bob cut, white forehead horns, short horns, pink hair tips, pink eyes:1), pink kimono, black obi"
+  negative_prompt: "lowres, bad anatomy, worst quality,bad quality,lowres,bad fingers,extra fingers,extra legs,missing legs,missing fingers,text, error, extra digits, fewer digits, cropped, low score, bad score, average score, signature, watermark, username, blurry,messy hair,censored,bar censored,poor color"
+  cfg: 7.0
+  steps: 30
+  sampler_name: euler
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+dreamnovamix_v10:
+  sd_version: "SDXL 1.0"
+  trigger_word: "4n1v3rs3"
+  prompt: "score_9, score_8_up, score_7_up, sunset, rubble in the background, depth of field, dynamic angle, fashion photography, sharp, short white hair, blue eyes, black dress, (black panties:1.5), hairband, clothing cutout, cleavage cutout, puffy sleeves, black hairband, feather-trimmed sleeves, juliet sleeves, mole under mouth, (light smile:0.3)"
+  negative_prompt: "score_4, score_ 5, score_6, (worst quality:1.3), cracks in the skin, piercing, muscular woman, deformed, distorted, disfigured, bad anatomy, missing legs, extra legs, extra limbs, cloned face, blur, blurry, low resolution, low quality, jpeg artifacts, watermark, signature, text, error, ugly, bad proportions, bad face, unrealistic, mutated, cross-eye, fused eyes, poorly drawn face"
+  cfg: 7.0
+  steps: 35
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+fiamixXLHNSFW_v11:
+  sd_version: "SDXL 1.0"
+  trigger_word: "abstract:1.2, nude, nsfw"
+  prompt: "(girl), highly detailed beautiful face and eyes, beautiful hair, bob hair, blunt bangs, (black hair:1.4), (Red ribbon on the back of the hair:1.2), (Snakoruru), kirakira skin, (small stature, medium breast), Resolute yet gentle nature, smile sweetly, A grand waterfall cascades down a deep valley, surrounded by lush greenery. the splashes of water and detailed foliage to depict the scenic beauty of the valley. Focus on the details of the plants, the spray of the waterfall, and other elements to evoke the breath of nature"
+  negative_prompt: ""
+  cfg: 6.0
+  steps: 40
+  sampler_name: dpmpp_3m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2387575766
+  denoise: 1.0
+katayamaMixXLV2_katayamaMixXLV2:
+  sd_version: "SDXL 1.0"
+  trigger_word: "realistic, best quality, masterpiece, (Style by Agnes Cecile:1.2)"
+  prompt: "A woman with long wavy hair gazes upwards against a backdrop of city lights illuminated in vibrant hues of purple and blue"
+  negative_prompt: "deformed, (bad quality:1.3), (worst quality:1.2), grainy, noisy, plastic, hazy, extra leg, bad hands, bad feet, mutation, (low res:1.3), (normal quality:1.2), missing finger, extra finger, mutated fingers, (plastic:1.4), (glossy:1.2)"
+  cfg: 4.0
+  steps: 120
+  sampler_name: dpmpp_3m_sde_gpu
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 893780613394198
+  denoise: 1.0
+LahHongchenSDXLSD15_sdxlV10.civitai:
+  sd_version: "SDXL 1.0"
+  trigger_word: "masterpiece, best quality, realistic, cyberpunk, science fiction, blurry"
+  prompt: "1girl, armor, helmet, lips, nose, power armor, solo, upper body"
+  negative_prompt: "(worst quality:1.5), (low quality:1.5), (normal quality:1.5), lowres, bad anatomy, bad hands, multiple eyebrow, (cropped), extra limb, missing limbs, deformed hands, long neck, long body, (bad hands), signature, username, artist name, conjoined fingers, deformed fingers, ugly eyes, imperfect eyes, skewed eyes, unnatural face, unnatural body, error, painting by bad-artist layman work, worst quality, ugly, (deformed|distorted|disfigured:1.21), poorly drawn, bad anatomy, wrong anatomy, mutation, mutated, (mutated hands AND fingers:1.21), bad hands, bad fingers, loss of a limb, extra limb, missing limb, floating limbs, amputation, Yaeba, photo, deformed, black and white, realism, disfigured, low contrast,"
+  cfg: 7.0
+  steps: 40
+  sampler_name: dpmpp_2m
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 786461005
+  denoise: 1.0
+tzigoanimemixXL_v063B:
+  sd_version: "SDXL 1.0"
+  trigger_word: "(ethereal dark fairy tale by Nicola Samori, JC Leyendecker), realistic, photorealistic, high detailed background, depth of field, bokeh, (masterpiece:1.2), (best quality:1.2), ultra-detailed, best shadow, detailed background, high contrast, (best illumination, an extremely delicate and beautiful), 8k, very aesthetic."
+  prompt: "young girl sitting in a dark forest, holding a bloody katana with the tip pointing up, dark kimono, (dark + gothic, + foreboding background:1.4), (realistic skin texture), ((cinematic light)), intricate details"
+  negative_prompt: "bad quality, bad anatomy, worst quality, low quality, low resolution, extra fingers, blur, blurry, ugly, wrong proportions, watermark, image artifacts, lowres, ugly, jpeg artifacts, deformed, noisy image, blurry background,"
+  cfg: 8.0
+  steps: 40
+  sampler_name: dpmpp_2m
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1882119924
+  denoise: 1.0
+waiNSFWIllustrious_v130:
+  sd_version: "SDXL 1.0"
+  trigger_word: "masterpiece, best quality, amazing quality, very aesthetic, newest, absurdres, highres, dynamic angle, dynamic pose, excessive pubes, happy trail, testicles, gay, male focus, sweating"
+  prompt: "young 1boy, muscular, defined muscles, veins, sweaty, blush, seductive, horny, bedroom, naked, brown hair, no facial hair, watch on right wrist, thin gold necklace, squatting on bed, legs spread, head facing upwards, eyes closed, erotic grin, tongue sticking out, massive penis, precum, cum pool, holding penis with both hands"
+  negative_prompt: "(lowres:1.2), (worst quality:1.4), low quality, large head, extra digits, bad eyes, monochrome, bad anatomy, bad hands, bad feet, fewer digits, extra digits, deformed, mutant, signature, artist name, ugly face, mutated hands, blurry face, blurry, fat, chubby, jpeg_artifacts, gif_artifacts, grainy, sketch, wip, uncolored, censored, scan, female genitals, female genitalia, vagina, cunt, clit, breasts, (feminine, 1girl, girl, female, woman:1.4), easynegative, facial hair"
+  cfg: 4.0
+  steps: 40
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+whitexlRealisticmix_alpha01:
+  sd_version: "SDXL 1.0"
+  trigger_word: "best quality, photo (medium), realistic, epic, film grain, grainy, highly detailed, detailed skin texture"
+  prompt: "1girl, solo, dress, long hair, outdoors, photo background, smile, arm up, brown hair, water, sleeveless, blue dress, sleeveless dress, brown eyes, v, building, looking at viewer, river, black hair, standing, (extremely detailed face:1.2), (extremely detailed eyes:1.2), gorgeous"
+  negative_prompt: "(worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, grayscale, bw, bad photo, bad photography, bad art:1.4), (watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name:1.2), (blur, blurry, grainy), morbid, ugly, asymmetrical, mutated malformed, mutilated, poorly lit, bad shadow, draft, cropped, out of frame, cut off, censored, jpeg artifacts, out of focus, glitch, duplicate, (airbrushed, cartoon, anime, semi-realistic, cgi, render, blender, digital art, manga, amateur:1.3), (3D ,3D Game, 3D Game Scene, 3D Character:1.1), (bad hands, bad anatomy, bad body, bad face, bad teeth, bad arms, bad legs, deformities:1.3),"
+  cfg: 5.0
+  steps: 20
+  sampler_name: dpmpp_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1560994306
+  denoise: 1.0
+animaPencilXL_v500:
+  sd_version: "SDXL 1.0"
+  trigger_word: "cloud, cloudy sky, cowboy shot, night sky, star (sky), starry sky, masterpiece, best quality"
+  prompt: "1girl, solo, indoors, black skirt, black thighhighs, blonde hair, blue eyes, blunt bangs, grey shirt, hands in pockets, long hair, long sleeves, looking at viewer, night, parted lips, pleated skirt, shirt, skirt, thighhighs"
+  negative_prompt: ""
+  cfg: 5.0
+  steps: 30
+  sampler_name: "dpmpp_2m"
+  scheduler: "karras"
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 4132960542
+  denoise: 1.0
+9527DetailRealistic_v50Bakedvae:
+  sd_version: "SDXL 1.0"
+  trigger_word: "serene, intimate portrait, shallow depth of field, classic painting, impressionistic blur, garden outside, viewer's entire focus"
+  prompt: " young woman, delicate black lace lingerie dress, sits on a plush beige couch, soft, diffused light, large window, gentle, flattering glow, skin, floral patterns of the lace, calm expression, peaceful atmosphere"
+  negative_prompt: "(worst quality, low quality, normal quality), disabled body, (ugly), sketches, (manicure:1.2), lowres, watermark,"
+  cfg: 5.0
+  steps: 50
+  sampler_name: dpmpp_2m
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "Baked VAE"
+  seed: 3941563473
+  denoise: 1.0
+9527DetailRealistic_v70Mark2:
+  sd_version: "SDXL 1.0"
+  trigger_word: "serene, intimate portrait, shallow depth of field, classic painting, impressionistic blur, garden outside, viewer's entire focus"
+  prompt: " young woman, delicate black lace lingerie dress, sits on a plush beige couch, soft, diffused light, large window, gentle, flattering glow, skin, floral patterns of the lace, calm expression, peaceful atmosphere"
+  negative_prompt: "(worst quality, low quality, normal quality), disabled body, (ugly), sketches, (manicure:1.2), lowres, watermark,"
+  cfg: 5.0
+  steps: 50
+  sampler_name: dpmpp_2m
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "Baked VAE"
+  seed: 3941563473
+  denoise: 1.0
+9527DetailRealistic_v80X215c:
+  sd_version: "SDXL 1.0"
+  trigger_word: "serene, intimate portrait, shallow depth of field, classic painting, impressionistic blur, garden outside, viewer's entire focus"
+  prompt: " young woman, delicate black lace lingerie dress, sits on a plush beige couch, soft, diffused light, large window, gentle, flattering glow, skin, floral patterns of the lace, calm expression, peaceful atmosphere"
+  negative_prompt: "(worst quality, low quality, normal quality), disabled body, (ugly), sketches, (manicure:1.2), lowres, watermark,"
+  cfg: 5.0
+  steps: 50
+  sampler_name: dpmpp_2m
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "Baked VAE"
+  seed: 3941563473
+  denoise: 1.0
+SDXLFaetastic_v24:
+  sd_version: "SDXL 1.0"
+  trigger_word: "anime, shattered reference of mind, fractured reflection, delirious, shards of a fractured and cracked face, floating broken shards, refractions, abstract."
+  prompt: "The character is shrouded in mystery and symbolism, representing the duality between light and dark, good and evil. Their appearance reflects the struggle between these forces within themselves, as well as the world around them. The main focal point of the design is the mask, which represents deception and manipulation. The eyes are hidden behind a veil of feathers, giving the impression of someone who hides their true intentions. The intricate patterns on the mask also represent the complexities of life and the choices we make. The red robes signify passion, anger, and intensity, while the white cape represents purity and protection. The overall design features a mix of organic and geometric shapes."
+  negative_prompt: "blurry, low contrast, distorted, The main focal point of the design is the mask, which represents deception and manipulation. The eyes are hidden behind a veil of feathers, giving the impression of someone who hides their true intentions. The intricate patterns on the mask also represent the complexities of life and the choices we make. The overall design features a mix of organic and geometric shapes, creating a contrast between chaos and order. This further emphasizes the internal conflict experienced by the character. The red robes signify passion, anger, and intensity, while the white cape represents purity and protection.|shattered reference of mind,  fractured reflection, delirious, shards of a fractured and cracked face, floating broken shards, refractions, abstract]"
+  cfg: 5.0
+  steps: 50
+  sampler_name: dpmpp_2m
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2124954269
+  denoise: 1.0
+brightprotonukeBPNNo_bpn13:
+  sd_version: "SDXL 1.0"
+  trigger_word: "anime, shattered reference of mind, fractured reflection, delirious, shards of a fractured and cracked face, floating broken shards, refractions, abstract."
+  prompt: "The character is shrouded in mystery and symbolism, representing the duality between light and dark, good and evil. Their appearance reflects the struggle between these forces within themselves, as well as the world around them. The main focal point of the design is the mask, which represents deception and manipulation. The eyes are hidden behind a veil of feathers, giving the impression of someone who hides their true intentions. The intricate patterns on the mask also represent the complexities of life and the choices we make. The red robes signify passion, anger, and intensity, while the white cape represents purity and protection. The overall design features a mix of organic and geometric shapes."
+  negative_prompt: "blurry, low contrast, distorted, The main focal point of the design is the mask, which represents deception and manipulation. The eyes are hidden behind a veil of feathers, giving the impression of someone who hides their true intentions. The intricate patterns on the mask also represent the complexities of life and the choices we make. The overall design features a mix of organic and geometric shapes, creating a contrast between chaos and order. This further emphasizes the internal conflict experienced by the character. The red robes signify passion, anger, and intensity, while the white cape represents purity and protection.|shattered reference of mind,  fractured reflection, delirious, shards of a fractured and cracked face, floating broken shards, refractions, abstract]"
+  cfg: 5.0
+  steps: 50
+  sampler_name: dpmpp_2m
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2124954269
+  denoise: 1.0
+epicrealismXL_v7FinalDestination:
+  sd_version: "SDXL 1.0"
+  trigger_word: ""
+  prompt: "NSFW, nude, body shot, dark photo, a evocative photo of a beautiful 25-year-old woman with her eyes closed and partially submerged in the water of a dark green bathtub in a dark scene, dark water, reflections in the water, the head is mostly submerged, visible breasts, realistic skin, skin texture, natural skin, skin pores, (skin oils:0.8), dimly lit scene, shallow depth of field, moody lighting, turquoise tiles on the wall, highly detailed, award winning photo, film grain, interesting framing, side view, exposed nude body,"
+  negative_prompt: "overhead shot, perfectly lit, young, girl, teen, nsfw, nudity, illustration, drawing, painting, 3D, render, manga, comic, cartoon, (worst quality, low quality, normal quality:2)"
+  cfg: 2.5
+  steps: 45
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1752322414
+  denoise: 1.0
+epicrealismXL_v8Kiss:
+  sd_version: "SDXL 1.0"
+  trigger_word: ""
+  prompt: "photo of a woman lying on the grass wearing a shirt with the text 'SDXL' by Victor Nizovtsev and Charlie Bowater in the style of Anka Zhuravleva and Charlie Bowater, midriff, abs, flowers"
+  negative_prompt: ""
+  cfg: 5.0
+  steps: 28
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2609744610
+  denoise: 1.0
+epicrealismxl_zeus:
+  sd_version: "SDXL 1.0"
+  trigger_word: "masterpiece, 4k, ray tracing, intricate details, highly-detailed, hyper-realistic, 8k RAW Editorial Photo, slightly elevated angle, serene and introspective expression, blurred ocean, soft blue hues, calm beach setting, tranquil mood, natural beauty, self-reflection, daylight, soft natural light, cinematic light, dramatic light, shallow depth of field, high budget, bokeh, cinemascope, film grain ISO 200, faded film, 35mm photo, grainy, vignette, vintage, Kodachrome, Lomography, stained, found footage"
+  prompt: "portrait, a young woman, fair skin, light brown hair, closed eyes, subtle smile, sleeveless black top, toned arms, left arm raised, hand on forehead, right arm over head, manicured nails, pastel pink nails, black choker necklace, dark brown beaded bracelet"
+  negative_prompt: "bad proportions, low resolution, bad, ugly, bad hands, bad teeth, terrible, painting, 3d, render, comic, anime, manga, unrealistic, flat,  watermark, signature, worst quality, low quality"
+  cfg: 3.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 710782135
+  denoise: 1.0
+fantasyRealityFusionXL_v10_chinese girls_and_hanfu:
+  sd_version: "SDXL 1.0"
+  trigger_word: "{1-2$$chinese girls|hanfu}, Best quality,chinese girls,"
+  prompt: ""
+  negative_prompt: "(worst quality, low quality, blurry, bad eye, ),(wrong hand, bad anatomy, wrong anatomy, ),(cgi, illustration, cartoon, poorly drawn, watermark),head out of frame,"
+  cfg: 7.0
+  steps: 45
+  sampler_name: dpmpp_3m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 666027930
+  denoise: 1.0
+iniverseMixXLSFWNSFW_guofeng6GV11:
+  sd_version: "SDXL 1.0"
+  trigger_word: "hanfu, "
+  prompt: ""
+  negative_prompt: ""
+  cfg: 5.0
+  steps: 30
+  sampler_name: uni_pc
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 823833407288408
+  denoise: 1.0
+leosamsHelloworldSDXL_helloworldSDXL30:
+  sd_version: "SDXL 1.0"
+  trigger_word: "cool color palette with blues and whites, high-contrast lighting, realism photograph, inspired by zena holloway, best quality"
+  prompt: "close-up image of hands submerged underwater, pale skin tones, clear ripples and reflections, young adult"
+  negative_prompt: "bad hand,bad anatomy,worst quality,ai generated images,low quality,average quality,"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+leosamsHelloworldXL_helloworldXL60:
+  sd_version: "SDXL 1.0"
+  trigger_word: "digital photography style, high-contrast edits, minimally retouched, bright background, best quality"
+  prompt: "headshot of a young Asian woman, long braided hair, serene expression, bare shoulders, wispy hair strands framing her face, soft lighting, 19 years old, smooth porcelain-like skin, looking at the camera"
+  negative_prompt: "bad hand,bad anatomy,worst quality,ai generated images,low quality,average quality,"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+leosamsHelloworldXL_helloworldXL70:
+  sd_version: "SDXL 1.0"
+  trigger_word: "conceptual art, realistic style, minimalist color scheme, smooth textures, inspired by Salvador Dalí's surrealist works, masterpiece"
+  prompt: "human hand wrapped in red and beige ribbons, isolated, plain background, light background, elongated and surreal aesthetic"
+  negative_prompt: "bad hand,bad anatomy,worst quality,ai generated images,low quality,average quality,"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+leosamsFilmgirlUltra_ultraBaseModel:
+  sd_version: "SDXL 1.0"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: "bad hand,bad anatomy,worst quality,ai generated images,low quality,average quality,"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+lzSDXL_v10:
+  sd_version: "SDXL 1.0"
+  trigger_word: ""
+  prompt: "In the shadowed frame of a (portrait photograph:1.2) rests the visage of Sun Wukong, the Monkey King, a melody of somber maroon and ashen hues. His fiery mane, a cascade of coiling smoke, conjures tales of molten turmoil, a sinister crown of untamed tumult. Emerald orbs smolder with age-old enigma, twin lanterns of forgotten lore, whilst abyssal fur undulates in sinuous ebony waves, evoking whispers of ink and gloom. A poised warrior stands, embodying strength and readiness. The intricate beauty of nature's diverse tapestry is depicted as untangled and revealed. This description evokes a haunting and mesmerizing quality, capturing the essence of both the warrior's presence and the intricate wonder of the natural world."
+  negative_prompt: "(worst quality, low quality, cgi, bad eye, worst eye, illustration, cartoon),deformed,distorted,disfigured,poorly drawn,bad anatomy,wrong anatomy,"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_3m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 325788483687122
+  denoise: 1.0
+mklanRealistic_mklan230realistic:
+  sd_version: "SDXL 1.0"
+  trigger_word: ""
+  prompt: "photo,photo, 8k portrait steaming engines, in a mecha-steampunk ,1girl, style.,"
+  negative_prompt: "(watermark:1.3),(text:1.3)"
+  cfg: 7.0
+  steps: 25
+  sampler_name: dpmpp_2m
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 889649707279881
+  denoise: 1.0
+onlyfansHotgirls_v10:
+  sd_version: "SDXL 1.0"
+  trigger_word: ""
+  prompt: "cinematic photo Closeup, Rear View, tight View, from behind, a photo of a beautiful womans Back and tights  with a tattoo of red heart print on her  big butt,naked,nsfw,8k uhd, Atmospheric haze, Atmospheric lighting, Candid camera, Cinemascope, Cinematic film still, Color graded cinematic, Dslr, Epic, Eye catchlights, Film grain, High detailed texture, High quality, Highly detailed, Highly detailed photography, Imperfections, Moody, Natural, OverallDetail, Photorealistic, Raw photo, Shallow depth of field, Shallow dof, Skin pores, Soft lighting, Very detailed, . 35mm photograph, film, bokeh, professional, 4k, highly detailed"
+  negative_prompt: "(CyberRealistic_Negative-neg), cartoon, painting, illustration, (grayscale:1.4), (worst quality:2), (low quality:2), (normal quality:2), ugly, fat, 3D rendering, asian, body multiplication, arms multiplied, neck with, long neck, nude, naked, chinese, japanese, asian, colored background, multiplied fingers, bad fingers, multiplied head, duplicate tail,malformed ears, bad horns, red skin, clean clothing, smooth fabric, realistic folds, high detail, glasses, nude long neck, drawing, painting, crayon, sketch, graphite, impressionist, noisy, blurry, soft, deformed, ugly"
+  cfg: 5.0
+  steps: 30
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+onlyfornsfw118_v20:
+  sd_version: "SDXL 1.0"
+  trigger_word: ""
+  prompt: "young white woman with dramatic makeup resembling a melted clown, deep black smokey eyes, smeared red lipstick, and white face paint streaks, wet hair falling over shoulders, dark and intense aesthetic, fashion editorial style, aged around 20 years, inspired by rick genest's zombie boy look, best quality"
+  negative_prompt: "bad hand,bad anatomy,worst quality,ai generated images,low quality,average quality,"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1904156309
+  denoise: 1.0
+pzeudo_publicRelease:
+  sd_version: "SDXL 1.0"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_7_up, HD, masterpiece, proportional, small fairy girl, sitting on giant mushroom, fantasy forest, mystical, magical, abstract, night time, starry sky, vivid, colorful fairy wings, side view, looking up"
+  negative_prompt: "score_6, score_5, score_4, anime, cartoon, worst quality, anatomical errors"
+  cfg: 5.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2709725949828395500
+  denoise: 1.0
+realisticFreedomSFW_ophelia:
+  sd_version: "SDXL 1.0"
+  trigger_word: ""
+  prompt: "boobs ,Macro ,skin ,siluette extreme close up,cinematic, low ligh, dark, side view, stage, spot light , cold colors"
+  negative_prompt: "big tits, face,"
+  cfg: 5.0
+  steps: 29
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2612542414
+  denoise: 1.0
+sagaxlZtnv_beppindx220:
+  sd_version: "SDXL 1.0"
+  trigger_word: ""
+  prompt: "A woman with long dark hair wearing a blue dress with a blue scarf and a large blue headdress with flowers., 1girl, hair flower, hair ornament, jewelry, earrings, realistic, holding, braid, blue eyes, blue dress, bracelet, lips, looking at viewer, depth of field, beads, chinese clothes, makeup, breasts, nose, detached sleeves, moon, blue flower, floating hair, female, black hair, human, clothing, plant, detailed background,"
+  negative_prompt: "five-fingers, sticky fingers, worst quality, low quality, emoji art, Emoticon, dot eye,"
+  cfg: 3.0
+  steps: 16
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1614314841
+  denoise: 1.0
+sdxl10ArienmixxlAsian_v45Pruned:
+  sd_version: "SDXL 1.0"
+  trigger_word: ""
+  prompt: "The image portrays a woman with her eyes closed, holding a white flower close to her face. She possesses short black hair and wears a light yellow dress with intricate patterns. Around her neck is a delicate silver necklace, and she has on matching silver earrings. Her nails are painted with a design that complements the overall aesthetic of the image."
+  negative_prompt: "cgi, illustration, cartoon, deformed, distorted, disfigured, poorly drawn, bad anatomy, wrong anatomy,ugly, deformed, blurry,Noisy,log,text,watermark"
+  cfg: 3.0
+  steps: 50
+  sampler_name: dpmpp_3m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2569269690
+  denoise: 1.0
+steinrealism_d1:
+  sd_version: "SDXL 1.0"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_7_up, source_photorealistic, bikini, tropical beach, shy, blush, smirk, black hair, red gradient hair, medium wave hair, hair over one eye, blue eyes, leaning forward, deep cleavage, overhang"
+  negative_prompt: "score_6, score_5, score_4, censored, bar censor, source_cartoon, source_anime"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 757216872
+  denoise: 1.0
+t3_xlVer01:
+  sd_version: "SDXL 1.0"
+  trigger_word: ""
+  prompt: "(masterpiece, best quality, realistic photo, hyperrealism, Real people), 8k, DSLR, UHD, absurdres, Ultra detailed, ((Real human skin)), (perfect anatomy, perfect hand), (best shadow, cinematic lighting), detailed background, slender, 1girl, korean, kpop idol, innocence, mysterious, Gothic detailed dress, elegance, graceful, stylish, strapless, (off shoulder), collarbone, looking at viewer, elegant pose, dynamic angle, complex shading, (cowboy shot), outdoor, street"
+  negative_prompt: "(worst quality), (low quality), (bad anatomy), monochrome, paintings, sketches, out of focus, bad proportions, blur, bad shadow, bad hands, missing fingers, bad eyes,(watermark), (muscles), excessive abs, Reference sheet, bad anatomy,"
+  cfg: 16.0
+  steps: 30
+  sampler_name: dpmpp_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3538416704
+  denoise: 1.0
+WuxiaV35XL_v30:
+  sd_version: "SDXL 1.0"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+3x3x3mixxl_v10:
+  sd_version: "Pony"
+  trigger_word: "score_9, score_8_up, score_7_up , source_anime, masterpiece, best quality, perfect anatomy , very aesthetic , absurdres ,"
+  prompt: ""
+  negative_prompt: "score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon, lowres, bad_anatomy, bad_hands, deformed anatomy, worst_quality, low_quality, normal_quality, jpeg_artifacts, signature, watermark, monochrome,very displeasing,"
+  cfg: 7.0
+  steps: 20
+  sampler_name: euler_ancestral
+  scheduler: Karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1987182771
+  denoise: 1.0  
+LahHongchenSDXLSD15_xlLightning:
+  sd_version: "SDXL Lightning"
+  trigger_word: ""
+  prompt: "masterpiece, best quality 1girl, armor, blurry, cyberpunk, helmet, lips, nose, power armor, realistic, science fiction, solo, upper body"
+  negative_prompt: "(worst quality:1.5), (low quality:1.5), (normal quality:1.5), lowres, bad anatomy, bad hands, multiple eyebrow, (cropped), extra limb, missing limbs, deformed hands, long neck, long body, (bad hands), signature, username, artist name, conjoined fingers, deformed fingers, ugly eyes, imperfect eyes, skewed eyes, unnatural face, unnatural body, error, painting by bad-artist layman work, worst quality, ugly, (deformed|distorted|disfigured:1.21), poorly drawn, bad anatomy, wrong anatomy, mutation, mutated, (mutated hands AND fingers:1.21), bad hands, bad fingers, loss of a limb, extra limb, missing limb, floating limbs, amputation, Yaeba, photo, deformed, black and white, realism, disfigured, low contrast,"
+  cfg: 1.0
+  steps: 8
+  sampler_name: euler
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1709725122
+  denoise: 1.0
+lightningbloomxl_v20:
+  sd_version: "SDXL Lightning"
+  trigger_word: ""
+  prompt: "masterpiece, best quality 1girl, armor, blurry, cyberpunk, helmet, lips, nose, power armor, realistic, science fiction, solo, upper body"
+  negative_prompt: "(worst quality:1.5), (low quality:1.5), (normal quality:1.5), lowres, bad anatomy, bad hands, multiple eyebrow, (cropped), extra limb, missing limbs, deformed hands, long neck, long body, (bad hands), signature, username, artist name, conjoined fingers, deformed fingers, ugly eyes, imperfect eyes, skewed eyes, unnatural face, unnatural body, error, painting by bad-artist layman work, worst quality, ugly, (deformed|distorted|disfigured:1.21), poorly drawn, bad anatomy, wrong anatomy, mutation, mutated, (mutated hands AND fingers:1.21), bad hands, bad fingers, loss of a limb, extra limb, missing limb, floating limbs, amputation, Yaeba, photo, deformed, black and white, realism, disfigured, low contrast,"
+  cfg: 1.0
+  steps: 8
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1552497854
+  denoise: 1.0
+raemuXL_v35Lightning:
+  sd_version: "SDXL Lightning"
+  trigger_word: "masterpiece, high score, great score"
+  prompt: "(masterpiece, best quality, very aesthetic, ultra detailed), intricate details,1girl, yor briar, spy x family, black hair, red eyes, blush, smile, closed mouth, blood on face, black dress, upper body, hand on own chin, looking at viewer,"
+  negative_prompt: "(worst quality, low quality, very displeasing, lowres), (interlocked fingers, badly drawn hands and fingers, anatomically incorrect hands), blurry, watermark,"
+  cfg: 2.0
+  steps: 8
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1552497854
+  denoise: 1.0
+9527DetailRealistic_v40Lighting4S:
+  sd_version: "SDXL Lightning"
+  trigger_word: ""
+  prompt: "masterpiece, best quality, 1girl, extremely beautiful detailed face, best shadow, medium breasts, white shirt,"
+  negative_prompt: "(worst quality, low quality, normal quality), disabled body, (ugly), sketches, (manicure:1.2), lowres, watermark,"
+  cfg: 1.0
+  steps: 4
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3293794277
+  denoise: 1.0
+
+amalgamationxl_v2XLightning2:
+  sd_version: "SDXL Lightning"
+  trigger_word: ""
+  prompt: "masterpiece, best quality, cinematic film still, realistic, portrait, solo, white mecha robot, cape, science fiction, torn clothes, glowing, standing, robot joints, mecha, armor, cowboy shot, (floating cape), intense sunlight, silver dragonborn, outdoors, landscape, nature,highres, 4k, 8k, intricate detail, cinematic lighting, amazing quality, wallpaper <lora:aesthetic_anime_v1s:1.1>"
+  negative_prompt: "nipples, (low quality, worst quality:1.4), cgi,  text, signature, watermark, extra limbs"
+  cfg: 2.0
+  steps: 4
+  sampler_name: dpmpp_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 266226214061090
+  denoise: 1.0
+juggernautXL_v9Rdphoto2Lightning:
+  sd_version: "SDXL Lightning"
+  trigger_word: ""
+  prompt: "moody aesthetic, beautiful cozy, cramped bedroom with floor to ceiling glass windows overlooking a cyberpunk city at night, view from top of skyscraper, white bedsheets, bookshelves, thunderstorm outside with torrential rain, detailed, high resolution, photorrealistic, dark, gloomy,"
+  negative_prompt: "CGI, Unreal, Airbrushed, Digital"
+  cfg: 2.0
+  steps: 6
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2242072984
+  denoise: 1.0
+realarchmix_xlV30Lighting:
+  sd_version: "SDXL Lightning"
+  trigger_word: ""
+  prompt: "<lora:JJsFuturismStyle_Interior_XL:1> , ((Futurism)),, masterpiece , best quality,  indoors, window, chair, table, scenery, ceiling, , floor, glass wall, monitor, keyboard, book, flower,dramatic lighting, panel, sofa, screen, lamp, vent,, 1girl, face, look at viewer,   selfi,  solo,  skirt, full body,   high heels,, closeup portrait photography, beautiful eyes, capturing emotion, personality, flattering lighting, professional, engaging, compelling composition"
+  negative_prompt: "(worst quality, low quality, illustration, 3d, 2d, painting, cartoons, sketch), open mouth,, bad anatomy, comics, cropped, cross-eyed, worst quality, low quality, painting, 3D render, drawing, crayon, sketch, graphite, impressionist, cartoon, anime, noisy, blurry, soft, deformed, ugly, lowres, low details, JPEG artifacts, airbrushed, semi-realistic, CGI, render, Blender, digital art, manga, amateur, mutilated, distorted"
+  cfg: 7.0
+  steps: 18
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3084784088
+  denoise: 1.0
+3x3x3mixxl_v10:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_7_up , source_anime ,masterpiece, best quality, perfect anatomy , very aesthetic ,absurdres , BREAK, 1girl , japanese , idol face , cute face , light smile , pointy ears, (tareme , heterochromia ,blue left eyes and green right eyes ),huge breasts , air-intake bangs, sidelocks,ahoge, laying on back, missionary sex, spread legs ,vaginal, intercourse , vaginal penis insertion , vaginal penis , penis insertion , creampie, nude, (ahegao),, pink hair, wild hair, green eyes, beautiful face, cute, pretty face, perfect body, very attractive, voluptuous and sexy body, intense and beautiful eyes, wearing nothing, nude, on a bed, Tweak your own nipples ,hands on breasts ,"
+  negative_prompt: "score_6 , score_5 , score_4 , source_furry, source_pony, source_cartoon, lowres, bad_anatomy, bad_hands, deformed anatomy, worst_quality, low_quality, normal_quality, jpeg_artifacts, signature, watermark, monochrome,very displeasing,"
+  cfg: 7.0
+  steps: 20
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2404685983
+  denoise: 1.0
+aniversePonyXL_v60:
+  sd_version: "Pony"
+  trigger_word: "4n1v3rs3"
+  prompt: "score_9, score_8_up, score_7_up, Portrait, yorha no. 2 type b, short white hair, black dress, hairband, clothing cutout, cleavage cutout, puffy sleeves, black hairband, feather-trimmed sleeves, juliet sleeves, mole under mouth, sunset, rubble in the background, 4n1v3rs3, depth of field, dynamic angle, fashion photography, sharp, hyperdetailed:1.15"
+  negative_prompt: "score_6, score_5, score_4, worst quality:1.4, low quality:1.4, front light, grayscale, doll, plastic, fake, ugly, hair on face, muscolar woman, low res, blurry, fat, topless, child"
+  cfg: 5.5
+  steps: 35
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3104878822
+  denoise: 1.0
+atomixPonyXL_v20:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_7_up,    concept art, realistic, fog, 1girl, (solo:1.1), sexy soldier, black hearts, blonde hair, long hair, side braid, blush, camo bikini top, camo cargo pants, seductive, posing, black leather belt, battlefield background, holding a sniper rifle, dirty, sweaty, arm tattoos"
+  negative_prompt: "(worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), embedding:negative_hand-neg,embedding:FastNegativeV2,embedding:zPDXL-neg, embedding:bad-hands-5,embedding:bad_prompt_version2-neg,(freckles:1.2)"
+  cfg: 1.0
+  steps: 8
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 97355328808532
+  denoise: 1.0
+atomixPonyXL_v30:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_7_up, mature woman, partially submerged, standing, steam, onsen, towel, hold"
+  negative_prompt: "(worst quality, low quality:1.4), (deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), embedding:negative_hand-neg,embedding:FastNegativeV2,embedding:zPDXL-neg, embedding:bad-hands-5,embedding:bad_prompt_version2-neg,(freckles:1.2)"
+  cfg: 3.0
+  steps: 8
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 345712708810753
+  denoise: 1.0
+duchaitenPonyXLNo_v35:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_7_up, Tifa Lockhart from Final Fantasy VII behind the bar in Seventh Heaven, her smile welcoming and warm as she serves drinks to the patrons. Her strength and resilience are as evident in her combat skills as they are in her compassionate interactions, making her an enduring symbol of courage and charm."
+  negative_prompt: "score_6, score_5, score_4, lowres, bad anatomy, bad hands, signature, watermarks, ugly, imperfect eyes, skewed eyes, unnatural face, unnatural body, error, extra limb, missing limbs, bad art, bad painting, bad photo, bad image"
+  cfg: 9.0
+  steps: 30
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3621006058
+  denoise: 1.0
+autismmixSDXL_autismmixPony:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, BREAK source_anime,rating_explicit,drunk, comic, bottomless, open mouth, girl on top, pussy, 2koma, navel, sex from behind, clothes lift, spread legs, shirt lift, open clothes, alcohol, beer, bangs, pubic hair, teeth, 1boy, 1girl,  ^ ^, beer can, blush, breasts, breasts apart, camisole, camisole lift, can, uncensored, cleavage, closed eyes, collarbone, drink can, hetero, holding, holding can, indoors, instant loss, medium breasts, nipples, penis, reverse cowgirl position, sex, smile, stomach, straddling, sweat, tears, testicles, thighhighs, torso grab, vaginal, artoria pendragon, braid, ribbon, torogao"
+  negative_prompt: "3d, monochrome"
+  cfg: 7.0
+  steps: 28
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1219640910
+  denoise: 1.0
+boleromixPony_v210:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9,score_8_up,score_7_up,source_anime,high res image,8K,illustration,CG,shiny hair,clear skin,cute,bikini,sea,beach,"
+  negative_prompt: "score_6,score_5,score_4,ugly face,low res,bad fingers,extra fingers,extra legs,missing legs,missing fingers,monochrome,error,bad anatomy,username,artist name,text,censored,bar censored,pony,furry,censored,realistic,3D,"
+  cfg: 7.0
+  steps: 25
+  sampler_name: euler
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 4268691046
+  denoise: 1.0
+fucktasticAnimeCheckpoint_22:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9, score_8_up A professional  of a  woman, with brown hair with Magenta colored clothes streaks and a Fairy Tale Waves hairstyle, , fit body, innocent, (mild happy), standing in room, galactic hologram corset, wearing barbed wire thigh-highs. big penis, (handjob:1.2), she holds his long penis, gigantic penis, extreme penis masturbation, cum, (blush, smile, shirt, skirt, panties, long sleeves, male POV, she is sitting on top of the man, cleavage, underwear, white shirt, hetero, thighhighs, open clothes, collared shirt, solo focus, indoors, bra, clevage, dress shirt, open shirt, pov, erection, curtains, woman on top, breast press, pencil skirt, bulge, naughty face, erection under clothes, lace bra, crotch grab, grabbing breast, colorful, vibrant, eye contact, face, clevage, :0.5), volcanic lava field at twilight"
+  negative_prompt: "watermark, text, simple background, flash, dark, night"
+  cfg: 4.5
+  steps: 8
+  SD_Upscale_cfg: 2.5
+  SD_Upscale_steps: 8
+  sampler_name: lcm
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+fucktasticRealCheckpointPony_51:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "A professional sexy closeup photo of a  adult woman, with ash brown hair  and a dutch braid hairstyle, , Parasoul from Skullgirls, red hair, Skullgirls setting, ahegao, lifted clothes, wet, sweating, open mouth, tongue out, eyes up, oral sex, deep throat, sucking cock, wide open mouth, cum on tongue, handjob, all fours, irrumatio, cum, rough sex, grabbing her, press, fondled, pounded, grabbing clothes, pulling clothes, undressing, , in a backyard tent, where string lights create a cozy glow, detailed background"
+  negative_prompt: "watermark, text, simple background"
+  cfg: 4.5
+  steps: 8
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 357159111612135
+  denoise: 1.0
+fucktastic25DCheckpointPony_30:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "A professional cinematic  photo of a latina adult woman, with blonde hair with Orange streaks and a Elegant Twisted Bun hairstyle, , , sexy, NSFW, solo woman, ruffled clothes, detailed, transparent, anal sex, penetration, reverse spitroast, anal penetration, anal, penis, pussy juice. both are in frame, blowjob, throat bulge, chest bulge., on a city riverwalk, with lights reflecting off the water and soft music playing nearby, detailed background"
+  negative_prompt: "watermark, text, simple background"
+  cfg: 1.5
+  steps: 16
+  sampler_name: lcm
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 357159111612135
+  denoise: 1.0
+ponyDiffusionV6XL_v6StartWithThisOne:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, rating_safe, Zipp Storm, ((cute, little, fuzzy pony, fur)), (high quality, detailed, beautiful), shiny, adorable face, detailed beautiful eyes, diadema, sunlight, realistic, outstanding, countershading, detailed soft lighting, ear fluff, hoof on face, cinematic vintage photography"
+  negative_prompt: ""
+  cfg: 8.5
+  steps: 30
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3777620754
+  denoise: 1.0
+prefectPonyXL_v50:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_7_up,source_anime, BREAK, tube dress, tube top, 2b (nier:automata), black blindfold, 1girl, medium breasts, black hairband, covered eyes, strapless dress, nipple piercing, blurry background, armpits, short hair, nipples, bracelet, see-through, grey hair, jewelry, black dress, arm behind head, lips, arm up, nose, mole under mouth,  realistic, brown dress, facing viewer, nipple bar, bare shoulders, clothing cutout, covered navel, depth of field, breasts apart"
+  negative_prompt: "realistic,monochrome,greyscale, artist name, signature, watermark,"
+  cfg: 5.0
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2554603262
+  denoise: 1.0
+prefectPonyXL_v6:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_7_up,source_anime, BREAK, tube dress, tube top, 2b (nier:automata), black blindfold, 1girl, medium breasts, black hairband, covered eyes, strapless dress, nipple piercing, blurry background, armpits, short hair, nipples, bracelet, see-through, grey hair, jewelry, black dress, arm behind head, lips, arm up, nose, mole under mouth,  realistic, brown dress, facing viewer, nipple bar, bare shoulders, clothing cutout, covered navel, depth of field, breasts apart"
+  negative_prompt: "realistic,monochrome,greyscale, artist name, signature, watermark,"
+  cfg: 5.0
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2554603262
+  denoise: 1.0
+HanfuPonyNSFW_xlV165NSFWVAE:
+  sd_version: "Pony"
+  trigger_word: "(score_9,score_8_up,score_7_up,score_6),"
+  prompt: "a woman in traditional chinese attire reclining on a wooden chair wearing a light blue and purple robe adorned with floral hair accessories soft lighting intimate and serene mood backside view soft focus delicate and elegant atmosphere delicate fabric and accessories in the background intimate setting intimate pose intimate focus."
+  negative_prompt: "score_3,score_2,score_1"
+  cfg: 8.0
+  steps: 20
+  sampler_name: euler
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 110444128182730
+  denoise: 1.0
+animergePonyXL_v60:
+  sd_version: "Pony"
+  trigger_word: "(Realistic skin:1.4),(photo realistic:1.4),(Raw Photo)"
+  prompt: "score_9_up, score_8_up, score_7_up, Portrait, yorha no. 2 type b, short white hair, black dress, hairband, clothing cutout, cleavage cutout, puffy sleeves, black hairband, feather-trimmed sleeves, juliet sleeves, mole under mouth, sunset, rubble in the background, depth of field, dynamic angle, fashion photography, sharp, analog film grain, hyperdetailed:1.15"
+  negative_prompt: ""
+  cfg: 5.5
+  steps: 35
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3104878878
+  denoise: 1.0
+eternalChamponD_eternalChamponDV40:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 28
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+eternalChamponD_eternalChamponDV40:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 28
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+homorealism_PonyV02:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_8, (1girl:0.997), photorealistic, ultradetailed, highly detailed, <lora:Perfect_Eyes:1.0>, <lora:JuggerCineXL2:0.23> <lora:HandFineTuning_XL:0.33>, soft lighting, sharp, green eyes, detailed background, extremely detailed, ((masterpiece, best quality;1.3)), 8k, ultra detailed, (red_jacket:0.997) <lora:FF7Aerith:1.0> FF7Aerith, (solo:0.929), (pink_bow:0.918), (bow:0.872), (cropped_jacket:0.830), (long_hair:0.790), (necklace:0.766), (realistic:0.765), (ribbon:0.750), (jewelry:0.734), (hair_bow:0.670), sharp, (aerith_gainsborough:0.995), (topless:1.1), (breasts exposed:1.1), (large breasts:1.1), posing facing the viewer for a photo-realistic picture in a balcony overlooking a beach with the ocean in the distance"
+  negative_prompt: "score_6,score_5,score_4, NEGATIVE_HANDS, CyberRealistic_Negative_SDXL-neg, worst quality, low quality, text, censored, (((deformed))), bad hands, deformed hands, deformed eyes, deformed face, bad quality, extra fingers, deformed teeth, fat, watermark, logo, small breasts, (shiny skin:1.2), (tattoos:1.4), (tattoo:1.4), username, (watermark:1.0), logo,(signature:1.0), cropped, (moles:1.3), (skin blemishes:1.3), monochrome, black and white, makeup, lipstick, eye shadow, (people), (other people), pubic hair, braces, small breasts"
+  cfg: 2.5
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1867339982
+  denoise: 1.0
+homorealism_xlPonyV03:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_8, (1girl:0.997), photorealistic, ultradetailed, highly detailed, <lora:Perfect_Eyes:1.0>, <lora:JuggerCineXL2:0.23> <lora:HandFineTuning_XL:0.33>, soft lighting, sharp, green eyes, detailed background, extremely detailed, ((masterpiece, best quality;1.3)), 8k, ultra detailed, (red_jacket:0.997) <lora:FF7Aerith:1.0> FF7Aerith, (solo:0.929), (pink_bow:0.918), (bow:0.872), (cropped_jacket:0.830), (long_hair:0.790), (necklace:0.766), (realistic:0.765), (ribbon:0.750), (jewelry:0.734), (hair_bow:0.670), sharp, (aerith_gainsborough:0.995), (topless:1.1), (breasts exposed:1.1), (large breasts:1.1), posing facing the viewer for a photo-realistic picture in a balcony overlooking a beach with the ocean in the distance"
+  negative_prompt: "score_6,score_5,score_4, NEGATIVE_HANDS, CyberRealistic_Negative_SDXL-neg, worst quality, low quality, text, censored, (((deformed))), bad hands, deformed hands, deformed eyes, deformed face, bad quality, extra fingers, deformed teeth, fat, watermark, logo, small breasts, (shiny skin:1.2), (tattoos:1.4), (tattoo:1.4), username, (watermark:1.0), logo,(signature:1.0), cropped, (moles:1.3), (skin blemishes:1.3), monochrome, black and white, makeup, lipstick, eye shadow, (people), (other people), pubic hair, braces, small breasts"
+  cfg: 2.5
+  steps: 35
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1867339982
+  denoise: 1.0
+iniverseMixSFWNSFW_ponyRealGuofengV51:
+  sd_version: "Pony"
+  trigger_word: "hanfu"
+  prompt: ""
+  negative_prompt: ""
+  cfg: 5.0
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 302470448589766
+  denoise: 1.0
+joseiRealisticDuchaiten_v10:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 28
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+mklanXXXNSFWPony_mklan23:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_8,"
+  negative_prompt: "score_6,score_5,score_4"
+  cfg: 7.0
+  steps: 28
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+novaAsianXL_v50:
+  sd_version: "Pony"
+  trigger_word: "score_9, score_8_up, score_7_up, realistic, photo, detailed face and eyes, detailed skin, (cute:1.1), BREAK"
+  prompt: "score_9, score_8_up, score_7_up, score_6_up, realistic, photo, vintage, BREAK, cute girl (under a waterfall:1.3), curvy, (pale skin:1.1), (cute, seductive:1.4), (body in water, swimming, in lake:1.2), (wet body:1.3), (wet long brown hair, (wet hair:1.2):1.2), (clear clean water:1.2), brown eyes, see-through open (unbuttoned:1.2) long sleeves wet office shirt, cleavage, (wet clothes, water dripping clothes:1.3), selene, seductive light smile, looking at viewer, staring, jitome, (portrait, face focus, upper body:1.2), (dynamic from below face focus angle:1.2), Tyndall effect, lens flare, shadow, dramatic lights, dappled sunlight, rim light, bloom, natural lighting, hard focus, film grain, photographed with a Sony a9 II Mirrorless Camera, (vignette effect:1.3), low lighting, (dynamic pose, arms crossed behind head, armpits:1.2), (detailed face and eyes),detailed skin"
+  negative_prompt: "score_6, score_5, score_4, score_6_up, score_5_up, score_4_up, source_anime, source_furry, source_pony, source_cartoon, blurry, jpeg artifacts, normal quality, worst quality, low quality, missing fingers, extra digits, fewer digits, bad eye,{|nsfw, nude}"
+  cfg: 7.0
+  steps: 20
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+realDream_sdxlPony19:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_8,"
+  negative_prompt: "score_6,score_5,score_4"
+  cfg: 7.0
+  steps: 28
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+realDream_sdxlPony20:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "photo of an beautiful italian girl, low light night,"
+  negative_prompt: "anime, cartoon, low resolution, frame, text, logo,black and white, manga, blender, videogame,nude,porn"
+  cfg: 4.5
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1871812235
+  denoise: 1.0
+realismByStableYogi_ponyV3VAE:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "Stable_Yogis_PDXL_Positives2, ( tropical garden with palms :1.2)  ( Virtual Voyage Dress :1.2 ) <lora:Realism_Lora_By_Stable_Yogi_Pony_V1.:0.8> realism, realistic, real life, photorealistic, detailed"
+  negative_prompt: "Stable_Yogis_PDXL_Negatives2-neg"
+  cfg: 7.0
+  steps: 28
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+ultra_v9:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_7_up, score_6, score_5, score_4, japanese, realistic, sexy, beautiful, portrait, erotic, saggy breasts, focus breasts, nude, long hair, perfectly straight hair, pastel brown hair, pastel brown background"
+  negative_prompt: "bad hands, missing fingers, imperfect eyes, blurred, lowres, pale skin"
+  cfg: 5.0
+  steps: 30
+  sampler_name: dpmpp_3m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3728879413
+  denoise: 1.0
+ultra_v10:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_7_up, japanese, realistic, lying down, nude, pale skin, hold legs, spread legs, thick breasts, (saggy breasts:0.5), focus thighs, long hair, straight hair, simple background"
+  negative_prompt: "score_4, score_5, score_6, worst quality, low quality, bad hands, missing fingers, imperfect eyes, blurred"
+  cfg: 5.0
+  steps: 30
+  sampler_name: dpmpp_3m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 554728619
+  denoise: 1.0
+RealitiesEdgeXLLIGHTNING_TURBOV7:
+  sd_version: "SDXL Turbo"
+  trigger_word: ""
+  prompt: "(Batman, DC Comics:1.2) smoking cigarette,  an 8K  RAW photograph of the masked batman,  enjoying his marijuana photography"
+  negative_prompt: "(worst quality, low quality, normal quality), disabled body, (ugly), sketches, (manicure:1.2), lowres, watermark,"
+  cfg: 2.0
+  steps: 7
+  sampler_name: dpmpp_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3358745561
+  denoise: 1.0
+dreamshaperXL_v21TurboDPMSDE:
+  sd_version: "SDXL Turbo"
+  trigger_word: "high resolution:1.3, selective focus, european film:1.2, sexual advance:1.1, extremely detailed, dark, sad, easynegative, digital artwork by Beksinski, chiaroscuro, low-key, in the style of Kelly Slater, style by Kelly Slater, closeup, digital artwork by Beksinski, style of Kelly Slate"
+  prompt: "photo of a Cat poised gracefully atop an ancient oak tree, autumn leaves fluttering around, golden hour casting long shadows, backlit, sharp focus on feline, bokeh effect on background foliage, cinematic film still,"
+  negative_prompt: "ugly, deformed, noisy, blurry, low contrast"
+  cfg: 2.0
+  steps: 5
+  sampler_name: dpmpp_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 400919969024481
+  denoise: 1.0
+iniverseMixXLSFWNSFW_turboV13:
+  sd_version: "SDXL Turbo"
+  trigger_word: "hanfu"
+  prompt: "a 18 y.o chinese pretty modeling,soft lighting,chinese sword in hand,with a focus on her face and upper body,high resolution,professional grade,RAW photography,evocative composition,Cinematic Lighting,moody lighting,(freckles:0.8),sexy,cinematic_angle,hanfu,"
+  negative_prompt: "bad eyes,cgi,airbrushed,plastic,watermark,(worst quality, low quality, illustration, 3d, 2d, painting, cartoons, sketch),mutated hands and fingers,malformed hands,fused fingers,missing fingers,too many fingers,bad hands,mutated hands,poorly drawn hands,pubic hair,teeth,"
+  cfg: 5.0
+  steps: 8
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 613839808
+  denoise: 1.0
+iniverseMixXLSFWNSFW_turboV14:
+  sd_version: "SDXL Turbo"
+  trigger_word: "hanfu"
+  prompt: "prismatic colors,cute & girly (idolmaster),(sutocking beautiful,cure lovely,shy,implicit,perseverance),attractive breasts,(Charming Face:1.4),best Ray tracing,RAW photography,professional grade,hanfu,[a hyperrealistic painting inspired by lee jeffries,zbrush central contest winner,hyperrealism,photography alexey gurylev],Cinematic Lighting,holding a pistol and firing,"
+  negative_prompt: "(pubic hair),teeth,bad eyes,cgi,airbrushed,plastic,watermark,(worst quality, low quality, illustration, 3d, 2d, painting, cartoons, sketch),mutated hands and fingers,malformed hands,fused fingers,missing fingers,too many fingers,bad hands,mutated hands,poorly drawn hands,(slender face:1.1),"
+  cfg: 4.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1833614120
+  denoise: 1.0
+ultraspiceXLTURBO_v15:
+  sd_version: "SDXL Turbo"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 2.0
+  steps: 8
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+ultraspiceXLTURBO_v15:
+  sd_version: "SDXL Turbo"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 2.0
+  steps: 8
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+aamXLAnimeMix_v10HalfturboEulera:
+  sd_version: "SDXL Turbo"
+  trigger_word: ""
+  prompt: "masterpiece, best quality, hatsune miku, white gown, angel, angel wings, golden halo, dark background, upper body, closed mouth, looking at viewer, arms behind back, blue theme, night, highres, 4k, 8k, intricate detail, cinematic lighting, amazing quality, amazing shading, soft lighting, Detailed Illustration, anime style, wallpaper"
+  negative_prompt: "(low quality, worst quality:1.4), negativeXL_D, cgi,  text, signature, watermark, extra limbs"
+  cfg: 7.0
+  steps: 25
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2067885435
+  denoise: 1.0
+atomixAnimeXL_v10TurboDPMSDE:
+  sd_version: "SDXL Turbo"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 2.0
+  steps: 8
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+leosamHelloworldTurbo_20TurboLCM:
+  sd_version: "SDXL Turbo"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 2.0
+  steps: 8
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+leosamHelloworldTurbo_20TurboLCM:
+  sd_version: "SDXL Turbo"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 2.0
+  steps: 8
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+level4XL_alphaV04:
+  sd_version: "SDXL Turbo"
+  trigger_word: ""
+  prompt: "high resolution:1.3, selective focus, european film:1.2, sexual advance:1.1, extremely detailed, dark, sad, easynegative, digital artwork by Beksinski, chiaroscuro, low-key, in the style of Kelly Slater, style by Kelly Slater, closeup, digital artwork by Beksinski, style of Kelly Slate"
+  negative_prompt: "Victorian rat, vacations, small, end of hopes, silence"
+  cfg: 3.0
+  steps: 8
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 400919969024481
+  denoise: 1.0
+sdxlTurbo_sdxlTurboPruned:
+  sd_version: "SDXL Turbo"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 2.0
+  steps: 8
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+turbovisionxlSuperFastXLBasedOnNew_tvxlV431Bakedvae:
+  sd_version: "SDXL Turbo"
+  trigger_word: ""
+  prompt: "sad Ivy Estrada  in Salvador  is Picking at nails by Norman Mister, highly detailed, photorealsitic, smooth render, sharp focus, dynamic lighting, golden ratio, 8k, shot on superia 400 film camera 50mm F2.8, photorealistic, award-winning film cinematography, arstation trending, and flickr award winning photo, realistic, very detailed, intricate details, bokeh, smooth, flickr, 4k resf 768- h 1200896 R8, 85 mm, Leica Camera lens, photojournalism Awards, sigma 100mm lens, f/5.6, DSLR, 1/5S 640L ISS, Bokeh, octane render Octane render Awards, 8K, Hasselblad, still image capture on tumblr, very detailed photo of a psychedelic image capture from the last supper composition, insanely detailed photograph of a ring on"
+  negative_prompt: "emotionless,, glasses hat freckles mask necklace shine earrings weapon, cropped-frame, imbalance, poor image quality, limited video, specialized creators, polymorphic, washed-out low-contrast (deep fried) watermark, cropped, out-of-frame, low quality, low res, poorly drawn"
+  cfg: 2.5
+  steps: 6
+  sampler_name: dpmpp_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 499931914
+  denoise: 1.0
+25D_v10:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(RAW photo, best quality),(realistic, photo-realistic:1.3),masterpiece,extremely detailed,CG,unity,2k wallpaper,Amazing,finely detail,light smile,extremely detailed CG unity 8k wallpaper,huge filesize,ultra-detailed,highres,absurdres,soft light,1 girl,(16yo),cute,innocent,pink blush,round eyes,long eyelashes,small nose,pink lips,rosy cheeks,light brown hair,straight hair,hairpin,white dress,floral pattern,lace trim,pink ribbon,pearl necklace,holding flowers,sitting on grass,sunny day,blue sky,fluffy clouds,beautiful detailed background,shallow depth of field,bokeh,warm and soft lighting.,<lora:girl_20230619164815:0.8>,"
+  negative_prompt: "paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans, extra fingers, fewer fingers, ((watermark:2)), (white letters:1), (multi nipples), bad anatomy, bad hands, text, error, missing fingers, missing arms, missing legs, extra digit, fewer digits, cropped, worst quality, jpeg artifacts, signature, watermark, username, bad feet, {Multiple people}, blurry, poorly drawn hands, poorly drawn face, mutation, deformed, extra limbs, extra arms, extra legs, malformed limbs, fused fingers, too many fingers, long neck, cross-eyed, mutated hands, polar lowres, bad body, bad proportions, gross proportions, wrong feet bottom render, abdominal stretch, briefs, knickers, kecks, thong, {{fused fingers}}, {{bad body}},bad-picture-chill-75v,  ng_deepnegative_v1_75t, EasyNegative, bad proportion body to legs, wrong toes, extra toes, missing toes, weird toes, 2 body, 2 pussy, 2 upper, 2 lower, 2 head, 3 hand, 3 feet, extra long leg, super long leg, mirrored image, mirrored noise, (bad_prompt_version2:0.8), aged up, old,"
+  cfg: 7.0
+  steps: 28
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3995133938
+  denoise: 1.0
+27dbeautyMerge_v10:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(nude:1.4),  official art, masterpiece, best quality, unity 8k wallpaper, photorealistic, ultra detailed, extremely detailed, elegant, beautiful, aesthetic, romanticism, 1girl, beauty, smile, pale skin, ((brown eyes)), black long hair, (hair blowing in the wind), ((detailed long hair)), small face, (close up:1.6), face focus, (white background:1.4), <lora:FilmG3:0.1>"
+  negative_prompt: "mole, easynegative,  EasyNegativeV2,  FastNegativeV2,  bad_pictures,  negative_prompt,  SimpleNegative_AnimeV1,  bad-hands-5,  bad_prompt_version2-neg,  bhands-neg,  ng_deepnegative_v1_75t,  SkinPerfection_NegV15,low quality, worst quality, out of focus, ugly, error, lowers, blurry, bokeh,"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1680211504
+  denoise: 1.0
+CGAntiqueCG_v40:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "A girl in a white Hanfu is flying with a sword against a forest background in the style of Chinese martial arts. The full body photo has an anime art illustration style with a dark green and light blue color palette creating an ethereal atmosphere. The charming character is depicted in a surreal photography style using a fisheye lens in a mysterious environment with soft lighting. She makes elegant movements with flowing long hair in a cool color tone,solo,weapon,nature,bamboo,forest,long hair,bamboo forest,ponytail,brown hair,(((Floating in the sky))),with a floating headband. Dark green background,blurred background,wearing white Hanfu,holding a long sword,(8k, RAW photo, best quality, masterpiece:1.2),"
+  negative_prompt: "(unhealthy-deformed-joints:2),(unhealthy-hands:2),easynegative,(worst quality:2),(low quality:2),(normal quality:2),lowres,bad anatomy,((extra limbs)),((extra legs)),((fused legs)),((extra arms)),((fused arms)),normal quality,((monochrome)),((grayscale)),((watermark)),uneven eyes,lazy eye,bad-hands-5,(((mutated hand))),ng_deepnegative_v1_75t,badhandv4,"
+  cfg: 7.0
+  steps: 28
+  sampler_name: dpmpp_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3499982613
+  denoise: 1.0
+MOYOU25D_v2:
+  sd_version: "SD 1.5"
+  trigger_word: "moyou"
+  prompt: "A young female assassin with pale skin, wearing a tight-fitting, full-body black fabric outfit inspired by Assassin's Creed, with a partially open chest design adding subtle allure. Her lower face is covered by an elegant golden mask with engraved patterns. Her bright blue eyes and jet-black hair under a slightly pushed-back hood create a striking contrast against her pale complexion. Fingerless gloves reveal her nimble fingers. She stands in a poised ready stance, one hand down and the other raised in a ready position, eyes sharp and focused, exuding lethal precision and quiet elegance. The background is a dark gray-black wall."
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+MoyouArtificial_v10402g:
+  sd_version: "SD 1.5"
+  trigger_word: "moyou"
+  prompt: "A young female assassin with pale skin, wearing a tight-fitting, full-body black fabric outfit inspired by Assassin's Creed, with a partially open chest design adding subtle allure. Her lower face is covered by an elegant golden mask with engraved patterns. Her bright blue eyes and jet-black hair under a slightly pushed-back hood create a striking contrast against her pale complexion. Fingerless gloves reveal her nimble fingers. She stands in a poised ready stance, one hand down and the other raised in a ready position, eyes sharp and focused, exuding lethal precision and quiet elegance. The background is a dark gray-black wall."
+  negative_prompt: "(dedicated_to_artificial_humans:1.2),"
+  cfg: 7.0
+  steps: 50
+  sampler_name: dpmpp_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 4161648853
+  denoise: 1.0
+RedBlueFantasy_v20:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "cinematic photo biomechanical style land art style hyperrealistic (A landscape with a pink atmosphere that scatters the light in different hues, creating a colorful and whimsical environment. The flora is fantastical and whimsical, such as cotton candy clouds, rainbow flowers, and candy cane trees. The geology is mostly soft and sweet, with marshmallows, chocolate, and jelly. The mood is playful and fun.),photorealistic,extreme detail,lifelike,crisp,precise,blurry . natural materials,outdoor,environmental,detailed . blend of organic and mechanical elements,futuristic,cybernetic,detailed,intricate . 35mm photograph,film,bokeh,professional,4k,highly detailed,"
+  negative_prompt: "(nsfw:1.5),(cock,penis,men,man's body,men's hair,men's legs,men's hands:1.8),(easynegative, bad-artist-anime, bad-artist bad-hands-5, badhandv4, bad_prompt_version2, ng_deepnegative_v1_75t,bad-picture-chill-75v,[badhandv4],verybadimagenegative_v1.3),sketch by bad-artist),(three legs:1.2),((((ugly)))),(((duplicate))),((morbid)),((mutilated)),[out of frame],extra fingers,mutated hands,(three hands:1.2),((poorly drawn hands)),((poorly drawn face)),(((mutation))),(((deformed))),((ugly)),blurry,((bad anatomy)),(((bad proportions))),((extra limbs)),cloned face,(((disfigured))). out of frame,ugly,extra limbs,(bad anatomy),gross proportions,(malformed limbs),((missing arms)),((missing legs)),(((extra arms))),(((extra legs))),mutated hands,(fused fingers),(too many fingers),(((long neck))),signature,text,facial hair,loli,chibi,disabled body,DeepNegative,"
+  cfg: 7.0
+  steps: 55
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1340127904
+  denoise: 1.0
+animerge_v30:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "raw photo, fashion photography of cute (Asuka Langley), in high detailed textured Evangelion red plugsuit, sunset light passing through hair, (random background), depth of field"
+  negative_prompt: "cartoon, painting, illustration, (grayscale:1.4), (worst quality:2), (low quality:2), (normal quality:2), ugly, fat, 3D rendering, asian"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2017780432
+  denoise: 1.0
+animerge_v50:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1 young cute girl, flower dress, colorful, dark background, flower armor, green theme, upper body shot,(cinematic, teal and orange:0.85), low saturation"
+  negative_prompt: "cartoon, painting, illustration, (grayscale:1.4), (worst quality:2), (low quality:2), (normal quality:2), ugly, fat, 3D rendering, asian"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2017780430
+  denoise: 1.0
+anithing_v11Pruned:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "An argentinian social worker woman with sarcastic smile wearing a tight red dress in the beach, (colorful photo with vibrant colors:0.7), (high resolution:1.3), selective focus, (small:1.3), sexual advance, (poor quality photo with low key lighting:1.5)"
+  negative_prompt: "(CyberRealistic_Negative-neg), cartoon, painting, illustration, (grayscale:1.4), (worst quality:2), (low quality:2), (normal quality:2), ugly, fat, 3D rendering, asian"
+  cfg: 4.0
+  steps: 30
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+anithing_v30Pruned:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "An argentinian social worker woman with sarcastic smile wearing a tight red dress in the beach, (colorful photo with vibrant colors:0.7), (high resolution:1.3), selective focus, (small:1.3), sexual advance, (poor quality photo with low key lighting:1.5)"
+  negative_prompt: "(CyberRealistic_Negative-neg), cartoon, painting, illustration, (grayscale:1.4), (worst quality:2), (low quality:2), (normal quality:2), ugly, fat, 3D rendering, asian"
+  cfg: 535
+  steps: 30
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 906460122
+  denoise: 1.0
+aniverse_v50:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(best quality, masterpiece, colorful, highest detailed) upper body photo, fashion photography of cute (Asuka Langley), in high detailed textured Evangelion red plugsuit, (ultra-detailed body), (light smile:0.3), moonlight passing through hair, (colorful background:1.3), (intricate details), (dynamic angle)"
+  negative_prompt: "CyberRealistic_Negative_Anime-neg, moles, (grayscale:1.4), fat, ugly, bad_hands, freckles"
+  cfg: 535
+  steps: 30
+  sampler_name: dpmpp_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 906460122
+  denoise: 1.0
+bustyGirls_v10:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "BrasileirasGoneWild, png artifacts,bad aesthetic ,selfie blurry photo of a naked 18-year-old brasilian woman from r/Nude_Selfie and R/Amateur,reddit,nude,breasts,nipples,areolas,pubic hair,pussy,smile,blond hair,short hair,She is holding an iPhone,door,bangs,navel piercing nipple piercing, selfie in bathroom,fingers"
+  negative_prompt: "(CyberRealistic_Negative-neg), cartoon, painting, illustration, (grayscale:1.4), (worst quality:2), (low quality:2), (normal quality:2), ugly, fat, 3D rendering, asian, big breasts, malformed fingers, imperfect fingers, nude"
+  cfg: 4.5
+  steps: 30
+  sampler_name: dpmpp_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 781459253
+  denoise: 1.0
+bustyGirls_v20:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "BrasileirasGoneWild, png artifacts,bad aesthetic ,selfie blurry photo of a naked 18-year-old brasilian woman from r/Nude_Selfie and R/Amateur,reddit,nude,breasts,nipples,areolas,pubic hair,pussy,smile,blond hair,short hair,She is holding an iPhone,door,bangs,navel piercing nipple piercing, selfie in bathroom,fingers"
+  negative_prompt: "(CyberRealistic_Negative-neg), cartoon, painting, illustration, (grayscale:1.4), (worst quality:2), (low quality:2), (normal quality:2), ugly, fat, 3D rendering, asian, big breasts, malformed fingers, imperfect fingers, nude"
+  cfg: 4.5
+  steps: 30
+  sampler_name: dpmpp_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 781459253
+  denoise: 1.0
+cardosAnimated_v30:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "masterpiece, best quality, (realistic, highly detailed), calamity"
+  negative_prompt: "(worst quality, low quality:1.3)"
+  cfg: 14.0
+  steps: 30
+  sampler_name: euler
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1229719011
+  denoise: 1.0
+dreamshaper_8:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "black humanoid made of rock, upper body, barechested, male,  ((masterpiece, best quality)),  <lora:more_details:0.3>, cracked skin, white electricity coming through cracks, muscular male, (dragonborn:0.6), white hair, outdoors, detailed background, depth of field"
+  negative_prompt: "BadDream, UnrealisticDream, orange"
+  cfg: 8.0
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1650465323
+  denoise: 1.0
+dreamshaper_8LCM:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "8k portrait of beautiful cyborg with brown hair, intricate, elegant, highly detailed, majestic, digital photography, art by artgerm and ruan jia and greg rutkowski surreal painting gold butterfly filigree, broken glass, (masterpiece, sidelighting, finely detailed beautiful eyes: 1.2), hdr, (detailed background window to a new dimension, plants and flowers:0.7) <lora:more_details:0.45>"
+  negative_prompt: "BadDream, FastNegativeV2, signature"
+  cfg: 2.0
+  steps: 15
+  sampler_name: lcm
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 554464395
+  denoise: 1.0
+etherRealMix_etherRealMix31:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: "bad quality, bad anatomy, worst quality, low quality, low resolution, extra fingers, blur, blurry, ugly, wrong proportions, watermark, image artifacts, lowres, jpeg artifacts, deformed, noisy image, deformation, corrupt image"
+  cfg: 6.0
+  steps: 60
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2364545012
+  denoise: 1.0
+fantasticmix25D_v45:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "masterpiece, (best quality:1.4), [:intricate details:0.2], 1girl, fox ears, orange hair, red eyes, glowing, sitting, outdoors, (wet blouse, wet, rain),"
+  negative_prompt: "(worst quality, low quality,normal quality:1.4), lowres, blurry, (bad anatomy, wrong hand:1.2),"
+  cfg: 20
+  steps: 40
+  sampler_name: dpmpp_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3238940703
+  denoise: 1.0
+fantasticmix_k1:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "masterpiece, (best quality:1.2), [:intricate details:0.2], 1girl, large breasts, (white apron:1.2), naked apron, (naked ass:1.3), (updo:1.2), blonde hair, kitchen, feminine, from side, looking at viewer,"
+  negative_prompt: "(worst quality, low quality, normal quality:1.6), lowres, blurry, bad anatomy,"
+  cfg: 20.0
+  steps: 40
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2096458043
+  denoise: 1.0
+fantasticmix_k2:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "masterpiece, (best quality:1.2), [:intricate details:0.2], 1girl, large breasts, angel, angel wings, white frills, (daytime sky), shimmering aura, intense focus, crackling energy, mysterious symbols, sparkling motes,"
+  negative_prompt: "(worst quality, low quality, normal quality:1.6), lowres, blurry, bad anatomy,"
+  cfg: 20.0
+  steps: 40
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2034809146
+  denoise: 1.0
+kakarot28D_v2024:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1girl,solo,medium breasts,outdoors,(cowboy shot:1.2),(thigh gap:1.3),(from behind:1.2),(caution tape),bondage,pink hair,twintails,NSFW,, (8k, RAW photo, best quality, masterpiece:1.3),(realistic, photo-realistic:1.37),realistic skin texture,(photorealistic:1.3),(hyperrealistic:1.2), 1 cute girl,solo,( beautiful eyes:1.2),perfect face"
+  negative_prompt: "(worst quality), (low quality), (bad quality), (bad hand),(bad hands), (bad finger),(bad fingers), (a shadow on skin), (a shaded skin), (a dark skin), (blush), (signature, watermark, username,letter, copyright name, copyright, chinese text, artist name, name tag, company name, name tag, text, error), (bad anatomy), (low quality hand), (worst quality hand), (blush),(face mole), (mole) easynegative ng_deepnegative_v1_75t BadNegAnatomyV1-neg badhandv4 bad_prompt"
+  cfg: 7.0
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 333446811
+  denoise: 1.0
+majicmixFantasy_v30Vae:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1girl,(orange_hair:1.1),(zentangle, mandala, tangle, entangle:0.6),(fractal art),the most beautiful form of chaos,brutalist designed,"
+  negative_prompt: "(worst quality:2),(low quality:2),(normal quality:2),lowres,bad anatomy,nsfw,"
+  cfg: 7.0
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2161235528
+  denoise: 1.0
+majicmixLux_v3:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(best quality, masterpiece, colorful, dynamic angle, from below, highest detailed)upper body photo, full body photo, fashion photography of cute mechangel, glowing 4 wings, solo, glowing armor, glowing halo, building, glowing mechanical 4 wings (intricate details, hyperdetailed:1.15), detailed, light passing through hair, (official art, extreme detailed, highest detailed), HDR+"
+  negative_prompt: "(worst quality:2), (low quality:2), (normal quality:2), lowres, bad anatomy, watermark, badhandv4"
+  cfg: 7.5
+  steps: 30
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3872650338
+  denoise: 1.0
+majicmixReverie_v10:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1girl, dynamic angle, cloud and mountain, (flower field:1.4) in the foreground, white dress, light tracing, (floating colorful wind:1), (photorealistic:1.4), official art, unity 8k wallpaper, ultra detailed, beautiful and aesthetic, masterpiece,best quality, glowing skin, cinematic lighting, light smile"
+  negative_prompt: "ng_deepnegative_v1_75t, (badhandv4:1.2), (worst quality:2), (low quality:2), (normal quality:2), lowres, bad anatomy, bad hands, ((monochrome)), ((grayscale)), watermark"
+  cfg: 10.0
+  steps: 30
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3509989095
+  denoise: 1.0
+mixLuoaV5_:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+perfectWorld_v6Baked:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "ultra detailed 8k cg, ultra realitsic, masterpiece, spotlight, royal palace, cinematic lighting, cinematic bloom, professional photography, absurdly long hair, very long hair, white hair, divine goddess, huge breasts, breasts out, queen, gorgeous female, lace, lace trim, lace-trimmed legwear, thighhighs, elbow gloves, pearl necklace, gold, jewelry, shiny, glint, diamonds, looking at viewer, serious, formal, epic, grand curtains, indoors"
+  negative_prompt: "(worst quality, low quality:1.4), logo, watermark"
+  cfg: 7.0
+  steps: 24
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 893103390
+  denoise: 1.0
+perfectbreasts_v30:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "<lora:PerfectBreastsV4-offset:1>,<lora:Brasileirinhas:0.7>,realistic, best quality, (masterpiece: 1.2),with elegant white dress, absurdities, (1 girl, solo), watercolor, a beautiful woman,young brazilian,gold necklace around the neck, shoulder, long black hair,open mouth, half-length portrait, extremely bright and bright design, ( ink: 1.3), autumn lights, looking at viewer, huge breasts, round breasts,looking at the spectator,8k, 4k <lora:bimbo-fc-1.6a:1>,"
+  negative_prompt: "(worst quality:2),(low quality:2),(normal quality:2),lowres,bad anatomy,bad hands,normal quality,((watermark)),5-funny-looking-fingers:2, FastNegativeV2, ng_deepnegative_v1_75t"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1979872575
+  denoise: 1.0
+perfectbreasts_v50:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "realistic, best quality, (masterpiece: 1.2), wearing elegant black dress, extremely beautiful, seductive look, thin waist, (1 girl, solo), watercolor, a beautiful woman, 18 years old, young Brazilian woman, gold necklace on her neck, shoulder, brown blonde hair, cute, smiling, half-length portrait, extremely bright and shiny design, (ink: 1.3), autumn lights, looking at viewer, small breasts, 4k, 8k, png, hd, vertical"
+  negative_prompt: "(CyberRealistic_Negative-neg), cartoon, painting, illustration, (grayscale:1.4), (worst quality:2), (low quality:2), (normal quality:2), ugly, fat, 3D rendering, asian; nude, naked, malformed clothes, bad clothes, malformed body, duplicated body,Wrinkles, uneven seams, misplaced patterns, unnatural folds, fabric inconsistency, improper fit, malformed finger, bad fingers, bad hands, malformed hands"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 431413139
+  denoise: 1.0
+raemumix_v100:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(masterpiece, best quality), intricate details, thin, ((slim)), beautiful girl, Light pink hair, white skin, light purple eyes, sharp jawline, cropped jacket, messy hair, lips, upper body, smirk"
+  negative_prompt: "(worst quality, low quality:1.4), monochrome, zombie, (interlocked fingers:1.2),"
+  cfg: 7.0
+  steps: 30
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1693108491
+  denoise: 1.0
+raemumix_v100:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(masterpiece, best quality), intricate details, 1girl, solo, long hair, looking at viewer, indoors, crossed arms, smile, detached sleeves, white hair, curtains, large breasts, red eyes, bare shoulders, closed mouth, long sleeves, upper body, dress, lamp, picture frame, blush, window, buttons, flower, sleeveless, sidelocks, hair between eyes, arms under breasts, tassel, lips, chair"
+  negative_prompt: "(worst quality, low quality:1.4), monochrome, zombie, (interlocked fingers:1.2),"
+  cfg: 7.0
+  steps: 30
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2898750781
+  denoise: 1.0
+raemumix_v110:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(masterpiece, best quality), intricate details, 1girl, solo, long hair, looking at viewer, indoors, crossed arms, smile, detached sleeves, white hair, curtains, large breasts, red eyes, bare shoulders, closed mouth, long sleeves, upper body, dress, lamp, picture frame, blush, window, buttons, flower, sleeveless, sidelocks, hair between eyes, arms under breasts, tassel, lips, chair"
+  negative_prompt: "(worst quality, low quality:1.4), monochrome, zombie, (interlocked fingers:1.2),"
+  cfg: 7.0
+  steps: 30
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2898750781
+  denoise: 1.0
+realcartoon3d_v15:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(1girl, body covered in words, words on body, tattoos of (words) on body),(masterpiece, best quality),medium breasts,(intricate details),unity 8k wallpaper,ultra detailed,(pastel colors),beautiful and aesthetic,see-through (clothes),detailed,solo,"
+  negative_prompt: "easynegative,(badhandv4),(bad quality:1.3),(worst quality:1.3),watermark,(blurry),5-funny-looking-fingers,"
+  cfg: 7.0
+  steps: 40
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1908723198
+  denoise: 1.0
+realcartoon3d_v18:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "((Full front body shot)),(best quality),((an extremely delicate and beautiful)),((Chest covered)),cinematic light,(1mechanical girl),solo,((upper torso hanging by wires)),((Hanging by wires and tubes)),(machine made joints:1.2),((mechanical limbs)),(blood vessels connected to tubes),(mechanical vertebra attaching to back),((mechanical cervical attaching to neck)),(sitting),(chest covered),(wires and cables attaching to neck:1.2),(wires and cables on head:1.2),(character focus),science fiction,"
+  negative_prompt: "easynegative,ng_deepnegative_v1_75t,(worst quality:2),(low quality:2),(normal quality:2),lowres,bad anatomy,bad hands,normal quality,((watermark)),5-funny-looking-fingers:2,"
+  cfg: 7.0
+  steps: 50
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2749577596
+  denoise: 1.0
+revAnimated_v2Rebirth:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "((best quality)), ((masterpiece)), (detailed), woman with green hair, holding a sword, (octopus goddess:1.3), close-up portrait, goddess skull, (Senna from League of Legends:1.1), (Tatsumaki with green curly hair:1.2), card game illustration, thick brush, HD anime wallpaper, (Akali from League of Legends:1.1), 8k resolution, (rating_explicit), (score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up, high res, 4k)"
+  negative_prompt: "3d, cartoon, anime, sketches, (worst quality, bad quality, child, cropped:1.4) ((monochrome)), ((grayscale)), (rating_safe), (score_3_up, score_4_up, score_5_up, monochrome, vector art, blurry)"
+  cfg: 8.5
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2937362616
+  denoise: 1.0
+simplemix25_v10:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "((perfect face)), ((best quality)),  1 girl, flowing hair, multicolored hair, ((cyber city background)), (full body), Enjoy the music,Tokyo street,night, cityscape,city lights, big bood, underbood,torn clothes,   <lora:tearing_clothes_v2.1:0.5>   <lora:io-cv-richy-v1:0.5> cvio, cleavage, white dress, torn clothes, bandages, jewelry, necklace, collarbone <lora:hairdetailer:0.5>  [nipple slip, puffy nipples::0.45]"
+  negative_prompt: "ng_deepnegative_v1_75t, badhandv4 (worst quality:2), (low quality:2), (normal quality:2), lowres, bad anatomy, bad hands, normal quality, ((monochrome)), ((grayscale)), many people"
+  cfg: 8.0
+  steps: 35
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3997833698
+  denoise: 1.0
+viZEROSRLV3_v30:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1 girl, oriental ship, Sea of Japan, lying on the deck, hand pressed to her chest,green hair:1.5, green short hair, purple shiny eyes, dynamic pose, super quality, super detail, angry face:1.3"
+  negative_prompt: "bad-hands-5, bad-picture-chill-75v, bad_prompt_version2-neg, fcNeg-neg, AS-YoungV2-neg"
+  cfg: 7.0
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3185922988
+  denoise: 1.0
+国风3 GuoFeng3_v3.4:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "best quality,masterpiece,highres,1girl,blush,(seductive smile:0.8),star-shaped pupils,red china hanfu,hanfu,chinese clothes,hair ornament,necklace,jewelry,Beautiful face,upon_body,tyndall effect,photorealistic,dark studio,rim lighting,two tone lighting,(high detailed skin:1.2),8k uhd,dslr,soft lighting,high quality,volumetric lighting,candid,Photograph,high resolution,4k,8k,Bokeh,"
+  negative_prompt: "(((simple background))),monochrome,lowres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry,lowres,bad anatomy,bad hands,text,error,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry,ugly,pregnant,vore,duplicate,morbid,mut ilated,tran nsexual,hermaphrodite,long neck,mutated hands,poorly drawn hands,poorly drawn face,mutation,deformed,blurry,bad anatomy,bad proportions,malformed limbs,extra limbs,cloned face,disfigured,gross proportions,(((missing arms))),(((missing legs))),(((extra arms))),(((extra legs))),pubic hair,plump,bad legs,error legs,username,blurry,bad feet,"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 166250237
+  denoise: 1.0
+2.5D pastel-mix_v1.0:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+abyssorangemix3AOM3_aom3a1b:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "absurdres, 1girl, 1boy, blonde hair, vaginal, sex, (cowgirl position:1.1), penis, breasts out, ahegao, blush, sweat, pussy, pussy juice, tongue out, (realistic:1.3), (blue eyes:0.7), (blonde hair:0.3), (twintails:0.4),"
+  negative_prompt: "(worst quality:1.25), (low quality:1.25), (lowres:1.1), (monochrome:1.1), (greyscale), multiple views, comic, sketch, (blurry:1.05),"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2320689785
+  denoise: 1.0
+AbyssOrangeMix2_hard.safetensors_v1.0:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "absurdres, 1girl, 1boy, blonde hair, vaginal, sex, (cowgirl position:1.1), penis, breasts out, ahegao, blush, sweat, pussy, pussy juice, tongue out, (realistic:1.3), (blue eyes:0.7), (blonde hair:0.3), (twintails:0.4),"
+  negative_prompt: "(worst quality:1.25), (low quality:1.25), (lowres:1.1), (monochrome:1.1), (greyscale), multiple views, comic, sketch, (blurry:1.05),"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2320689785
+  denoise: 1.0
+CheckpointYesmix_v50:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1girl, solo, long hair, black hair, hair ornament, dress, jewelry, bare shoulders, upper body, flower, earrings, parted lips, bug, tiara, butterfly,looking at viewer, purple dress, branch, falling petals, sensitive,(mature female),masterpiece, newest, absurdres,very aesthetic"
+  negative_prompt: "(low quality:1.3), (worst quality:1.3),(monochrome:0.8),(deformed:1.3),(malformed hands:1.4),(poorly drawn hands:1.4),(mutated fingers:1.4),(bad anatomy:1.3),(extra limbs:1.35),(poorly drawn face:1.4),(watermark:1.3),(patreon logo), FastNegativeV2"
+  cfg: 8.0
+  steps: 25
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3114671838
+  denoise: 1.0
+ChosenChineseStyleNsfw_v20:
+  sd_version: "SD 1.5"
+  trigger_word: "Chinese style"
+  prompt: "(masterpiece:1.2),best quality,PIXIV,Chinese style, 1girl, solo, jewelry, earrings, long hair, black hair, breasts, necklace, looking at viewer, blue eyes, cleavage, white background, smile, upper body, ponytail, simple background, red lips, parted lips, makeup, long sleeves, jacket"
+  negative_prompt: "EasyNegative,badhandsv5-neg,Subtitles,word,"
+  cfg: 7.0
+  steps: 32
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 357562352
+  denoise: 1.0
+CounterfeitV30_v30:
+  sd_version: "SD 1.5"
+  trigger_word: "girl"
+  prompt: "(masterpiece, best quality),(((from below, depth of field, dutch angle, green lighting))), floating hair, 1girl, solo, formal, hand in pocket, suit, black gloves, building, looking at viewer, black necktie, fingerless gloves, white shirt, city, outdoors, black jacket, belt, black pants, collared shirt, brown eyes, standing, long sleeves, grey hair, cityscape, open jacket, cowboy shot, skyscraper, black suit, night, pant suit, very long hair"
+  negative_prompt: "EasyNegativeV2"
+  cfg: 10.0
+  steps: 25
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3302521948
+  denoise: 1.0
+LZ-2DCartoon_v2.0:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "stewardess woman,21 years old,(white background:1.3),(upper body:1.2),subsurface scattering,smiling,hair bun,blonde hair,bangs,stewardess,dark blue uniform,garrison cap,pantyhose,white gloves,(airplane cabin),light smiling,((best detailed slender body)),(european idol, european beauty, european mixed),(wide hip:0.7, large breasts:0.8, perfect slender young girl body),(tall_image:1.3),Perfectly glossy skin,picture of a vivid,(masterpiece:1.2),(extremely detailed),(8k:1.1),(perfect lighting,best quality,highres,original),(realistic photography:1.4),(tall image:1.5),high detailed skin,shaded face,soft lighting,(small face),shiny_and_glossy_skin,RAW,ultra highres,pores visible,(ultra realistic quality,highres,original),(realistic:1.4),(tall image:1.5),high detailed skin,shaded face,soft lighting,(small face),shiny_and_glossy_skin,tone abs,depth of shadow"
+  negative_prompt: "(deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation. tattoo, watermark,"
+  cfg: 5.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1676213545
+  denoise: 1.0
+LahHongchenSDXLSD15_sd15V10:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "masterpiece, best quality, 1girl, air bubble, bare shoulders, breasts, bubble, dress, earrings, grey eyes, hair ornament, jewelry, long hair, necklace, solo, underwater, upper body, water, white dress, white hair"
+  negative_prompt: "(worst quality:1.5), (low quality:1.5), (normal quality:1.5), lowres, bad anatomy, bad hands, multiple eyebrow, (cropped), extra limb, missing limbs, deformed hands, long neck, long body, (bad hands), signature, username, artist name, conjoined fingers, deformed fingers, ugly eyes, imperfect eyes, skewed eyes, unnatural face, unnatural body, error, painting by bad-artist layman work, worst quality, ugly, (deformed|distorted|disfigured:1.21), poorly drawn, bad anatomy, wrong anatomy, mutation, mutated, (mutated hands AND fingers:1.21), bad hands, bad fingers, loss of a limb, extra limb, missing limb, floating limbs, amputation, Yaeba, photo, deformed, black and white, realism, disfigured, low contrast,"
+  cfg: 7.0
+  steps: 28
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2448821315
+  denoise: 1.0
+LunZi_2D动漫风小说推文海报插画真人转动漫手绘通用大模型_v1.0:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+aom2nsfwVtubers31_v10:
+  sd_version: "SD 1.5"
+  trigger_word: "{(minato aqua:1.3)|(sakura miko:1.3)|(mori calliope:1.3)|(kiryu coco:1.2)|(watson amelia:1.2)}, hololive, "
+  prompt: "<lora:add_detail:1>, tsukumo sana, masterpiece, high quality,  <lora:sana:0.6>, amusement park, smile, dark-skinned female, blonde hair, hair ornament, blue skirt, white skirt, [panties], sideboob, starry sky,"
+  negative_prompt: "(low quality, worst quality:1.4), (bad anatomy), (inaccurate limb:1.2), bad composition, inaccurate eyes, extra digit, fewer digits, (extra arms:1.2), pussy, penis, cowgirl position, fellatio, sex, anus, cum,"
+  cfg: 4.0
+  steps: 28
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1647268976
+  denoise: 1.0
+awpainting_v14:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(perspective composition:1),Anime of 1 girl is fly in the air and smile and surrounded by a lot of surreal painting gold butterfly filigree,broken glass,brown long hair:1,wear gold butterfly filigree outfit coat fashion costume with ruffled layers:1),from above,dynamic pose,dynamic angle,golden splendid background),white gloves"
+  negative_prompt: "ng_deepnegative_v1_75t,(badhandv4:1.2),(worst quality:2),(low quality:2),(normal quality:2),lowres,bad anatomy,(bad hands),((monochrome)),((grayscale)) watermark,moles,many fingers,(broken hands),,nsfw"
+  cfg: 7.0
+  steps: 25
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 147379077
+  denoise: 1.0
+boleromixSD_v10:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(masterpiece,ultra-detailed,best quality,8K,CG,illustration,shaved:1.2),(petite girl:1),  <lora:more_details:1>,dress,"
+  negative_prompt: "EasyNegativeV2,bad-hands-5,badhandv4,(flat color, flat shading,retro style, poor quality, bad facepastiese, extra legs,extra arms,extra ears,bad fingers, bad anatomy, missing fingers, lowres, cropped, signature, watermark, username, artist name, text,pubic hair,onlooker,blurry,cartoon,bar censor,censored,multipul angle,split view,JPEG artifacts,grid view:1.0)"
+  cfg: 7.0
+  steps: 15
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 993957355
+  denoise: 1.0
+darkSushiMixMix_225D:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1girl, breasts, nipples, solo, ouro kronii, navel, blue eyes, topless, shorts, large breasts, hair intakes, black shorts, looking at viewer, sky, virtual youtuber, dolphin shorts, bangs, black hair, arms behind back, cloud, cowboy shot, blue sky, closed mouth, collarbone, short shorts, stomach, outdoors, day"
+  negative_prompt: "(low quality, worst quality:1.4), signature, holding, holding phone EasyNegative, badhandv4, negative_hand, Negfeet, lowres, bad anatomy, worst quality, low quality, normal quality, english text, text, logo, signature, watermark, username, extra hands, extra legs, extra arms, extra digits, fewer digits text simple background,"
+  cfg: 7.0
+  steps: 25
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2715207924
+  denoise: 1.0
+divineelegancemix_V10:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1girl, ahoge, animal ear fluff, animal ears, arm strap, ass, bangs, blonde hair, blue sky, blurry, blurry background, braid, brown eyes, cleft of venus, collarbone, completely nude, day, ear piercing, earrings, feet out of frame, flowers, fox ears, fox girl, fox tail, grass, head tilt, jewelry, knees together feet apart, knees up, light smile, looking at viewer, meadow, medium hair, nature, necklace, nose, nude, nudist, outdoors, piercing, plant, pussy, sitting, sky, slit pupils, smile, solo, tail, tooth necklace, tree, twin braids, village, yellow eyes"
+  negative_prompt: "(EasyNegative:0.8), (worst quality, low quality:1.2), hand on knees"
+  cfg: 8.0
+  steps: 30
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1748279568
+  denoise: 1.0
+eraEstheticRetroAnime_retroV75RV:
+  sd_version: "SD 1.5"
+  trigger_word: "{1990s (style)|1980s (style)|retro artstyle|2000s (style)}"
+  prompt: "cleavage, spread legs, pussy, 2000s (style), small breasts, blue hair, curly hair"
+  negative_prompt: "(worst quality, low quality, extra digits:1.4)"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2914943549
+  denoise: 1.0
+newERANewEstheticRetro_v63:
+  sd_version: "SD 1.5"
+  trigger_word: "{1990s (style)|1980s (style)|retro artstyle|2000s (style)}"
+  prompt: "masterpiece, best quality, newest, official art, absurdres, highres, by kajishima masaki, 1girl, 1990s (style), medium breasts, parted lips, horror (theme), serafuku, reaching, school  <lora:NEW_ERA_v6.3(v-pred_rouwei)-000007:1> <lora:Face_Detailed-stable:0.1> <lora:AIRLPONYv2.0:0.15> <lora:AIRLPONYv3.0:0.15> <lora:Crystal_Ogipote_v1.0PONY:0.3> <lora:Kunihirov1.00.1> <lora:ScreencapPONY:0.1> <lora:Eyesv1.00.2>"
+  negative_prompt: "worst quality, low quality, (censored, bar censor, mosaic censoring, 4koma), multiple views, blurry, artistic error, bad anatomy, bad feet, wrong foot, bad hands, bad proportions, bad perspective, bad leg, bad arm, bad neck, bad vulva, bad reflection, bad ass, bad face, english text, chinese text, watermark"
+  cfg: 5.0
+  steps: 32
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 993780909
+  denoise: 1.0
+flat2DAnimerge_v45Sharp:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(best quality:0.8) perfect anime illustration, you're doing great performing at the concert, singing, dancing"
+  negative_prompt: "(worst quality:0.8),verybadimagenegative_v1.3,(surreal:0.8), (modernism:0.8), (art deco:0.8), (art nouveau:0.8)"
+  cfg: 5.5
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+gcmWhiteanime_v30:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1 girl,solo, middle earth, Hobbit Inspiring their allies with rousing music, Luminary, Average Height, Firm, Round Face, Olive Skin, White Hair, grey Eyes, [[Curved Nose]], Pouty Lips, Prominent Chin, Shoulder-Length Hair, Fine Hair, Loose Curls, full breasts, Clip-on earrings, hot pink satin lipstick, A lush elven forest, filled with towering trees and sparkling streams, Tolkien"
+  negative_prompt: "(worst quality, low quality:1.4), (bad_prompt_version2:0.8), EasyNegative, badhandv4, text, name, letters, watermark"
+  cfg: 7.0
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 594788090
+  denoise: 1.0
+ghostmix_v20Bakedvae:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(masterpiece, top quality, best quality, official art, beautiful and aesthetic:1.2), (1girl), extreme detailed,(fractal art:1.3),colorful,highest detailed"
+  negative_prompt: "(worst quality, low quality:2), monochrome, zombie,overexposure, watermark,text,bad anatomy,bad hand,extra hands,extra fingers,too many fingers,fused fingers,bad arm,distorted arm,extra arms,fused arms,extra legs,missing leg,disembodied leg,extra nipples, detached arm, liquid hand,inverted hand,disembodied limb, small breasts, loli, oversized head,extra body,completely nude, extra navel,easynegative,(hair between eyes),sketch, duplicate, ugly, huge eyes, text, logo, worst face, (bad and mutated hands:1.3),  (blurry:2.0), horror, geometry, bad_prompt, (bad hands), (missing fingers), multiple limbs, bad anatomy, (interlocked fingers:1.2), Ugly Fingers, (extra digit and hands and fingers and legs and arms:1.4), ((2girl)), (deformed fingers:1.2), (long fingers:1.2),(bad-artist-anime), bad-artist, bad hand, extra legs ,(ng_deepnegative_v1_75t)"
+  cfg: 6.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1015468391
+  denoise: 1.0
+ghostmix_v20Novae:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1mechanical girl,((ultra realistic details)), portrait, global illumination, shadows, octane render, 8k, ultra sharp,metal,intricate, ornaments detailed, cold colors, egypician detail, highly intricate details, realistic light, trending on cgsociety, glowing eyes, facing camera, neon details, machanical limbs,blood vessels connected to tubes,mechanical vertebra attaching to back,mechanical cervial attaching to neck,sitting,wires and cables connecting to head"
+  negative_prompt: "NSFW,3d, cartoon, lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, artist name, young, loli, elf, 3d, illustration  ng_deepnegative_v1_75t"
+  cfg: 6.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1015468391
+  denoise: 1.0
+hassakuHentaiModel_v13:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1girl, nude, (tentacles), vaginal, large breasts, looking at viewer, cave, elf, pond, angry,"
+  negative_prompt: "(worst quality, low quality:1.4),"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+kakarot25DCozy_cozyPruned:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "((masterpiece, best quality)), (((masterpiece, best_quality, highest quality))), (perfect detail, perfect skin:1.2),(highres), original,extremely detailed 8K wallpaper,(an extremely delicate and beautiful),incredibly_absurdres, intricate detail, distinct_image,extremely intricate,(detailed skin:1.3) , best quality:1.2, High definition, intricate details, finely detailed, beautiful detailed, high detailed skin, ((glossy skin)), shiny skin, (white skin:1.3), (pale skin:1.3),(natural light, ray tracing, volumetric light), (top quality), (golden-ratio face, perfect proportioned face, perfectly beautiful:1.3), (reflected diffuse light to face:1.3), (peer proportional face), (peer proportional body, proportional awesome body:1.3), parted lips, ((presenting)), (perfect anatomy, correct limb, correct finger), ((looking at viewer, eye contact)),((eye contact)), 1girl, outdoors, solo, flower, blue eyes, long hair, looking at viewer, long dress, hat, ocean, dress, sitting, white flower, sky, bug, hat flower, day, bangs, butterfly, water, long sleeves, blue sky, rock, cloud, orange dress, blonde hair, horizon, orange headwear, hair ornament, closed mouth, smile, hair flower, short sleeves, looking to the side, bird, scenery, mountainous horizon, red headwear, white dress"
+  negative_prompt: "(nsfw:1.5), EasyNegative, badhandv4, bad-hands-5, (worst quality:1.3), (bad quality:1.3), (strabismus:1.6), (bad anatomy:1.3), (worst quality, low quality, normal quality, lowres, bokeh, blur), (abnormal shape of hand or finger or foot or toe, second navel:2.0), (dutch angle:1.4), worst detail, bad detail,by< bad_prompt:0.8>, by< easynegative:0.8>,long neck, overhead decoration,(signature, watermark, username,letter, copyright name, copyright, artist name, name tag, company name, name tag, text, error:1.5), age spot, fat, a fat woman, acnes, skin spots, lowers, text, error, eye clothes, illuminati clothers, extra hand, extra hands, extra finger, extra fingers, bad finger, bad fingers, body moles, face moles, (out of frame:1.6), (out of focus:1.6), (a shadow on skin:1.3), (backlit:1.8), (a shaded skin:1.3), (a dark skin:1.3), (blush:1.3),((((incomplete body, extra limbs, missing limbs, cropped hand, extra digit, fewer digit, photorealistic, 3D rendering))), (((worst quality, low quality, lowres, normal quality))), (((no shading, flat colors))), (((off-model characters))), (((inconsistent style))), (((clashing color schemes))), (((improper perspective))), (((bad anatomy))), (((no lineart or sketchy lineart))))"
+  cfg: 7.0
+  steps: 80
+  sampler_name: dpmpp_3m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 216625440
+  denoise: 1.0
+kizukiAnimeHentai_animeHentaiV4:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "best quality, masterpiece"
+  negative_prompt: "(worst quality: 1.4), (low quality: 1.4),"
+  cfg: 10.0
+  steps: 30
+  sampler_name: DIMM
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+meinahentai_v5Final:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1girl, nude, sex, vaginal, sweat, nsfw"
+  negative_prompt: "(worst quality, low quality:1.4), zombie, (interlocked fingers)"
+  cfg: 7.0
+  steps: 25
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2371779076
+  denoise: 1.0
+meinamix_meinaV11:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "realistic, 1girl, white hair, purple eyes, bikini, beach, light particles, light rays, wallpaper"
+  negative_prompt: "(worst quality, low quality:1.4), monochrome, zombie, (interlocked fingers:1.2)"
+  cfg: 7.0
+  steps: 20
+  sampler_name: dpmpp_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3671806778
+  denoise: 1.0
+meinamix_v12Final:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1girl, ponytail,white hair, purple eyes, t-shirt, skirt, thighhighs, flower, petals, light smile,medium breasts, collarbone, depth of field, petals, (illustration:1.1), landscape, background, abstract, mountainous horizon, cloud, sun,"
+  negative_prompt: "(worst quality, low quality:1.4), nsfw"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1847947635
+  denoise: 1.0
+mistoonAnime_v30:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1girl,absurdres,beads,between_legs,blonde_hair,blunt_bangs,blush,bow,bowtie,collarbone,dress,flower,frilled_dress,frills,gem,glowing,gold_trim,golden_rose,hair_flower,hair_ornament,hand_between_legs,hand_on_own_knee,highres,ienaga_mugi,jewelry,lace_sleeves,light_particles,looking_at_viewer,nijisanji,pendant,pink_flower,pink_rose,red_gemstone,rose,scrunchie,see-through,see-through_sleeves,sitting,smile,solo,virtual_youtuber,white_dress,white_scrunchie,yellow_eyes,yolsan"
+  negative_prompt: "badpic"
+  cfg: 4.0
+  steps: 20
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 4058706539
+  denoise: 1.0
+retroAnimeDreamsNostalgia_v10:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+tmndMix_tmndMixSPRAINBOW:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "masterpiece, best quality, standing, grin, (waving:1.5), front view, 1girl, ahoge, bangs, blue eyes, blush, branch, breasts, cherry blossoms, cleavage, collarbone, eyebrows visible through hair, grass, hair between eyes, hair flaps, japanese clothes, kimono, large breasts, leaf, long hair, looking at viewer, kimono, sash, solo, tree, very long hair, sky, flower,"
+  negative_prompt: "badhandv4, EasyNegative, verybadimagenegative_v1.3, (worst quality:2), (low quality:2), (normal quality:2)"
+  cfg: 7.0
+  steps: 50
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2607052376
+  denoise: 1.0
+tsubakiMix_v15:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "japanese woman,(cute),(upper body:2),natural lighting:2, side lighting),(in very bright room) ,(sleeveless cloth)"
+  negative_prompt: "(negativeXL_D) , (illustration:1.8), 3d, 2d, painting, cartoons, sketch, watercolor, monotone,(huge breasts:2),watermark, logo, (Leaning eyes), (strabismus),(double navel)"
+  cfg: 4.0
+  steps: 40
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2143729671
+  denoise: 1.0
+ttAnimerge_v40:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1girl, upper body, best quality, RAW photo, 16k wallpaper, extremely detailed CG, amazing, ultra detailed, hyperrealistic, official art, High quality texture, incredibly absurdres, highres, 18 years old, cute girl, beautiful face, detailed dark brown eyes"
+  negative_prompt: "EasyNegative, EasyNegativeV2, FastNegativeV2, ng_deepnegative_v1_75t, BadDream, bad_prompt_version2, bad-artist-anime, bad-artist, verybadimagenegative_v1.3, bad-hands-5, blurry, bad anatomy, long neck, bad hands, extra legs, extra arms, extra fingers, missing fingers, skin spots, acnes, skin blemishes, age spot, double navel, (mole:1.5), (blurry:1.5), text, error, lowres, low quality, (monochrome), (grayscale), signature, watermark, username, out of frame"
+  cfg: 7.0
+  steps: 35
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2609934359
+  denoise: 1.0
+ttAnimerge_v41:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "A beautiful girl, 18 years old, beautiful face, glowing eyes, sensuous lips, huge breasts, smiling, with soft, natural features, combining the elegant and timeless style of Peter Lindbergh and the refined portraiture of Richard Avedon. The lighting is soft and highlights her high cheekbones and symmetrical face, creating a graceful and sophisticated look. (high-quality:1.2), (best-quality:1.2), (Peter Lindbergh:1.3), (Richard Avedon:1.3), (soft lighting:1.3), (ultra-detailed:1.2), (photorealistic:1.2), raw photo, ultra quality, absurd-res, high detail raw color photo, professional photograph"
+  negative_prompt: "EasyNegative, ng_deepnegative_v1_75t, bad_prompt_version2, verybadimagenegative_v1.3, bad-hands-5, (bad anatomy:1.4), long neck, extra legs, extra arms, missing fingers, skin spots, acnes, skin blemishes, age spot, double navel, (mole:1.4), (blurry:1.4), text, error, low-res, (low quality:1.4), (worst quality:1.4), (monochrome), (grayscale), signature, watermark, username, out of frame, logo, deformed, mutated limbs, mutated hands, extra fingers, bad hands, distorted, unbalanced, unnatural, unfitting, unflattering, unattractive, sparse, physically_impossible, flat, mundane, empty"
+  cfg: 8.0
+  steps: 40
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1407326151
+  denoise: 1.0
+wintermoonmix_A:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "<lora:lightAndShadow_v10:0.4>, (masterpiece), (best quality), full body,simple background,sitting,1girl,shiny hair,white hair,feather hair ornament, white cloak, ((see-through)),navel,light smile,plant, flower, full_moon,detective theme,((black legwear)), ((crow)),chains,ruins,1gir, in flower,black_bikini,1girl in flower ,navel,"
+  negative_prompt: "nsfw,(worst quality, low quality:1.4), EasyNegative , bad_prompt_version2 ,"
+  cfg: 7.0
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 554231438
+  denoise: 1.0
+墨幽二次元_v2:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+LEOSAM's MoonFilm _ 胶片风真实感大模型_2.0:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "young asian girl, portrait photography, soft lighting, blue background, white sleeveless top, wispy hair, masterpieces, subtle smile, gentle gaze, natural makeup look, clarity, high -"
+  negative_prompt: "watermark,anime,cartoon,open mouth,"
+  cfg: 9.0
+  steps: 30
+  sampler_name: Restart
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3929637711
+  denoise: 1.0
+MoyouArtificial_v1080None:
+  sd_version: "SD 1.5"
+  trigger_word: "1girl,moyou,"
+  prompt: ""
+  negative_prompt: "(dedicated_to_artificial_humans:1.2),"
+  cfg: 7.0
+  steps: 50
+  sampler_name: DIMM
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 4161648853
+  denoise: 1.0
+None南-Bayonetta真焦段真摄影_v4.0:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+againmix_v21:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "girl,portrait,"
+  negative_prompt: "(3d, cartoon, anime, sketches, closeup, close up, close-up, too close, tanning, tanlines, skinny, muscular, bangs, from back, milf, old, back view, backside:1.5), (worst quality:1.5), (low quality:1.5), (normal quality:1.5), lowres, normal quality, (monochrome, black & white, b&w, black and white), (grayscale), bad anatomy, out of view, cut off, ugly, deformed, mutated, EasyNegative, paintings, sketches, lowres, normal quality, skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers"
+  cfg: 7.0
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3979602824
+  denoise: 1.0
+againmix_v23:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "girl,portrait,"
+  negative_prompt: "(3d, cartoon, anime, sketches, closeup, close up, close-up, too close, tanning, tanlines, skinny, muscular, bangs, from back, milf, old, back view, backside:1.5), (worst quality:1.5), (low quality:1.5), (normal quality:1.5), lowres, normal quality, (monochrome, black & white, b&w, black and white), (grayscale), bad anatomy, out of view, cut off, ugly, deformed, mutated, EasyNegative, paintings, sketches, lowres, normal quality, skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers"
+  cfg: 7.0
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3979602824
+  denoise: 1.0
+analogMadness_v70:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(solo:1.3), photo of 20 year old (naked:1.3) woman Lisa van Delft, petite, small waist, (wide hips:1.1), [slim:chubby:0.4], crisp sharp eyes, sexy blond straight haircut, happy face, beautiful (dark blue:1.2) eyes, beautiful face, sexy smile,(round close-set breasts:1.1), pubic hair, (focus on eyes:1.2), facing camera, from front, in a oasis,<lora:breastsizeslideroffset:-0.2> ,"
+  negative_prompt: "High pass filter, airbrush,portrait,zoomed, soft light, deformed, extra limbs, extra fingers, mutated hands, bad anatomy, bad proportions , blind, bad eyes, ugly eyes, dead eyes, blur, vignette, out of shot, out of focus, monochrome, grainy, noisy, text, writing, watermark, logo, oversaturation , over saturation, over shadow,out of frame, obese, odd proportions, asymmetrical,fat,dialog, words, fonts, teeth, ((((ugly)))), (((duplicate))), ((morbid)), b&w, [out of frame], ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), blurry, cloned face, (((disfigured))), gross proportions, (malformed limbs), ((missing arms)), ((missing legs)), (((extra arms))), (((extra legs))), (fused fingers), (too many fingers),neon lights, tan lines, wrinkles,armpit hair, lowres, poorly drawn, crippled, crooked, broken, weird, odd, distorted, erased, cut, mutilated, sloppy, hideous, pixelated, aliasing, kid, child, mutated, extra_limb, two heads,children,  gross, disgusting, horrible, scary, evil, old, conjoined, morphed, error, glitch, extra digits, signature, jpeg artifacts, low quality, unfinished, cropped, siamese twins, robot eyes, asian, penis, cartoon, manga,"
+  cfg: 5.0
+  steps: 35
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3870068251
+  denoise: 1.0
+anythingqingmix_v10:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "orangemixa3.vae.pt"
+  seed: 0
+  denoise: 1.0
+anythingqingmix_v30:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "orangemixa3.vae.pt"
+  seed: 0
+  denoise: 1.0
+awportrait_v14:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "portrait, head shot, face focus, looking at viewer, eye contact, emilygreyodd, 1girl, black hair, long hair, parted lips, makeup, flannel wintercoat, wearing hat, wintercap outdoors, snowing, dystopia city, night time, neon lights, depth of field, blurred background, detailed eyes, warm volumetric lighting, masterpiece, best quality"
+  negative_prompt: ""
+  cfg: 3.5
+  steps: 25
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 492926986603937
+  denoise: 1.0
+basilMixFp16NoEmaNoVaeClip_clipFix:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "masterpiece, best quality, ultra-detailed, glistening shiny, glowing light, ray tracing, HDR, deph of field, (perfect face, detailed face, detailed eyes), 8k,HD,ultra realistic face, ray tracing, perfect lighting, best quality, ultra-detailed, shiny eyes, (looking at viewer, open mouth smile:1.1), ((1girl)), (mature female:1.4), thicc, from below, 1girl, mature female, high ponytail, looks at viewer, horny, (silver hair:1.5), white hair, very long hair, glowing eye, pink eyes, (exhibitionism:1.3), curvy, (massive tits:1.1), glamor, glamorous, voluptuous, huge breasts, white cheongsam, (slit cheongsams:1.3), (white pantyhose:1.2), (panties under pantyhose:1.3), bridal legwear, (asymmetrical legwear:1.1), lace trim, (showgirl skirt, cross-laced skirt, taut skirt, see-through skirt:0.5), white lace-trimmed gloves, single bridal gauntlet, (bridal garter:1.1), lissome curvaceous beauties, bare shoulders, cowboy shot, church, bushes, trees, maniac, dynamic light, dynamic shadows, windy, belly"
+  negative_prompt: "EasyNegativeV2, NGH_hakoniwa, lowres, (worst quality:1.4), (low quality:1.4),"
+  cfg: 10.0
+  steps: 60
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+beautyface_v10:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "A face of a beautiful girl"
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+beautyrealmix_v71:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1girl, (nsfw:1.2), masterpiece, best quality, RAW photo, 16k wallpaper, extremely detailed CG, amazing, finely detail, ultra detailed, hyperrealistic, official art, High quality texture, incredibly absurdres, highres, beautiful face, cute girl, blonde hair, 18 years old girl, upper body,"
+  negative_prompt: "EasyNegative, EasyNegativeV2, FastNegativeV2, ng_deepnegative_v1_75t, BadDream, bad_prompt_version2, bad-artist-anime, bad-artist, verybadimagenegative_v1.3, bad-hands-5, blurry, bad hands, extra legs, extra arms, extra fingers, missing fingers, text, error, lowres, low quality, monochrome, grayscale, signature, watermark, username, out of frame,"
+  cfg: 7.0
+  steps: 35
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2200517518
+  denoise: 1.0
+brav5Realisianv50_v10:
+  sd_version: "SD 1.5"
+  trigger_word: "BRAV5_RealisianV50"
+  prompt: "2girls,(masterpiece,top quality,best quality,official art,beautiful and aesthetic:1.2),((1girl:1.4)),extreme detailed,(Action painting:1.2),(concretism:1.2),(hypermaximalistic:1.5),(colorful:1.1),highest detailed,((droptear large_breasts:1.35)),(Action painting on body and face:1.2),(18 years old young girl),((fair and white skin)),(splash art:1.2),(full_body:1.2),theater dance scene,best lighting,messy hair,air bangs,short hair,(complete naked:1.1),(wet skin:0.8),(one-piece skin-tight garment),(<lora:GoodHands-beta2:1.5>),hourglass body shape,(multiple_views:1.1),(deep V),thighhighs,(dynamic hairstyle),(bright colored clothing:1.3),fantasy,(abstract_background),(public_indecency:1.4),<lora:add_detail:1.5>,(silky hair:1.2),realistic,(cowboy_shot),(<lora:GoodHands-beta2:1.5>),sex pose,in bed,<lora:epi_noiseoffset2:0.8>,"
+  negative_prompt: "(worst quality, low quality:2),monochrome,zombie,overexposure,watermark,text,bad anatomy,bad hand,extra hands,extra fingers,too many fingers,fused fingers,bad arm,distorted arm,extra arms,fused arms,extra legs,missing leg,disembodied leg,extra nipples,detached arm,liquid hand,inverted hand,disembodied limb,small breasts,loli,oversized head,extra body,completely nude,extra navel,(hair between eyes),sketch,duplicate,ugly,huge eyes,text,logo,worst face,(bad and mutated hands:1.3),(blurry:2),horror,geometry,bad_prompt,(bad hands),(missing fingers),multiple limbs,bad anatomy,(interlocked fingers:1.2),Ugly Fingers,(extra digit and hands and fingers and legs and arms:1.4),(deformed fingers:1.2),(long fingers:1.2),(bad-artist-anime),bad-artist,bad hand,extra legs,(text:1.4),(word),(logo),(ng_deepnegative_v1_75t:1.5),(easynegative:1.4),"
+  cfg: 4.0
+  steps: 20
+  sampler_name: UniPC
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2771302337
+  denoise: 1.0
+chilloutmix_:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "best quality, ultra high res, (photorealistic:1.4), 1 girl, (ulzzang-6500:1.0), Kpop idol,  (intricate maid crothes:1.4),  dark short cut hair, intricate earrings, intricate lace hair ornament"
+  negative_prompt: "paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, (outdoor:1.6), glans"
+  cfg: 7.0
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2694641428
+chilloutmix_NiPrunedFp32Fix:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "best quality, ultra high res, (photorealistic:1.4), 1 girl, (ulzzang-6500:1.0), Kpop idol,  (intricate maid crothes:1.4),  dark short cut hair, intricate earrings, intricate lace hair ornament"
+  negative_prompt: "paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, (outdoor:1.6), glans"
+  cfg: 7.0
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2694641428
+  denoise: 1.0
+colorful_v80:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "Photo of a broken ruined cyborg girl in a landfill, robot, body is broken with scares and holes,half the face is android,laying on the ground,"
+  negative_prompt: "(low quality:1.4), (worst quality:1.4), (monochrome:1.1), normal quality, cropped, deformed, distorted, disfigured, long neck, flowers, grid, multiple objects"
+  cfg: 7.0
+  steps: 1
+  sampler_name: DPM adaptive
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 79048565
+  denoise: 1.0
+epicphotogasm_lastUnicorn:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "super cute blond woman in a dark theme"
+  negative_prompt: "render, cartoon, cgi, render, illustration, painting, drawing"
+  cfg: 5.0
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2462773145
+  denoise: 1.0
+epicphotogasm_ultimateFidelity:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "50mm amateur photo posted to facebook, average looking woman with sunhat, smiling"
+  negative_prompt: "unaesthetic, professional"
+  cfg: 3.0
+  steps: 10
+  sampler_name: Restart
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3283697933
+  denoise: 1.0
+genieSD15_v80:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "bring to life a beautiful blonde girl in a blue dress and blue cloak surrounded by blue flames"
+  negative_prompt: "bad quality, worst quality, high contrast, screencap, bad hands, child, childish, hair accessory, hips, big ass, thick female, 	Watermark, Text, censored, deformed, bad anatomy, disfigured, poorly drawn face, mutated,"
+  cfg: 6.5
+  steps: 50
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3047698648
+  denoise: 1.0
+epicrealism_naturalSinRC1VAE:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "an eye contact of a blond with bun hair and dark theme"
+  negative_prompt: "deformed, distorted, disfigured, doll, poorly drawn, bad anatomy, wrong anatomy"
+  cfg: 6.5
+  steps: 20
+  sampler_name: Restart
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3283697933
+  denoise: 1.0
+hardcoreAsianPorn_v20:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "illustration of a beautiful 25yo woman and one boy,pov, from above, straight-on, perspective,anal sex, deep penetration,girl is sitting on top of desk, leaning back,m legs, knees up, legs folded, feet on desk border,arms at sides, hands on desk,looking at viewer,boy is standing in front of girl, missionary,huge breasts, sagging breasts, skinny,boy has girthy penis, large insertion,pink hair, hair between eyes, side bangs, long hair,nontraditional miko, backless sleeveless white shirt, wide detached sleeves, sideboob,short red skirt, skirt lift, no panties, visible vagina,bare legs, barefoot, tiptoes, toenails, golden headpiece ornament on head, fox ears, gold and purple earrings,blush, naughty face,purple eyes,anal flud on penis, wet penis, semen dripping from anus,inside library, bookshelf, desk,girl is yae miko,score_9,score_8_up,score_7_up,"
+  negative_prompt: "score_4,score_3,score_2,score_1,censored,"
+  cfg: 7.0
+  steps: 25
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 4
+  denoise: 1.0
+level4_v50BakedVAEFp16:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "beautiful mature Swedish college girl, in track outfit, outside on track field, ((slim, petite)), photorealistic, photo, masterpiece, realistic, realism, photorealism, high contrast, photorealistic digital art trending on Artstation 8k HD high definition detailed realistic, detailed, skin texture, hyper detailed, realistic skin texture, armature, best quality, ultra high res, (photorealistic:1.4),, high resolution, detailed, raw photo, sharp re, by lee jeffries nikon d850 film stock photograph 4 kodak portra 400 camera f1.6 lens rich colors hyper realistic lifelike texture dramatic lighting unrealengine trending on artstation cinestill 800,"
+  negative_prompt: "((3d, cartoon, anime, sketches)), (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), bad anatomy, out of view, cut off, ugly, deformed, mutated, ((young)), EasyNegative, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,extra fingers,fewer fingers, (ugly eyes, deformed iris, deformed pupils, fused lips and teeth:1.2), (un-detailed skin, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.2), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck"
+  cfg: 8.0
+  steps: 20
+  sampler_name: dpmpp_2s_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2507581261
+  denoise: 1.0
+lofi_v4:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "angel, wings, with blonde hair, perfect face, max details,, realism, max realism, realistic, ultra realistic ,8k uhd, small breast gloriole on her head, nature light, wet tight yoga, legs in water, 🙏 hand pose"
+  negative_prompt: "NG_DeepNegative_V1_75T, bad anatomy, (worst quality:2), (low quality:2)"
+  cfg: 7.0
+  steps: 40
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2194285096
+  denoise: 1.0
+lofi_v5Final:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "red bra top, jean shorts, masterpiece, ultra-detailed, highly detailed CG illustration, expressionless, (best quality:1), (1girl:1), High quality texture, intricate details, detailed texture, High quality shadow, brown eye pupil, depth of field, perspective, 20s, (big eyes:1), blush, glossy lips, perfect body, lean body, (narrow waist:1), large breast, distinct_image, lustrous skin, solo focus, brown hair, streaked hair, long hair,<lora:add_detail:1>"
+  negative_prompt: "NG_DeepNegative_V1_75T, bad anatomy, (worst quality:2), (low quality:2)"
+  cfg: 2.0
+  steps: 35
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2194285096
+  denoise: 1.0
+majicmixHorror_v1:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "horror art, dread, Best quality, masterpiece, ultra high res, (photorealistic:1.4), Action shot of terrifying ghost fighting against the viewer, dynamic movement, in arena, creepy, white dress, unnerving, unsettling, terrifying, 80mm, horror lighting, dynamic action <lora:kayako:0.8:KEEPCHAR>"
+  negative_prompt: "ng_deepnegative_v1_75t, (worst quality:2), (low quality:2), (normal quality:2), lowres,  ((monochrome)), ((grayscale)), watermark"
+  cfg: 7.0
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 4068060100
+  denoise: 1.0
+majicmixLux_v3:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(best quality, masterpiece, colorful, dynamic angle, from below, highest detailed)upper body photo, full body photo, fashion photography of cute mechangel, glowing 4 wings, solo, glowing armor, glowing halo, building, glowing mechanical 4 wings (intricate details, hyperdetailed:1.15), detailed, light passing through hair, (official art, extreme detailed, highest detailed), HDR+"
+  negative_prompt: "(worst quality:2), (low quality:2), (normal quality:2), lowres, bad anatomy, watermark, badhandv4"
+  cfg: 7.5
+  steps: 30
+  sampler_name: euler
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3872650338
+  denoise: 1.0
+majicmixRealistic_betterV2V25:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1girl,smirk,curly hair,in the dark,deep shadow"
+  negative_prompt: "(worst quality:2),(low quality:2),(normal quality:2),lowres,watermark,badhandv4,ng_deepnegative_v1_75t,"
+  cfg: 6.0
+  steps: 20
+  sampler_name: euler
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 4241197616
+  denoise: 1.0
+majicmixRealistic_v7:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1girl,face,Undercut Fade,red hair,white background,"
+  negative_prompt: "(worst quality:2),(low quality:2),(normal quality:2),lowres,watermark,"
+  cfg: 7.0
+  steps: 20
+  sampler_name: Restart
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2940261092
+  denoise: 1.0
+majicmixSombre_v20:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "Best quality, masterpiece, ultra high res, (photorealistic:1.4), raw photo, 1girl, hanfu, ancient chinese building"
+  negative_prompt: "ng_deepnegative_v1_75t, (badhandv4:1.2), (worst quality:2), (low quality:2), (normal quality:2), lowres, bad anatomy, bad hands, ((monochrome)), ((grayscale)) watermark"
+  cfg: 10.0
+  steps: 30
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 4266385174
+  denoise: 1.0
+naturalReality_v40:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "nude woman"
+  negative_prompt: ""
+  cfg: 7.5
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+naturalReality_v50:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "nude woman"
+  negative_prompt: ""
+  cfg: 7.5
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+neverendingDreamNED_v122BakedVae:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(Jedi meditation:1.3), serene photo,1girl, Jedi master in deep meditation,  in jedioutfit, sitting cross-legged,  (desert oasis:1.1), surrounded by blooming desert flowers, harmonizing with the Force, spiritual retreat, transcendent tranquility, desert enlightenment,  Absurdres, hdr, ultra detailed illustration, extremely detailed face, RAW photo, film grain, skin pores, trending on deviantart <lora:jedioutfit:1> <lora:epiNoiseoffset_v2:1>"
+  negative_prompt: "easynegative,(bad-hands-5:1.3),lowres, bad anatomy, bad hands out of frame, two heads, totem pole, several faces, extra fingers, mutated hands, (poorly drawn hands:1.21), (poorly drawn face:1.21), (mutation:1.331), (deformed:1.331), (ugly:1.21), blurry, (bad anatomy:1.21), (bad proportions:1.331), (extra limbs:1.21), cloned face, glitchy, makeup, adherent bodies slimy bodies, (badly visible legs), mutated legs, deformed legs, bad legs, out of frame, two heads, totem pole, several faces, extra fingers, mutated hands, extra hands, (poorly drawn hands:1.21), (mutation:1.331), (deformed:1.331), (bad anatomy:1.21), (bad proportions:1.331), (extra limbs:1.21), cloned face, glitchy, distorted fingers,bad_prompt_version2,ng_deepnegative_v1_75t"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2972238300
+  denoise: 1.0
+onlyrealistic_v346BakedVAE:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "1girl, goddess, (slender face:1.2), sexy,big chest, (beautiful:1.2) women, solo, long wavy hair, (thigh:1.1), standing, full body, (smile:0.8), colorful, (floral print dress:1.2), aesthetics, atmosphere, (chinese_style_loft:1.4),"
+  negative_prompt: "(deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime, mutated hands and fingers:1.4), (deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, disconnected limbs, mutation, mutated, ugly, disgusting, amputation, BadDream, UnrealisticDream, cropped,"
+  cfg: 7.0
+  steps: 40
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2627953157
+  denoise: 1.0
+perfectbreasts_v10:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "closeup portrait of a beautiful 24yo female, skinny, (bangs)0.6, (long hair, (black hair)0.5), casual clothing,cleavage, light smile, blushing, dimples, in mansion frontyard, pov face, natural lighting, 4k, realistic, masterpiece, <lora:locon_perfecteyes_v1_from_v1_64_32:1>, <lora:detail_slider_v4:1>, <lora:bimbo-fc-1.6a:1>,"
+  negative_prompt: "(worst quality, bad quality, poor quality)+, easynegative, monochrome, watermark, label, signature, frames, text, earring, necklace, jewelry, female accessories, masculine, male, extra digit, fewer digits, disfigured, extra fingers, deformed hands, bad anatomy, (asian)0.6, deformed pupils, deformed iris, inaccurate eyes, (moles, scars, blemishes)0.6, (freckles)0.3, (((unprofessional-bodies))),cartoon, painting, illustration, (worst quality, low quality, normal quality:2), epiCPhoto-neg"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 755045045
+  denoise: 1.0
+perfectbreasts_v50:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "masterpiece, best quality, 8k, (looking at viewer:1.1), gorgeous, hot, seductive, tan skinned woman, (eye contact:1.1),  beautiful face, (detailed face:1.2), (excited:1.2) , hyper detailed, best quality, ultra high res, brown hair, blue eyes, photorealistic, high resolution, detailed, raw photo, 1girl, night time, city lights,<lora:locon_perfecteyes_v1_from_v1_64_32:1>"
+  negative_prompt: "(CyberRealistic_Negative-neg), cartoon, painting, illustration, (grayscale:1.4), (worst quality:2), (low quality:2), (normal quality:2), ugly, fat, 3D rendering, asian; nude, naked, malformed clothes, bad clothes, malformed body, duplicated body,Wrinkles, uneven seams, misplaced patterns, unnatural folds, fabric inconsistency, improper fit, malformed finger, bad fingers, bad hands, malformed hands"
+  cfg: 5.0
+  steps: 35
+  sampler_name: Euler pyramid
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3371557162
+  denoise: 1.0
+perfectdeliberate_v5:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "masterpiece, best quality, 8k, (looking at viewer:1.1), gorgeous, hot, seductive, young woman, (from below:1.3), (eye contact:1.1), (naked boobs:1.3), beautiful face, smiling, (detailed face:1.2), (excited:1.2) , wet pussy, (naked:1.1), (spread legs:1.2), exposed pussy, hyper detailed, best quality, ultra high res, white hair, elven house interior, photorealistic, high resolution, detailed, raw photo, 1girl, buff"
+  negative_prompt: "EasyNegative, fat, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, ((monochrome)), ((grayscale)), bad anatomy, text, error, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, bad feet, poorly drawn face, bad proportions, gross proportions, ng_deepnegative_v1_75t, badhandsv5-neg, clothes"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2408715148
+  denoise: 1.0
+picxReal_10:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(hdr, dark shot:1.2), closeup portrait photo of beautiful woman, 25 years ols, makeup, dramatic eyeliner, vibrant silver hair, punky, sexy, simple black background, 8k uhd, high quality, dramatic, cinematic, vibrant colors, high contrast, (natural skin texture, hyperrealism, soft light, sharp)"
+  negative_prompt: "(cgi:0.9), (deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime), text, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, CyberRealistic_Negative-neg, 3d, illustration, cartoon, (doll:0.9)"
+  cfg: 7.0
+  steps: 30
+  sampler_name: DPM++ 3M SDE Exponential
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 149895157
+  denoise: 1.0
+pornmasterPro_v7:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "reddit,best quality,medium quality,high quality,best aesthetic,normal aesthetic,bad aesthetic,r/gonewild, r/nsfw,r/RealGirls, r/cumsluts, r/LegalTeens, r/collegesluts, r/AsiansGoneWild, r/pussy, r/milf, r/adorableporn, r/ass, r/Nude_Selfie, r/pawg, r/boobs, r/celebnsfw, r/bigasses, r/juicyasians, r/Latinas, r/GodPussy ,r/Amateur, r/xsmallgirls, r/18_19, r/Gonewild18, r/asshole, r/workgonewild, r/nsfwcosplay, r/palegirls, r/paag, r/asstastic, r/Upskirt, r/TooCuteForPorn, r/TinyTits, r/FitNakedChicks, r/altgonewild,r/traps,r/FemBoys,r/GWCouples, r/Boobies, r/CuteLittleButts, r/GirlswithGlasses, r/assholegonewild, r/PetiteGoneWild, r/BDSM"
+  negative_prompt: "black woman (normal aesthetic,bad aesthetic,worst quality,low quality,medium quality,illustration,3d,2d,painting,cartoons,sketch:1.4), (blurry:1.4),(depth of field,bokeh,blurred foreground), (ugly nails:1.2) and (ugly fingers:1.2) and (fused fingers:1.2) and (missing finger:1.2) and (extra fingers:1.2) and (bad anatomy) overexposed background,poor lighting,overexposed areas,uneven lighting,Low resolution,potential compression artifact"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+pornmasterPro_v8:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "masterpiece,best quality,best aesthetic,r/cumsluts,flash photography,nigth,dark,night photos,doggystyle,from behind,sex from behind,a photo of a cute 18 year old japanese woman being fucked by a man, a man's penis is being inserted into a woman's vagina,a man,ass,hetero, long hair, male pubic hair, nude, penis, pubic hair, sex, vaginal,large breasts,(sideboob),solo focus,(looking back:1.2) and looking at viewer,Detailed facial features, detailed eyes,back,all fours, goosebumps,creampie,cum,cumdrip,cum trail,cum in pussy,cum in vagina,cum in anal,(she is in the dark messy bedroom background),<lyco:doggystyle from behind:0.5>,<lora:cum_V3:0.55>, <lora:PornMaster-Amateur&DPO-FULL+sdsFILM_v5:0.5>"
+  negative_prompt: "black woman (normal aesthetic,bad aesthetic,worst quality,low quality,medium quality,illustration,3d,2d,painting,cartoons,sketch:1.4), (blurry:1.4),(depth of field,bokeh,blurred foreground), (ugly nails:1.2) and (ugly fingers:1.2) and (fused fingers:1.2) and (missing finger:1.2) and (extra fingers:1.2) and (bad anatomy) overexposed background,poor lighting,overexposed areas,uneven lighting,Low resolution,potential compression artifact"
+  cfg: 7.0
+  steps: 25
+  sampler_name: Restart
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 27728041
+  denoise: 1.0
+profantasy_v22:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "portrait of the most beautiful form of chaos, elegant, a brutalist designed, vivid colours, romanticism, by james jean, roby dwi antono, ross tran, francis bacon, michal mraz, adrian ghenie, petra cortright, gerhard richter, takato yamamoto, ashley wood, atmospheric, trending on artstation. 8 k masterpiece., (alphonse mucha style:1.2), 3d render, cgi, symetrical, symmetrical background, octane render, 35mm, bokeh, 9:16, (intricate details:1.12), hdr, (intricate details, hyperdetailed:1.15), (natural skin texture, hyperrealism, soft light, sharp:1.5), nsfw, (breasts out:1.2), nude, forest background, ((dynamic background))"
+  negative_prompt: "bad anatomy, low-res, (watermarks:1.5), ((text)), ((title), username, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), monochrome, grayscale, EasyNegative, bad anatomy, low-res, poorly drawn face, disfigured hands, poorly drawn eyebrows, bad body perspective, animal tail, anime, nipples, pussy, wrong anatomy, poorly drawn legs, wrong perspective legs, poorly drawn hands, (bad-hands-5:1.8), wrong hand, yellow light, BadHand v4, simple background"
+  cfg: 7.0
+  steps: 45
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1611344247
+  denoise: 1.0
+realisian_v60:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "model sexy Korean female, eye focus, detailed pores, glossy shiny skin, open rags, erected nipples, gigantic breasts, (holding sword), cherry blossoms, nsfw, <lora:Sword Sakura_20240129064936:1>"
+  negative_prompt: "Realisian-Neg, negative_hand-neg, badhandv4"
+  cfg: 3.0
+  steps: 15
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3857190137
+  denoise: 1.0
+realisticVisionV60B1_v51HyperVAE:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "instagram photo, closeup face photo of 23 y.o Chloe in black sweater, cleavage, pale skin, (smile:0.4), hard shadows"
+  negative_prompt: "(nsfw, naked, nude, deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime, mutated hands and fingers:1.4), (deformed, distorted, disfigured:1.3), poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, disconnected limbs, mutation, mutated, ugly, disgusting, amputation"
+  cfg: 1.5
+  steps: 6
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3277121308
+  denoise: 1.0
+realisticVisionV60B1_v60B1VAE:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "closeup half body photo of 26 y.o brazilian woman, nude, tan lines, 8k uhd, high quality"
+  negative_prompt: "(deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime), text, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck"
+  cfg: 7.0
+  steps: 50
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1985414504
+  denoise: 1.0
+realisticmix_iiV1:
+  sd_version: "SD 1.5"
+  trigger_word: "Realistic, Photorealistic"
+  prompt: "[(Detailed Photorealistic, Realistic, Hyperrealistic:1.9)].[((detailed Ultra high quality image, Photo Raw, Path tracing, ultimate quality, masterpiece, incredibly absurdres))], [(ultimately detailed)], [(detailed looking_at_viewer:1.9)], [(detailed noon)], [((detailed long eyelashes:1.6))], (detailed Shot on Hasselblad X1D-50c with Lens Hasselblad XCD-45P:1.3), [((portraiture))], (ulzzang-6500:1.0), [((super detailed faces and eyes and hand:1.3))], [((detailed long absurdly hair:1.6))], [(details gigantic saggy breasts:1.7))], [(white slingshot swimsuit:1.6)], datailed dynamic lighting ,[((standing on beach:1.6))], (sea background:1.6), [((cowboy shot poses:1.6))]<lora:EMS-93-EMS:0.600000>"
+  negative_prompt: "[((full body))], [(nipples, nipple:1.9)], [((hat body))], [((illustration, 3d, 2d, painting, cartoons, sketches)]], CyberRealistic_Negative, EasyNegative, badhandv4, bad-hands-5. (worst quality, low quality, normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot,glans,extra fingers,fewer fingers, ((watermark:2)), ((white letters:1)), wrong hands, (full body:1.9), (((bangs hair, bangs:1.9))), nipples. nipple, room cropped ,extra arms, mutated hands, bad hands, bad feet, cross-eyed, extra legs, mutated hands and fingers, too many fingers, missing fingers, skin spots, bad body, bad anatomy, low quality, worstquality, watermark, sketches, out of focus"
+  cfg: 3.0
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 20
+  denoise: 1.0
+realisticmix_iiV11Version11:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "[(Detailed Photorealistic, Realistic, Hyperrealistic:1.0)]. (detailed Ultra high quality image, Photo Raw, Path tracing, ultimate quality, masterpiece, incredibly absurdres:1.1), [(ultimately detailed:1.2)], ((super detailed look-at-viewer:1.9)), [(detailed sky noon:1.0)], ((detailed long-eyelashes:1.6)), (detailed Shot on Hasselblad X1D-50c with Lens Hasselblad XCD-45P:1.3), [(portraiture, upparbody)], (ulzzang-6500:0.3), ((super detailed faces and eyes)), ((seductive smile:1.6)), (((super detailed long absurdly hair:1.6))), (((gigantic saggy breasts:1.6))), (green_slingshot-swimsuit:1.6) ((walking on beach with sea views:1.7)), [(detailed background:1.9)]<lora:EMS-194027-EMS:1.000000>"
+  negative_prompt: "(nsfw:1.9), bad-hands-5, badhandv4, (nipple, nipples:1.9), EasyNegative, EasynegativeV2, ng_deepnegative_v1_75t, [(wet hair and wet face:1.0)], [(bangs-hair, bangs:1.9)]. (((full body))], [((fat body))], [((illustration, 3d, 2d, painting, cartoons, sketches)]],. (worst quality, low quality, normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot,glans,extra fingers,fewer fingers, ((watermark:2)), ((white letters:1)), wrong hands, (full body:1.9), (((bangs hair, bangs:1.9))), nipples. nipple, room cropped ,extra arms, mutated hands, bad hands, bad feet, cross-eyed, extra legs, mutated hands and fingers, too many fingers, missing fingers, skin spots, bad body, bad anatomy, low quality, worstquality, watermark, sketches, out of focus, [(super detailed many hands, many feet, more than two hands, less than two hands, more than two feet, less than two feet, more than five fingers, less than five fingers:1.6)]"
+  cfg: 3.0
+  steps: 20
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -3
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2830381653
+  denoise: 1.0
+realisticmix_iiV12Version12:
+  sd_version: "SD 1.5"
+  trigger_word: "Realistic"
+  prompt: "(long jean, wide-cleavage yellow t-shirt:1.9),(Sharp_Focus, Looking_at_viewer:1.9),(Shot on Hasselblad X1D-50C with Hasselblad XCD-90V Lens:1.6),(cowboy-shot_stands on a grassy field and sunset and river view:1.9),(detailed background:1.6),(noon:1.9),(((long curly hair:1.6))),(((gigantic saggy breast:2.4))),(eyelashes,eye lashes:1.0),texture skin,(ulzzang-6500:0.7),(((ultimately high detailer))),depth of field,Portraiture,Path tracing,Raw Photo,ultimate quality,masterpiece,highres,High Dynamic Range,(Photorealistic, Realistic:1.6)"
+  negative_prompt: "(EasyNegative, EasynegativeV2:1.0), CyberRealistic_Negative, verybadimagenegative_v1.3, (badhandv4, bad-hands-5:1.0), [((nipples, nipple:1.9))], [((bangs-hair, bangs:1.9))], (((full body:1.9))), (((fat face, fat body, fat ass, fat thighs, fat belly:1.9))), (worst quality, low tquality, normal quality:3.0),lowres, normal quality, ((illustration, 3d, 2d, painting, cartoons, sketch)), bad anatomy, out of focus, bad proportions, logo, text, skin spots, acnes, skin blemishes, age spot, glans, double navel, (mutated arms, extra fingers, fewer fingers, many hands, many feet, more than two hands, less than two hands, more than two feet, less than two feet, more than five fingers, less than five fingers, extra legs, mutated hands and fingers, too many fingers, missing fingers, bad body, mutated hands and fingers, malformed hands, extra arms, extra limb, bad feet, cross-eyed, extra legs, fused fingers, extra limb, malformed hands:1.9)"
+  cfg: 3.0
+  steps: 21
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -3
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2631313199
+  denoise: 1.0
+realisticmix_v36:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(detailed looking at viewer:1.9)(detailed Shot on Hasselblad X1D-50c with Lens Hasselblad XCD-45P:1.6), 1girl, detailed face, detailed long hair, (gigantic saggy breasts:1.9) (white cleavage kimono:1.6), dynamite lighting, (lying on bed, top view:1.6), (bed, pillow,  blanket background:1.9), (ulzzang-6500:1.0), (portraiture:1.9) (ultimate quality, masterpiece, highres:1.0), (photorealistic, realistic:1.9),"
+  negative_prompt: "ng_deepnegative_v1_75t, EasyNegative, badhandv4, (worst quality:2), (low quality:2), (normal quality:2), lowres, ((monochrome)), ((grayscale)), watermark"
+  cfg: 3.0
+  steps: 20
+  sampler_name: euler_ancestral
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3954203037
+  denoise: 1.0
+uberRealisticPornMerge_v23Final:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "professional studio picture, aesthetic photoshoot, cinematic, detailed face, photo of a skinny indian woman, riding a mans dick, on top of him, cowgirl"
+  negative_prompt: "deformed, watermark, child, childish, toddler, bad quality, low quality, worst quality, ugly, old, morphed, render, blender, 3d_model, tan skin, dark skin"
+  cfg: 5.0
+  steps: 35
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 2949365955
+  denoise: 1.0
+vigeeMIX_v12X:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "(Realisticity:1.4),Cinematic Lighting,1Girl,(standing,beautiful long_Slender_legs),(korean mixed,kpop idol:1.2),earrings,necklace,(long_brown_wavy_hair),pink_red_shiny_lips,eyelashes,make-up,shiny,Pore,skin texture,big breasts,smile, ((Watercolor floral print t-shirt with delicate and romantic blossoms in soft pastel shades,yoga pants)),((Incredible mountainous panorama, summer, Charming bridges, Rivers)),Dynamic pose,"
+  negative_prompt: "(EasyNegative,EasyNegativeV2,ng_deepnegative_v1_75t,),advertisement,paintings,sketches,(worst quality:2),(low quality:2),(normal quality:2),lowres,bad anatomy,bad hands,normal quality,((monochrome)),((grayscale)),Freckles,Too many hands and feet,,nsfw"
+  cfg: 6.0
+  steps: 38
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 1695766863
+  denoise: 1.0
+xxmix9realistic_v40:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "a 20 yo woman, blonde, (hi-top fade:1.3), dark theme, soothing tones, muted colors, high contrast, (natural skin texture, hyperrealism, soft light, sharp)"
+  negative_prompt: "easynegative,ng_deepnegative_v1_75t,(worst quality:2),(low quality:2),(normal quality:2),lowres,bad anatomy,bad hands,normal quality,((monochrome)),((grayscale)),((watermark)),"
+  cfg: 5.0
+  steps: 28
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3617496585
+  denoise: 1.0
+《唯》· 超高清写实重制典藏版 _ OnlyRealistic _v30 典藏版:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: "realistic, photorealistic, masterpiece, best quality, dark shot, (photo of portrait:1.2), cowbody shot,1girl, (white hair:1.3),long curly hair,solo, (smile:0.8), looking at viewer, long black hair, ([:see-through:4]:1.2) (colorful:1.2) cns_dress, (floral print:1.2), standing by a river, dynamic pose, (shanghai:1.2), water, colorful cloud, incredible beautiful sky, netural lighting, dynamic Angle, neon, Backlit, bokeh, Chiaroscuro, (freckles:0.9),"
+  negative_prompt: "(deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.4), text, cropped, out of frame, (worst quality, low quality:2), jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, (tree,wood:1.2), (stone:1.2), (green,black,white:1.4), (sandals:1.4),"
+  cfg: 7.0
+  steps: 40
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 3919328681
+  denoise: 1.0
+墨幽人造人_v1060修复:
+  sd_version: "SD 1.5"
+  trigger_word: "1girl,moyou"
+  prompt: ""
+  negative_prompt: "(dedicated_to_artificial_humans:1.2),"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+墨幽的姐姐——墨幽岚_v1:
+  sd_version: "SD 1.5"
+  trigger_word: "1girl"
+  prompt: "(Hasselblad:1.2),1girl,solo,black eyes,black hair,long hair,white shirt,(half body:1.2),outdoors,"
+  negative_prompt: "EasyNegativeV2,(badhandv4:1.2),"
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+极氪写实MAX-极氪白系列模型_V6:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+anything-v5-PrtRE:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+pornmasterProV8_v8:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+snowPonyRealDream_v10:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_7,"
+  negative_prompt: "score_6,score_5,score_4"
+  cfg: 7.0
+  steps: 28
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+
+default_Pony_model:
+  sd_version: "Pony"
+  trigger_word: ""
+  prompt: "score_9, score_8_up, score_7,"
+  negative_prompt: "score_6,score_5,score_4"
+  cfg: 7.0
+  steps: 28
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+default_Turbo_model:
+  sd_version: "SDXL Turbo"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 2.0
+  steps: 8
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0
+default_SD1.5_model:
+  sd_version: "SD 1.5"
+  trigger_word: ""
+  prompt: ""
+  negative_prompt: ""
+  cfg: 7.0
+  steps: 30
+  sampler_name: dpmpp_2m_sde
+  scheduler: karras
+  clip_skip: -2
+  vae_name: "sdxl_vae.safetensors"
+  seed: 0
+  denoise: 1.0

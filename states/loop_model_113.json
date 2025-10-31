@@ -1,0 +1,12 @@
+{
+  "current_position": 1,
+  "inputs": {
+    "model_path": "loras",
+    "start_index": 1,
+    "end_index": 999999,
+    "next_index": 1,
+    "mode": "正向",
+    "refresh": false
+  },
+  "expected_next_index": 2
+}

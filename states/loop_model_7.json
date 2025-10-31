@@ -1,0 +1,9 @@
+{
+  "current_index": 2,
+  "inputs": {
+    "search_path": "models/loras",
+    "start_index": 1,
+    "end_index": 10,
+    "mode": "forward"
+  }
+}

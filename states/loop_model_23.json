@@ -1,0 +1,8 @@
+{
+  "current_position": 0,
+  "inputs": {
+    "model_type": "loras",
+    "mode": "random",
+    "refresh": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "file_path": "\\\\Tnas-e528\\ai\\Graphics\\wildcards\\image\\civitai-prompt.txt",
+    "start_line": 1,
+    "next_line": 10,
+    "end_line": 10,
+    "mode": "正向"
+  },
+  "last_processed_line": 10,
+  "expected_next_line": 11
+}

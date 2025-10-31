@@ -1,0 +1,10 @@
+{
+  "current_position": 1,
+  "inputs": {
+    "model_path": "loras/xuer",
+    "start_index": 0,
+    "end_index": 4,
+    "mode": "forward",
+    "refresh": false
+  }
+}

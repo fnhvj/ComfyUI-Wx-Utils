@@ -13,6 +13,7 @@ import torch
 from torch import Tensor
 from io import BytesIO
 from PIL import Image, ImageOps, ImageSequence
+import folder_paths
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath(__file__)), 'comfy'))
 original_locale = locale.setlocale(locale.LC_TIME, '')
@@ -68,7 +69,7 @@ class WxSaveImageExtended:
     RETURN_NAMES = ()
     FUNCTION = 'save_images'
     OUTPUT_NODE = True
-    CATEGORY = "WX"
+    CATEGORY = "WX/图像"
 
     def get_subfolder_path(self, image_path, output_path):
         image_path = Path(image_path).resolve()
@@ -414,6 +415,55 @@ class WxSaveImageExtended:
                 results = list()
             return { 'ui': { 'images': results } }
 
+class ImageLoaderNode:
+    @classmethod
+    def INPUT_TYPES(s):
+        return {
+            "required": {
+                "image_path": ("STRING", {"default": "", "multiline": False, "display": "图片路径"}),
+            }
+        }
+
+    RETURN_TYPES = ("IMAGE",)
+    RETURN_NAMES = ("图像",)
+    FUNCTION = "load_image"
+    CATEGORY = "WX/图像"
+    OUTPUT_NODE = True  # 允许在UI中预览
+
+    def load_image(self, image_path):
+        # 检查文件是否存在
+        if not os.path.exists(image_path):
+            raise FileNotFoundError(f"图片文件不存在: {image_path}")
+        
+        # 加载图片
+        image = Image.open(image_path).convert("RGB")
+        
+        # 转换为numpy数组并归一化到0-1范围
+        image_np = np.array(image).astype(np.float32) / 255.0
+        
+        # 转换为tensor (H, W, C) -> (1, H, W, C)
+        image_tensor = torch.from_numpy(image_np)[None,]
+        
+        # 保存预览图片到输出目录
+        output_dir = folder_paths.get_output_directory()
+        preview_filename = os.path.basename(image_path)
+        preview_path = os.path.join(output_dir, preview_filename)
+        
+        # 如果预览文件不存在，则复制原图作为预览
+        if not os.path.exists(preview_path):
+            image.save(preview_path)
+        
+        # 返回结果和UI预览数据
+        return {
+            "ui": {
+                "images": [{
+                    "filename": preview_filename,
+                    "type": "output",
+                    "subfolder": ""
+                }]
+            },
+            "result": (image_tensor,)
+        }
 
 # class ImageLoadFromBase64:
 #     def __init__(self):
@@ -720,6 +770,7 @@ class WxSaveImageExtended:
 
 NODE_CLASS_MAPPINGS = {
     'WxSaveImageExtended': WxSaveImageExtended,
+    "ImageLoaderNode": ImageLoaderNode,
     # 'ImageLoadFromBase64(ImageIOHelpers)': ImageLoadFromBase64,
     # 'ImageLoadByPath(ImageIOHelpers)': ImageLoadByPath,
     # 'ImageLoadAsMaskByPath(ImageIOHelpers)': ImageLoadAsMaskByPath,
@@ -728,5 +779,6 @@ NODE_CLASS_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    'WxSaveImageExtended': 'wx|图像保存(含信息)',
+    'WxSaveImageExtended': '图像保存(含信息)|WX',
+    "ImageLoaderNode": "图片加载（从图片路径）|WX",
 }

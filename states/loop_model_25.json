@@ -1,0 +1,10 @@
+{
+  "current_position": 1,
+  "inputs": {
+    "model_path": "models/loras",
+    "start_index": 0,
+    "end_index": 999999,
+    "mode": "random",
+    "refresh": false
+  }
+}
